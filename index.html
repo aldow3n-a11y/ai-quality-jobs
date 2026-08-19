@@ -906,10 +906,49 @@ footer {
   </div>
 
   <p class="jobs-footer" style="margin-top:32px;">
-    Stripe checkout coming this week. For now, email
-    <a href="mailto:hiring@ai-quality-jobs.example" style="color:var(--accent-2);">hiring@ai-quality-jobs.example</a>
-    — invoice within 24 hours.
+    Stripe checkout coming this week. For now, use the form below — invoice within 24 hours.
   </p>
+
+  <form class="post-form" id="post-form" action="https://formsubmit.co/ajax/discus.leads@protonmail.com" method="POST" style="margin-top:24px;display:grid;gap:12px;max-width:560px">
+    <input type="hidden" name="_subject" value="AI Quality Jobs — listing inquiry">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="source" value="ai-quality-jobs">
+    <label style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;color:var(--muted);text-transform:uppercase">Plan</label>
+    <select name="plan" required style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
+      <option value="">— Pick a plan —</option>
+      <option value="standard">Standard — $99 / 30 days</option>
+      <option value="featured">Featured — $199 / 30 days</option>
+      <option value="annual">Annual — $1,299 / 12 months</option>
+    </select>
+    <label style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;color:var(--muted);text-transform:uppercase">Company</label>
+    <input name="company" required placeholder="Acme AI" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
+    <label style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;color:var(--muted);text-transform:uppercase">Role title</label>
+    <input name="role" required placeholder="LLM Quality Analyst" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
+    <label style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;color:var(--muted);text-transform:uppercase">Your email</label>
+    <input type="email" name="email" required placeholder="you@company.com" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
+    <button type="submit" class="tier-cta" style="border:none;background:var(--accent-2);color:var(--bg);cursor:pointer">Submit inquiry →</button>
+    <div id="post-form-status" style="font-family:var(--font-mono);font-size:12px;color:var(--muted);min-height:1.4em"></div>
+  </form>
+</section>
+
+<!-- ============ DIGEST SIGNUP ============ -->
+<section id="digest" style="border-top:1px solid var(--border);">
+  <div class="section-head">
+    <div class="label">05 / Weekly digest</div>
+    <h2>Get the new roles, <em>curated</em> every Monday.</h2>
+  </div>
+  <p style="max-width:60ch;color:var(--ink-2);">One email per week. ~15 roles. Sorted by category. No tracking pixels. Unsubscribe in one click.</p>
+  <form id="digest-form" action="https://formsubmit.co/ajax/discus.leads@protonmail.com" method="POST" style="display:flex;gap:8px;max-width:480px;margin-top:20px;flex-wrap:wrap">
+    <input type="hidden" name="_subject" value="AI Quality Jobs — digest signup">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="list" value="digest">
+    <input type="hidden" name="source" value="ai-quality-jobs">
+    <input type="email" name="email" required placeholder="you@domain.com" style="flex:1;min-width:240px;padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
+    <button type="submit" class="btn-post" style="cursor:pointer;border:none">Subscribe</button>
+  </form>
+  <div id="digest-form-status" style="font-family:var(--font-mono);font-size:12px;color:var(--muted);min-height:1.4em;margin-top:8px"></div>
 </section>
 
 <!-- ============ FOOTER ============ -->
@@ -1104,9 +1143,10 @@ function render() {
     const titleHl = highlight(escapeHtml(j.title), state.q);
     const coHl = highlight(escapeHtml(j.company), state.q);
     const date = j.date ? new Date(j.date).toISOString().slice(0,10) : '—';
+    const detailHref = j.slug ? `/ai-quality-jobs/jobs/${encodeURIComponent(j.slug)}.html` : j.url;
     return `
       <li>
-        <a class="job" href="${escapeAttr(j.url)}" target="_blank" rel="noopener">
+        <a class="job" href="${escapeAttr(detailHref)}" rel="noopener">
           <div class="job-num">${String(i+1).padStart(2,'0')}</div>
           <div class="job-main">
             <h3 class="job-title">${titleHl}</h3>
@@ -1136,6 +1176,53 @@ function escapeHtml(s) {
 }
 function escapeAttr(s) { return escapeHtml(s); }
 
+function wireForms() {
+  async function submit(form, statusId, successMsg) {
+    const status = document.getElementById(statusId);
+    const btn = form.querySelector('button[type=submit]');
+    const original = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    status.textContent = '';
+    try {
+      const data = new FormData(form);
+      const r = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: data,
+      });
+      if (r.ok) {
+        status.textContent = successMsg;
+        status.style.color = 'var(--accent)';
+        form.reset();
+      } else {
+        throw new Error('HTTP ' + r.status);
+      }
+    } catch (e) {
+      status.textContent = 'Could not send. Email discus.leads@protonmail.com directly.';
+      status.style.color = 'var(--accent-2)';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = original;
+    }
+  }
+
+  const postForm = document.getElementById('post-form');
+  if (postForm) {
+    postForm.addEventListener('submit', e => {
+      e.preventDefault();
+      submit(postForm, 'post-form-status', 'Got it. Invoice within 24 hours.');
+    });
+  }
+  const digestForm = document.getElementById('digest-form');
+  if (digestForm) {
+    digestForm.addEventListener('submit', e => {
+      e.preventDefault();
+      submit(digestForm, 'digest-form-status', 'Subscribed. First digest Monday.');
+    });
+  }
+}
+
 /* ----- event handlers ----- */
 document.getElementById('q').addEventListener('input', e => {
   state.q = e.target.value;
@@ -1161,19 +1248,55 @@ const m = document.getElementById('marquee');
 const items = MARQUEE_TERMS.concat(MARQUEE_TERMS).map(t => `<span>${t}</span>`).join('');
 m.innerHTML = items;
 
-/* ----- boot ----- */
+wireForms();
+
+/* ----- boot: instant paint from local snapshot, then refresh from APIs ----- */
 (async () => {
+  let snapshotLoaded = false;
+
+  // 1. instant paint from pre-baked snapshot (always works, even if APIs are down)
   try {
-    state.jobs = await loadAll();
-    if (state.jobs.length === 0) {
-      document.getElementById('jobs-list').innerHTML =
-        `<li class="empty">Sources blocked by CORS or returned 0. Try refreshing, or check that remoteok.com / remotive.com / jobicy.com are reachable.</li>`;
-    } else {
+    const r = await fetch('/ai-quality-jobs/data/jobs.json');
+    if (r.ok) {
+      const data = await r.json();
+      if (data && Array.isArray(data.jobs) && data.jobs.length) {
+        state.jobs = data.jobs;
+        // re-derive category + score for snapshot rows (they don't include these)
+        state.jobs.forEach(j => {
+          j.category = j.category || classify(j);
+          j.score    = j.score    || recencyScore(j.date);
+          j.source   = j.source   || 'Snapshot';
+          j.sourceShort = j.sourceShort || (j.id ? j.id.split('-')[0].toUpperCase() : 'SNAP');
+        });
+        render();
+        snapshotLoaded = true;
+      }
+    }
+  } catch (_) { /* snapshot fetch failed — try APIs */ }
+
+  // 2. background refresh from live APIs (replaces snapshot when fresh)
+  try {
+    const fresh = await loadAll();
+    if (fresh.length) {
+      // attach slugs from snapshot to fresh rows so detail-page links match
+      const slugMap = new Map();
+      state.jobs.forEach(j => slugMap.set((j.title+'|'+j.company).toLowerCase(), j.slug));
+      fresh.forEach(j => {
+        const key = (j.title+'|'+j.company).toLowerCase();
+        j.slug = slugMap.get(key) || null;
+      });
+      state.jobs = fresh;
       render();
+    } else if (!snapshotLoaded) {
+      document.getElementById('jobs-list').innerHTML =
+        `<li class="empty">No jobs loaded. APIs returned 0 and no snapshot available. Try refreshing.</li>`;
     }
   } catch (e) {
-    document.getElementById('jobs-list').innerHTML =
-      `<li class="empty">Aggregator failed: ${escapeHtml(e.message)}</li>`;
+    if (!snapshotLoaded) {
+      document.getElementById('jobs-list').innerHTML =
+        `<li class="empty">Aggregator failed: ${escapeHtml(e.message)}</li>`;
+    }
+    // else snapshot already painted — silent fallback
   }
 })();
 </script>
