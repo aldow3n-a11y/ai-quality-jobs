@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
 """
-Weekly Digest Generator for AI Quality Jobs board.
+Weekly Digest Generator for AI Quality Jobs board (v2.2).
 
-Pulls fresh jobs from all 3 APIs, filters to ones posted in the last 7 days,
-ranks by AI-quality category relevance, generates:
-  - Markdown email digest (for Buttondown/Mailchimp copy/paste)
-  - HTML digest (for richer email clients)
-  - Plain text digest (for SMS / fallback)
+Improvements over v1:
+- Title-only primary scoring (most signal, least noise)
+- Stricter keyword patterns (phrase + boundary, no substring "medical" → "quality")
+- AI gate: must have AI in title or tags (else skip — saves digest real estate)
+- 6 categories (added engineering):
+    * quality    = evaluation, benchmarks, guardrails, alignment, red-team
+    * auditor    = governance, compliance, responsible AI, AI law
+    * pipeline   = data eng / labeling / fine-tuning / RLHF
+    * prompt     = prompt engineering / design
+    * engineering = AI engineer, ML engineer, applied ML, MLOps
+    * editor     = AI content ops / editorial (separate from prompt eng)
+- Top 5 per category
+
+Pulls fresh jobs from 3 APIs (RemoteOK, Remotive, Jobicy), filters to last 7 days,
+generates Markdown, HTML, and Plain Text digests.
 
 Cron-suggested: every Monday 09:00 (Asia)
 Output: products/ai-quality-jobs-landing/digest/digest-{YYYY-MM-DD}.{md,html,txt}
@@ -17,7 +27,6 @@ No external dependencies beyond stdlib + urllib.
 import json
 import re
 import sys
-import os
 import urllib.request
 import urllib.error
 import ssl
@@ -44,14 +53,14 @@ def fetch(url, timeout=15):
 
 
 def pull_remoteok():
-    """RemoteOK returns raw list — normalize."""
     try:
         raw = json.loads(fetch(SOURCES[0][1]))
     except Exception as e:
         print(f"[warn] RemoteOK: {e}", file=sys.stderr)
         return []
     out = []
-    for j in raw[1:] if isinstance(raw, list) and raw and isinstance(raw[0], dict) and "legal" in raw[0] else raw:
+    items = raw[1:] if isinstance(raw, list) and raw and isinstance(raw[0], dict) and "legal" in raw[0] else raw
+    for j in items:
         if not isinstance(j, dict):
             continue
         epoch = j.get("epoch") or j.get("date")
@@ -74,7 +83,6 @@ def pull_remoteok():
 
 
 def pull_remotive():
-    """Remotive returns {jobs: [...]}."""
     try:
         raw = json.loads(fetch(SOURCES[1][1]))
     except Exception as e:
@@ -101,7 +109,6 @@ def pull_remotive():
 
 
 def pull_jobicy():
-    """Jobicy returns {jobs: [...]}."""
     try:
         raw = json.loads(fetch(SOURCES[2][1]))
     except Exception as e:
@@ -127,31 +134,159 @@ def pull_jobicy():
     return out
 
 
-# ---------- CATEGORIZE ----------
+# ---------- CLASSIFIER v2 ----------
 
-# Weighted keyword scoring for AI Quality board
-KW = {
-    "pipeline": ["data pipeline", "etl", "dataflow", "ingestion", "labeling", "annotation", "synthetic data", "dataset"],
-    "quality":  ["quality", "evaluation", "eval", "benchmark", "guardrail", "alignment", "rlhf", "rlhf", "red team", "ragas"],
-    "auditor":  ["auditor", "audit", "compliance", "governance", "responsible ai", "trustworthy", "safety"],
-    "editor":   ["prompt engineer", "prompt design", "annotation", "writer", "editor", "content ops", "fine-tun"],
+# Compiled patterns. Each is a list of compiled regexes.
+# Match if title or tags hit at least one pattern in this category.
+# Patterns use word boundaries (\b) to prevent substring false positives
+# (e.g. "medical" won't match a "quality" pattern).
+
+CATS = {
+    "quality": {
+        "name": "AI Quality & Evaluation",
+        "patterns": [
+            r"\bquality\b",
+            r"\bevaluat\w*\b",        # evaluate, evaluation, evaluator
+            r"\bqa\b",                # QA, qa engineer
+            r"\bbenchmark\w*\b",
+            r"\bguardrail\w*\b",
+            r"\balignment\b",
+            r"\bred[\s-]?team\w*\b",
+            r"\bragas\b",
+            r"\btesting\b.*\bai\b",
+            r"\bai\b.*\btest\w*\b",
+        ],
+    },
+    "auditor": {
+        "name": "AI Auditor & Governance",
+        "patterns": [
+            r"\baudit\w*\b",
+            r"\bcompliance\b",
+            r"\bgovernance\b",
+            r"\bresponsible\b.*\bai\b",
+            r"\bai\b.*\bresponsible\b",
+            r"\btrustworthy\b",
+            r"\bsafety\b.*\bai\b",
+            r"\bai\b.*\bsafety\b",
+            r"\bethic\w+\b",
+            r"\brisk\b.*\bai\b",
+            r"\bai\b.*\brisk\b",
+            r"\bregulat\w+\b.*\bai\b",
+            r"\bai\b.*\bregulat\w+\b",
+        ],
+    },
+    "pipeline": {
+        "name": "Data Pipeline & Annotation",
+        "patterns": [
+            r"\bdata\s+pipeline\b",
+            r"\betl\b",
+            r"\bdataflow\b",
+            r"\beingestion\b",
+            r"\blabel\w*\b",          # label, labeling, labels
+            r"\bannotation\b",
+            r"\bsynthetic\s+data\b",
+            r"\bdataset\w*\b",
+            r"\bfine[\s-]?tun\w*\b",
+            r"\brlhf\b",
+            r"\breinforcement\b.*\blearning\b",
+        ],
+    },
+    "prompt": {
+        "name": "Prompt Engineering",
+        "patterns": [
+            r"\bprompt\s+engineer\w*\b",
+            r"\bprompt\s+design\w*\b",
+            r"\bprompt\s+architec\w*\b",
+        ],
+    },
+    "engineering": {
+        "name": "AI Engineering & Applied ML",
+        "patterns": [
+            r"\bai\s+engineer\w*\b",
+            r"\bml\s+engineer\w*\b",
+            r"\bmachine\s+learning\s+engineer\w*\b",
+            r"\bapplied\s+ai\b",
+            r"\bapplied\s+ml\b",
+            r"\bllm\s+engineer\w*\b",
+            r"\bgenerative\s+ai\b",
+            r"\bai/ml\b",
+            r"\bmlops\b",
+        ],
+    },
+    "editor": {
+        "name": "AI Editorial & Content Ops",
+        "patterns": [
+            r"\bai\s+editor\w*\b",
+            r"\bai\s+writer\b",
+            r"\bcontent\s+ops\b",
+            r"\beditorial\b.*\bai\b",
+            r"\bai\b.*\beditorial\b",
+            r"\bai\s+content\b",
+            r"\bai\s+copy\w*\b",
+        ],
+    },
 }
+
+# Negative filters — job titles that mention AI in name but aren't actually AI roles
+NEG_PATTERNS = [
+    r"\bremote\s+ai\s+assistant\b",   # generic "remote AI assistant" (admin)
+    r"\bvirtual\s+assistant\b",
+    r"\bai\s+prompt\s+engineer\s+needed\s+urgently\b",  # spam pattern
+]
+
+# AI gate — title or tags must contain AI/ML/LLM
+AI_GATE = re.compile(
+    r"\b(ai|ml|llm|gpt|claude|gemini|machine\s+learning|deep\s+learning|"
+    r"neural|nlp|generative|chatbot|fine[\s-]?tun\w*|transformer\w*|"
+    r"rag|vector\s+db|embedding\w*|prompt|llms?)\b",
+    re.IGNORECASE,
+)
+
+
+def _matches_any(text, patterns):
+    return any(re.search(p, text, re.IGNORECASE) for p in patterns)
+
+
+def passes_ai_gate(job):
+    """Title or tags must mention AI/ML/LLM. Description may also include AI.
+    v2.1: title or tags give a 'must have' AI hint; description can also qualify
+    but only if at least one of the title-tags has an adjacent AI context word
+    OR description mentions AI/ML/LLM at all.
+    """
+    title_and_tags = job["title"] + " " + " ".join(job["tags"])
+    full = title_and_tags + " " + job.get("desc", "")
+    if AI_GATE.search(title_and_tags):
+        return True
+    # If description mentions AI 2+ times, allow it (likely an AI role)
+    desc_hits = len(AI_GATE.findall(job.get("desc", "")))
+    return desc_hits >= 2
+
+
+def is_negative(job):
+    """Filter out obvious non-AI roles that happen to mention AI."""
+    title = job["title"]
+    return any(re.search(p, title, re.IGNORECASE) for p in NEG_PATTERNS)
 
 
 def categorize(job):
-    """Return primary category by keyword score."""
-    text = (job["title"] + " " + " ".join(job["tags"]) + " " + job["desc"]).lower()
-    scores = {cat: sum(1 for kw in words if kw in text) for cat, words in KW.items()}
-    best = max(scores, key=scores.get)
-    if scores[best] == 0:
-        return None
-    return best
+    """Return primary category by title+tags keyword match.
+
+    v2.2: 6 categories now (added engineering).
+    Priority order: quality > auditor > pipeline > prompt > engineering > editor
+    (quality first because that's the board's namesake; engineering later because
+    it's broader and overlaps with other boards)
+    """
+    title_and_tags = job["title"] + " " + " ".join(job["tags"])
+    matches = []
+    for cat in ["quality", "auditor", "pipeline", "prompt", "engineering", "editor"]:
+        if _matches_any(title_and_tags, CATS[cat]["patterns"]):
+            matches.append(cat)
+    return matches[0] if matches else None
 
 
 # ---------- DIGEST BUILD ----------
 
 def dedupe(jobs):
-    """Dedupe by (title, company) pair."""
     seen, out = set(), []
     for j in jobs:
         key = (j["title"].lower(), j["company"].lower())
@@ -163,25 +298,33 @@ def dedupe(jobs):
 
 
 def build_digest(jobs, since_days=7):
-    """Build digest content for jobs posted in the last `since_days` days."""
     cutoff = datetime.now(timezone.utc).date() - timedelta(days=since_days)
     fresh = [j for j in jobs if j["posted"] >= cutoff]
     fresh.sort(key=lambda j: j["posted"], reverse=True)
 
-    # Group by category
-    by_cat = {"quality": [], "auditor": [], "pipeline": [], "editor": []}
-    for j in fresh:
+    # Filter: must pass AI gate, must not be negative
+    ai_jobs = [j for j in fresh if passes_ai_gate(j) and not is_negative(j)]
+
+    by_cat = {cat: [] for cat in CATS}
+    categorized = []
+    for j in ai_jobs:
         cat = categorize(j)
         if cat:
             by_cat[cat].append(j)
+            categorized.append(j)
 
-    # Top 5 per category for digest
+    uncategorized = [j for j in ai_jobs if not categorize(j)]
+
     top = {cat: jobs[:5] for cat, jobs in by_cat.items()}
     return {
         "fresh": fresh,
+        "categorized": categorized,
+        "uncategorized": uncategorized,
         "by_cat": by_cat,
         "top": top,
         "total_fresh": len(fresh),
+        "total_ai": len(ai_jobs),
+        "total_categorized": len(categorized),
         "cutoff": cutoff,
     }
 
@@ -192,16 +335,15 @@ def render_md(d, today):
     lines = []
     lines.append(f"# AI Quality Jobs — Weekly Digest ({today.isoformat()})")
     lines.append("")
-    lines.append(f"**{d['total_fresh']} new roles** posted in the last 7 days across quality, audit, pipeline, and editorial categories.")
+    lines.append(f"**{d['total_categorized']} matched roles** out of {d['total_fresh']} fresh postings (last 7 days).")
+    lines.append(f"AI-gate filter + 6-category classifier (v2.2: quality/auditor/pipeline/prompt/engineering/editor).")
     lines.append("")
     lines.append("---")
     lines.append("")
-    cat_names = {"quality": "AI Quality & Evaluation", "auditor": "AI Auditor & Governance",
-                 "pipeline": "Data Pipeline & Annotation", "editor": "Prompt & Editorial"}
     for cat, jobs in d["top"].items():
         if not jobs:
             continue
-        lines.append(f"## {cat_names[cat]} ({len(jobs)})")
+        lines.append(f"## {CATS[cat]['name']} ({len(jobs)})")
         lines.append("")
         for j in jobs:
             tag_str = ", ".join(t for t in j["tags"] if t)[:120]
@@ -210,6 +352,12 @@ def render_md(d, today):
             if tag_str:
                 lines.append(f"Tags: `{tag_str}`")
             lines.append("")
+    if d["uncategorized"]:
+        lines.append(f"## Other AI roles ({len(d['uncategorized'])})")
+        lines.append("")
+        for j in d["uncategorized"][:5]:
+            lines.append(f"- [{escape(j['title'])}]({j['url']}) — {escape(j['company'])} · {j['posted'].isoformat()}")
+        lines.append("")
     lines.append("---")
     lines.append("")
     lines.append("**Browse all open roles →** https://aldow3n-a11y.github.io/ai-quality-jobs/")
@@ -221,27 +369,24 @@ def render_md(d, today):
 
 
 def render_html(d, today):
-    """Render minimal HTML email digest."""
     parts = []
-    parts.append(f"<!doctype html><html><body style=\"font-family:Inter,Arial,sans-serif;color:#1A1814;background:#F8F4EE;margin:0;padding:24px\">")
-    parts.append(f"<div style=\"max-width:680px;margin:0 auto;background:#fff;padding:32px;border:1px solid #D9D2BF\">")
-    parts.append(f"<h1 style=\"font-family:Georgia,serif;font-weight:500;margin:0 0 8px 0\">AI Quality Jobs — Weekly Digest</h1>")
-    parts.append(f"<p style=\"font-family:monospace;font-size:12px;color:#6B6557;margin:0 0 24px 0\">{today.isoformat()} · {d['total_fresh']} new roles</p>")
-    parts.append("<hr style=\"border:none;border-top:1px solid #D9D2BF;margin:24px 0\">")
-    cat_names = {"quality": "AI Quality & Evaluation", "auditor": "AI Auditor & Governance",
-                 "pipeline": "Data Pipeline & Annotation", "editor": "Prompt & Editorial"}
+    parts.append('<!doctype html><html><body style="font-family:Inter,Arial,sans-serif;color:#1A1814;background:#F8F4EE;margin:0;padding:24px">')
+    parts.append('<div style="max-width:680px;margin:0 auto;background:#fff;padding:32px;border:1px solid #D9D2BF">')
+    parts.append('<h1 style="font-family:Georgia,serif;font-weight:500;margin:0 0 8px 0">AI Quality Jobs — Weekly Digest</h1>')
+    parts.append(f'<p style="font-family:monospace;font-size:12px;color:#6B6557;margin:0 0 24px 0">{today.isoformat()} · {d["total_categorized"]} matched · {d["total_fresh"]} fresh</p>')
+    parts.append('<hr style="border:none;border-top:1px solid #D9D2BF;margin:24px 0">')
     for cat, jobs in d["top"].items():
         if not jobs:
             continue
-        parts.append(f"<h2 style=\"font-family:Georgia,serif;font-weight:500;color:#1F3D2E;border-bottom:1px solid #D9D2BF;padding-bottom:8px\">{cat_names[cat]} ({len(jobs)})</h2>")
+        parts.append(f'<h2 style="font-family:Georgia,serif;font-weight:500;color:#1F3D2E;border-bottom:1px solid #D9D2BF;padding-bottom:8px">{CATS[cat]["name"]} ({len(jobs)})</h2>')
         for j in jobs:
-            parts.append(f"<div style=\"margin:16px 0;padding:12px;border-left:3px solid #C2410C;background:#F8F4EE\">")
-            parts.append(f"<a href=\"{escape(j['url'])}\" style=\"color:#1F3D2E;font-weight:600;font-size:16px;text-decoration:none\">{escape(j['title'])}</a>")
-            parts.append(f"<div style=\"font-family:monospace;font-size:11px;color:#6B6557;margin-top:4px\">{escape(j['company'])} · {j['posted'].isoformat()} · {j['src']}</div>")
+            parts.append('<div style="margin:16px 0;padding:12px;border-left:3px solid #C2410C;background:#F8F4EE">')
+            parts.append(f'<a href="{escape(j["url"])}" style="color:#1F3D2E;font-weight:600;font-size:16px;text-decoration:none">{escape(j["title"])}</a>')
+            parts.append(f'<div style="font-family:monospace;font-size:11px;color:#6B6557;margin-top:4px">{escape(j["company"])} · {j["posted"].isoformat()} · {j["src"]}</div>')
             parts.append("</div>")
-    parts.append("<hr style=\"border:none;border-top:1px solid #D9D2BF;margin:24px 0\">")
-    parts.append("<p><a href=\"https://aldow3n-a11y.github.io/ai-quality-jobs/\" style=\"color:#C2410C\">Browse all open roles →</a></p>")
-    parts.append("<p style=\"font-size:12px;color:#6B6557\">Reply with 'pause' to skip a week, 'unsub' to stop.</p>")
+    parts.append('<hr style="border:none;border-top:1px solid #D9D2BF;margin:24px 0">')
+    parts.append('<p><a href="https://aldow3n-a11y.github.io/ai-quality-jobs/" style="color:#C2410C">Browse all open roles →</a></p>')
+    parts.append('<p style="font-size:12px;color:#6B6557">Reply with \'pause\' to skip a week, \'unsub\' to stop.</p>')
     parts.append("</div></body></html>")
     return "".join(parts)
 
@@ -249,20 +394,26 @@ def render_html(d, today):
 def render_txt(d, today):
     parts = []
     parts.append(f"AI QUALITY JOBS — WEEKLY DIGEST ({today.isoformat()})")
-    parts.append(f"{d['total_fresh']} new roles in last 7 days")
+    parts.append(f"{d['total_categorized']} matched of {d['total_fresh']} fresh postings")
     parts.append("=" * 60)
-    cat_names = {"quality": "AI QUALITY & EVALUATION", "auditor": "AI AUDITOR & GOVERNANCE",
-                 "pipeline": "DATA PIPELINE & ANNOTATION", "editor": "PROMPT & EDITORIAL"}
     for cat, jobs in d["top"].items():
         if not jobs:
             continue
         parts.append("")
-        parts.append(cat_names[cat] + f" ({len(jobs)})")
+        parts.append(CATS[cat]["name"] + f" ({len(jobs)})")
         parts.append("-" * 40)
         for j in jobs:
             parts.append(f"• {j['title']}")
             parts.append(f"  {j['company']} · {j['posted'].isoformat()} · {j['src']}")
             parts.append(f"  {j['url']}")
+            parts.append("")
+    if d["uncategorized"]:
+        parts.append("")
+        parts.append(f"OTHER AI ROLES ({len(d['uncategorized'])})")
+        parts.append("-" * 40)
+        for j in d["uncategorized"][:5]:
+            parts.append(f"• {j['title']}")
+            parts.append(f"  {j['company']} · {j['posted'].isoformat()}")
             parts.append("")
     parts.append("=" * 60)
     parts.append("Browse all: https://aldow3n-a11y.github.io/ai-quality-jobs/")
@@ -285,8 +436,11 @@ def main():
     d = build_digest(jobs, since_days=7)
     today = datetime.now(timezone.utc).date()
     print(f"  {d['total_fresh']} fresh (last 7 days)", file=sys.stderr)
+    print(f"  {d['total_ai']} pass AI gate", file=sys.stderr)
+    print(f"  {d['total_categorized']} categorized", file=sys.stderr)
     for cat, lst in d["by_cat"].items():
         print(f"    {cat}: {len(lst)}", file=sys.stderr)
+    print(f"  {len(d['uncategorized'])} uncategorized AI roles", file=sys.stderr)
 
     md_path = out_dir / f"digest-{today.isoformat()}.md"
     html_path = out_dir / f"digest-{today.isoformat()}.html"
@@ -297,7 +451,7 @@ def main():
     txt_path.write_text(render_txt(d, today), encoding="utf-8")
 
     print(f"Wrote: {md_path.name}, {html_path.name}, {txt_path.name}", file=sys.stderr)
-    print(f"\n=== LATEST DIGEST PREVIEW (markdown, first 30 lines) ===\n")
+    print("\n=== LATEST DIGEST PREVIEW (markdown, first 30 lines) ===\n")
     print("\n".join(render_md(d, today).splitlines()[:30]))
 
 
