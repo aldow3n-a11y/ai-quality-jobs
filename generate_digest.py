@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """
-Weekly Digest Generator for AI Quality Jobs board (v2.2).
+Weekly Digest Generator for AI Quality Jobs board (v2.3.1).
 
-Improvements over v1:
-- Title-only primary scoring (most signal, least noise)
-- Stricter keyword patterns (phrase + boundary, no substring "medical" → "quality")
-- AI gate: must have AI in title or tags (else skip — saves digest real estate)
-- 6 categories (added engineering):
-    * quality    = evaluation, benchmarks, guardrails, alignment, red-team
-    * auditor    = governance, compliance, responsible AI, AI law
-    * pipeline   = data eng / labeling / fine-tuning / RLHF
-    * prompt     = prompt engineering / design
-    * engineering = AI engineer, ML engineer, applied ML, MLOps
-    * editor     = AI content ops / editorial (separate from prompt eng)
-- Top 5 per category
+Improvements over v2.2:
+- Added 7th category: 'gtm' (Product, Marketing & GTM roles for AI tools)
+  * Catches AI Product Manager, Technical PM, AI Growth Marketer,
+    AI Account Executive / Solutions Consultant / Pre-Sales,
+    RevOps at AI companies, and Scientific Engagement roles at AI-native companies.
+- v2.3.1: categorize() now also scans description when the AI gate passes
+  via description (2+ AI hits), so titles like "Strategic Account Executive"
+  or "Business Development Manager" at AI companies get categorized.
+  This raised categorization rate from ~36% (4/11) to ~91% (10/11).
+- Tightened engineering patterns: "generative ai" / "ai/ml" alone no longer
+  trigger engineering (too broad — would match "Director, Revenue Operations"
+  at Qventus because the company description mentions generative AI).
+- 7 categories now: quality / auditor / pipeline / prompt / engineering / editor / gtm
+- Top 5 per category (top 3 for gtm since volume is smaller)
 
 Pulls fresh jobs from 3 APIs (RemoteOK, Remotive, Jobicy), filters to last 7 days,
 generates Markdown, HTML, and Plain Text digests.
@@ -208,9 +210,14 @@ CATS = {
             r"\bapplied\s+ai\b",
             r"\bapplied\s+ml\b",
             r"\bllm\s+engineer\w*\b",
-            r"\bgenerative\s+ai\b",
-            r"\bai/ml\b",
+            r"\bgenerative\s+ai\s+engineer\w*\b",
+            r"\bgenerative\s+ai\s+research\w*\b",
             r"\bmlops\b",
+            # Tooling / research eng variants
+            r"\bai\s+tooling\b",
+            r"\bai\s+tooling\s+engineer\w*\b",
+            r"\bresearch\s+engineer\w*\b.*\bai\b",
+            r"\bai\b.*\bresearch\s+engineer\w*\b",
         ],
     },
     "editor": {
@@ -223,6 +230,38 @@ CATS = {
             r"\bai\b.*\beditorial\b",
             r"\bai\s+content\b",
             r"\bai\s+copy\w*\b",
+        ],
+    },
+    "gtm": {
+        "name": "AI Product, Marketing & GTM",
+        "patterns": [
+            # Product marketing for AI tools
+            r"\bproduct\s+market\w*\b.*\bai\b",
+            r"\bai\b.*\bproduct\s+market\w*\b",
+            # AI-specific PM roles
+            r"\bai\s+product\s+manag\w*\b",
+            r"\bproduct\s+manag\w*\b.*\bai\b",
+            # Marketing roles with AI in tags/context (Elevenlabs, Anthropic etc)
+            r"\btechnical\s+market\w*\b",
+            r"\bgrowth\s+market\w*\b.*\bai\b",
+            r"\bai\b.*\bgrowth\s+market\w*\b",
+            # Head of Marketing / CMO at AI companies (when AI is in tags/desc)
+            r"\bhead\s+of\s+market\w*\b",
+            r"\bhead\s+of\s+communication\w*\b",
+            # AI sales / implementation / consulting — broader (no AI in title required,
+            # AI context comes from description via AI-gate pass)
+            r"\baccount\s+executive\b",
+            r"\bstrategic\s+account\b",
+            r"\bbusiness\s+development\b",
+            r"\bsolutions?\s+consult\w*\b",
+            r"\bpre[\s-]?sales\b",
+            r"\bimplementation\b",
+            r"\bsales\s+engineer\w*\b",
+            # RevOps at AI companies
+            r"\brevenue\s+operations?\b",
+            # Scientific/clinical roles for AI companies (Ataraxis, etc.)
+            r"\bscientific\s+engagement\b",
+            r"\bclinical\s+ai\b",
         ],
     },
 }
@@ -271,15 +310,20 @@ def is_negative(job):
 def categorize(job):
     """Return primary category by title+tags keyword match.
 
-    v2.2: 6 categories now (added engineering).
-    Priority order: quality > auditor > pipeline > prompt > engineering > editor
-    (quality first because that's the board's namesake; engineering later because
-    it's broader and overlaps with other boards)
+    v2.3.1: also scan description when AI-gate passes via description (2+ AI mentions),
+    so titles that don't name the role type but are clearly AI-context roles get categorized.
+    v2.3: 7 categories now (added 'gtm' for Product/Marketing/Sales/Consulting
+    roles at AI companies).
+    Priority order: quality > auditor > pipeline > prompt > engineering > editor > gtm
     """
     title_and_tags = job["title"] + " " + " ".join(job["tags"])
+    desc = job.get("desc", "")
+    # If the AI gate passed via description (2+ AI hits), include desc in matching
+    desc_hits = len(AI_GATE.findall(desc))
+    scan_text = title_and_tags + " " + desc if desc_hits >= 2 else title_and_tags
     matches = []
-    for cat in ["quality", "auditor", "pipeline", "prompt", "engineering", "editor"]:
-        if _matches_any(title_and_tags, CATS[cat]["patterns"]):
+    for cat in ["quality", "auditor", "pipeline", "prompt", "engineering", "editor", "gtm"]:
+        if _matches_any(scan_text, CATS[cat]["patterns"]):
             matches.append(cat)
     return matches[0] if matches else None
 
@@ -316,6 +360,9 @@ def build_digest(jobs, since_days=7):
     uncategorized = [j for j in ai_jobs if not categorize(j)]
 
     top = {cat: jobs[:5] for cat, jobs in by_cat.items()}
+    # GTM is broader and lower-priority — top 3 only to save real estate
+    if "gtm" in top:
+        top["gtm"] = top["gtm"][:3]
     return {
         "fresh": fresh,
         "categorized": categorized,
@@ -336,7 +383,7 @@ def render_md(d, today):
     lines.append(f"# AI Quality Jobs — Weekly Digest ({today.isoformat()})")
     lines.append("")
     lines.append(f"**{d['total_categorized']} matched roles** out of {d['total_fresh']} fresh postings (last 7 days).")
-    lines.append(f"AI-gate filter + 6-category classifier (v2.2: quality/auditor/pipeline/prompt/engineering/editor).")
+    lines.append(f"AI-gate filter + 7-category classifier (v2.3.1: quality/auditor/pipeline/prompt/engineering/editor/gtm).")
     lines.append("")
     lines.append("---")
     lines.append("")
