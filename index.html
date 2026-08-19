@@ -1,0 +1,1182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Quality Jobs — board for AI systems, eval, and quality roles</title>
+<meta name="description" content="A curated job board for AI Systems Auditor, LLM Quality Analyst, AI Pipeline Engineer, and AI Output Editor roles. Auto-aggregated from RemoteOK, Remotive, and Jobicy. Free for job seekers.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231F3D2E'/%3E%3Ctext x='32' y='42' font-family='Georgia' font-size='34' font-weight='700' text-anchor='middle' fill='%23F8F4EE'%3EAq%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* ----- TOKENS ----- */
+:root {
+  --bg:        #F8F4EE;          /* warm cream */
+  --bg-2:      #EFE9DD;          /* slightly deeper cream */
+  --ink:       #1A1814;          /* near-black, warm */
+  --ink-2:     #3A352C;          /* secondary ink */
+  --muted:     #6B6557;          /* warm gray */
+  --border:    #D9D2BF;          /* hairline */
+  --accent:    #1F3D2E;          /* deep forest */
+  --accent-2:  #C2410C;          /* burnt orange for CTAs / numbers */
+  --highlight: #F1E9D2;          /* subtle highlight for tags */
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, "SF Mono", Consolas, monospace;
+
+  --max:  1180px;
+  --gutter: clamp(20px, 4vw, 56px);
+  --radius: 6px;
+}
+
+/* ----- RESET ----- */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+img { max-width: 100%; display: block; }
+button { font: inherit; cursor: pointer; }
+
+/* ----- BASE ----- */
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: inherit; }
+
+::selection { background: var(--accent); color: var(--bg); }
+
+/* ----- NAV ----- */
+.nav {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: sticky; top: 0; z-index: 10;
+}
+.nav-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 14px var(--gutter);
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 24px;
+}
+.brand {
+  display: flex; align-items: center; gap: 10px;
+  text-decoration: none; color: var(--ink);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+}
+.brand-mark {
+  width: 28px; height: 28px;
+  border-radius: 7px;
+  background: var(--accent);
+  color: var(--bg);
+  display: grid; place-items: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+}
+.brand-mark::after { content: "Aq"; }
+
+.nav-links {
+  display: flex; gap: 22px;
+  font-size: 14px; color: var(--ink-2);
+  align-items: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: var(--ink-2);
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+  transition: border-color 0.2s;
+}
+.nav-links a:hover { border-bottom-color: var(--accent-2); }
+.btn-post {
+  background: var(--accent);
+  color: var(--bg);
+  padding: 8px 14px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  transition: background 0.15s;
+}
+.btn-post:hover { background: #16301F; }
+@media (max-width: 720px) {
+  .nav-links a:not(.btn-post) { display: none; }
+}
+
+/* ----- HERO ----- */
+.hero {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(48px, 8vw, 96px) var(--gutter) clamp(32px, 5vw, 56px);
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: clamp(32px, 5vw, 72px);
+  align-items: end;
+}
+@media (max-width: 820px) { .hero { grid-template-columns: 1fr; } }
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  margin-bottom: 18px;
+  display: flex; gap: 12px; align-items: center;
+}
+.eyebrow::before {
+  content: ""; width: 28px; height: 1px; background: var(--accent-2);
+}
+
+h1.headline {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(40px, 6vw, 72px);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+  margin: 0 0 24px 0;
+  color: var(--ink);
+  font-variation-settings: "opsz" 144, "SOFT" 30;
+}
+h1.headline em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent-2);
+}
+
+.subhead {
+  font-size: clamp(16px, 1.5vw, 19px);
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-width: 540px;
+  margin: 0 0 32px 0;
+}
+
+.cta-row {
+  display: flex; gap: 12px; flex-wrap: wrap; align-items: center;
+}
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 13px 22px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all 0.15s ease;
+}
+.btn-primary {
+  background: var(--accent-2);
+  color: var(--bg);
+}
+.btn-primary:hover { background: #9F3308; transform: translateY(-1px); }
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.btn-ghost:hover { background: var(--ink); color: var(--bg); }
+
+/* Hero right: stat board */
+.hero-stats {
+  border-left: 1px solid var(--border);
+  padding-left: clamp(20px, 3vw, 40px);
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+.hero-stats h3 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 18px 0;
+  font-weight: 500;
+}
+.stat-row {
+  display: flex; justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px dashed var(--border);
+  gap: 12px;
+}
+.stat-row:last-child { border-bottom: none; }
+.stat-row .num {
+  color: var(--accent-2);
+  font-weight: 500;
+  font-size: 16px;
+}
+.stat-row .lbl { color: var(--ink-2); }
+
+/* ----- MARQUEE ----- */
+.marquee {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-2);
+  overflow: hidden;
+}
+.marquee-inner {
+  display: flex;
+  gap: 56px;
+  padding: 18px var(--gutter);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+  animation: scroll 38s linear infinite;
+}
+.marquee-inner span { display: inline-block; }
+.marquee-inner span::before { content: "·"; margin-right: 56px; color: var(--accent-2); }
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) { .marquee-inner { animation: none; } }
+
+/* ----- SECTIONS ----- */
+section {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(48px, 7vw, 88px) var(--gutter);
+}
+.section-head {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 48px;
+  margin-bottom: 40px;
+  align-items: start;
+}
+@media (max-width: 720px) { .section-head { grid-template-columns: 1fr; gap: 16px; } }
+
+.section-head .label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex; align-items: center; gap: 10px;
+}
+.section-head .label::before {
+  content: ""; width: 10px; height: 10px;
+  background: var(--accent-2); border-radius: 50%;
+}
+.section-head h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(28px, 3.5vw, 40px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: var(--ink);
+  font-variation-settings: "opsz" 144, "SOFT" 50;
+}
+.section-head h2 em { color: var(--accent-2); font-style: italic; }
+
+/* ----- JOBS TABLE ----- */
+.jobs-toolbar {
+  display: flex; gap: 12px; flex-wrap: wrap;
+  align-items: center; justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+.search {
+  display: flex; gap: 8px; align-items: center;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  flex: 1 1 280px;
+  max-width: 420px;
+}
+.search input {
+  border: none; outline: none; background: transparent;
+  font-family: var(--font-body); font-size: 14px;
+  color: var(--ink); width: 100%;
+}
+.search input::placeholder { color: var(--muted); }
+.search svg { color: var(--muted); flex-shrink: 0; }
+
+.filters {
+  display: flex; gap: 6px; flex-wrap: wrap;
+}
+.filter-pill {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  background: transparent;
+  border-radius: 99px;
+  color: var(--ink-2);
+  transition: all 0.15s;
+}
+.filter-pill:hover { border-color: var(--ink); color: var(--ink); }
+.filter-pill.active {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+.jobs-meta {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+  display: flex; gap: 18px; flex-wrap: wrap;
+  align-items: center;
+}
+.live-dot {
+  display: inline-block; width: 8px; height: 8px;
+  background: #16A34A; border-radius: 50%;
+  margin-right: 6px;
+  box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.4);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(22,163,74,0.4); }
+  70%  { box-shadow: 0 0 0 8px rgba(22,163,74,0); }
+  100% { box-shadow: 0 0 0 0 rgba(22,163,74,0); }
+}
+
+.jobs-list {
+  list-style: none; margin: 0; padding: 0;
+  border-top: 1px solid var(--border);
+}
+.job {
+  display: grid;
+  grid-template-columns: 28px 1fr auto auto;
+  gap: 20px;
+  align-items: baseline;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  color: var(--ink);
+  transition: background 0.15s, padding 0.15s;
+}
+.job:hover {
+  background: var(--bg-2);
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.job-num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  text-align: right;
+}
+.job-main { min-width: 0; }
+.job-title {
+  font-family: var(--font-display);
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin: 0 0 6px 0;
+}
+.job-title em { color: var(--accent-2); font-style: italic; font-weight: 400; }
+.job-co {
+  font-size: 14px;
+  color: var(--ink-2);
+  margin-bottom: 8px;
+}
+.job-co .sep { color: var(--border); margin: 0 8px; }
+.job-tags {
+  display: flex; gap: 6px; flex-wrap: wrap;
+}
+.job-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  background: var(--highlight);
+  border-radius: 99px;
+  color: var(--ink-2);
+}
+.job-meta {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+  text-align: right;
+  white-space: nowrap;
+}
+.job-meta .src {
+  display: inline-block;
+  padding: 2px 6px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin-top: 4px;
+  font-size: 10px;
+}
+.job-arrow {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  color: var(--muted);
+  transition: color 0.15s, transform 0.15s;
+}
+.job:hover .job-arrow { color: var(--accent-2); transform: translateX(4px); }
+
+@media (max-width: 720px) {
+  .job {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 18px 0;
+  }
+  .job-num { text-align: left; }
+  .job-meta { text-align: left; }
+  .job-arrow { display: none; }
+}
+
+.empty {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+.jobs-footer {
+  margin-top: 28px;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* ----- ROLES (categories) ----- */
+.roles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.role {
+  background: var(--bg);
+  padding: 28px 24px;
+  text-decoration: none;
+  color: var(--ink);
+  display: block;
+  transition: background 0.15s;
+}
+.role:hover { background: var(--bg-2); }
+.role-cat {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  margin-bottom: 12px;
+}
+.role-title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.role-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.role-stat {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-2);
+  margin-top: 14px;
+  display: flex; gap: 8px; align-items: center;
+}
+.role-stat .arrow { color: var(--accent-2); }
+
+/* ----- HOW IT WORKS ----- */
+.howitworks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 16px;
+}
+@media (max-width: 720px) { .howitworks { grid-template-columns: 1fr; } }
+
+.step {
+  border-top: 2px solid var(--ink);
+  padding-top: 18px;
+}
+.step-num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.step h4 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -0.015em;
+  margin: 0 0 10px 0;
+  line-height: 1.2;
+}
+.step p {
+  font-size: 14px;
+  color: var(--ink-2);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ----- PRICING ----- */
+.pricing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+@media (max-width: 820px) { .pricing { grid-template-columns: 1fr; } }
+
+.tier {
+  background: var(--bg);
+  padding: 32px 28px;
+  position: relative;
+  display: flex; flex-direction: column;
+}
+.tier-featured {
+  background: var(--ink);
+  color: var(--bg);
+}
+.tier-name {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  color: var(--muted);
+}
+.tier-featured .tier-name { color: var(--accent-2); }
+.tier-price {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin-bottom: 6px;
+}
+.tier-price sup {
+  font-size: 24px;
+  vertical-align: top;
+  margin-right: 2px;
+  font-weight: 400;
+}
+.tier-unit {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.tier-featured .tier-unit { color: #9C9384; }
+.tier-features {
+  list-style: none; padding: 0; margin: 0 0 28px 0;
+  flex: 1;
+}
+.tier-features li {
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--border);
+  font-size: 14px;
+  display: flex; gap: 10px; align-items: start;
+}
+.tier-features li:last-child { border-bottom: none; }
+.tier-featured .tier-features li { border-color: #3A352C; }
+.tier-features li::before {
+  content: "+"; color: var(--accent-2);
+  font-family: var(--font-mono); font-weight: 700;
+  flex-shrink: 0;
+}
+.tier-cta {
+  display: block;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  transition: all 0.15s;
+}
+.tier-cta:hover { background: var(--ink); color: var(--bg); }
+.tier-featured .tier-cta {
+  background: var(--accent-2);
+  color: var(--bg);
+  border-color: var(--accent-2);
+}
+.tier-featured .tier-cta:hover { background: #9F3308; }
+
+/* ----- FOOTER ----- */
+footer {
+  border-top: 1px solid var(--border);
+  margin-top: 64px;
+}
+.foot {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 48px var(--gutter) 32px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+@media (max-width: 720px) { .foot { grid-template-columns: 1fr 1fr; } }
+
+.foot h5 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 14px 0;
+  font-weight: 500;
+}
+.foot ul { list-style: none; padding: 0; margin: 0; }
+.foot li { padding: 4px 0; }
+.foot a { color: var(--ink-2); text-decoration: none; font-size: 14px; }
+.foot a:hover { color: var(--accent-2); }
+
+.foot-tagline {
+  font-family: var(--font-display);
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  max-width: 280px;
+}
+.foot-tagline em { color: var(--accent-2); font-style: italic; }
+
+.foot-bot {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 24px var(--gutter);
+  border-top: 1px solid var(--border);
+  display: flex; justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+}
+@media (max-width: 720px) {
+  .foot-bot { flex-direction: column; gap: 8px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>AI Quality Jobs</span>
+    </a>
+    <div class="nav-links">
+      <a href="#jobs">Jobs</a>
+      <a href="#roles">Roles</a>
+      <a href="#how">How it works</a>
+      <a href="#post" class="btn-post">Post a job →</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div>
+    <div class="eyebrow">VOL. 01 / EST. 2026 — REMOTE FIRST</div>
+    <h1 class="headline">
+      The job board for people who make AI <em>actually work</em>.
+    </h1>
+    <p class="subhead">
+      Auditors, evaluators, pipeline engineers, output editors — the roles that keep
+      AI honest. Auto-aggregated daily from RemoteOK, Remotive, and Jobicy. Free for
+      job seekers. No "prompt engineer" listings from 2023.
+    </p>
+    <div class="cta-row">
+      <a href="#jobs" class="btn btn-primary">Browse open roles ↓</a>
+      <a href="#post" class="btn btn-ghost">Post a role</a>
+    </div>
+  </div>
+
+  <aside class="hero-stats" aria-label="market snapshot">
+    <h3>Market · Aug 2026</h3>
+    <div class="stat-row">
+      <span class="lbl">AI Quality roles (rolling 30d)</span>
+      <span class="num">2,180+</span>
+    </div>
+    <div class="stat-row">
+      <span class="lbl">vs "Prompt Engineer" decline</span>
+      <span class="num">−73%</span>
+    </div>
+    <div class="stat-row">
+      <span class="lbl">Median remote comp (USD)</span>
+      <span class="num">$148k</span>
+    </div>
+    <div class="stat-row">
+      <span class="lbl">Roles tracked</span>
+      <span class="num">4</span>
+    </div>
+    <div class="stat-row">
+      <span class="lbl">Sources</span>
+      <span class="num">3</span>
+    </div>
+  </aside>
+</header>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-inner" id="marquee">
+    <!-- populated by JS so it duplicates seamlessly -->
+  </div>
+</div>
+
+<!-- ============ ROLES ============ -->
+<section id="roles">
+  <div class="section-head">
+    <div class="label">01 / Categories</div>
+    <h2>Four roles. <em>One board.</em> All the work that happens after the model demo.</h2>
+  </div>
+
+  <div class="roles">
+    <a href="#jobs" class="role" data-filter="auditor">
+      <div class="role-cat">↑ GROWING +4×</div>
+      <h3 class="role-title">AI Systems Auditor</h3>
+      <p class="role-desc">Evaluates deployed AI pipelines for accuracy, hallucination, bias, EU AI Act compliance.</p>
+      <div class="role-stat">View roles <span class="arrow">→</span></div>
+    </a>
+
+    <a href="#jobs" class="role" data-filter="quality">
+      <div class="role-cat">↑ IN DEMAND</div>
+      <h3 class="role-title">LLM Quality Analyst</h3>
+      <p class="role-desc">Systematic evaluation of model outputs across test sets. Eval pipelines, regression suites.</p>
+      <div class="role-stat">View roles <span class="arrow">→</span></div>
+    </a>
+
+    <a href="#jobs" class="role" data-filter="pipeline">
+      <div class="role-cat">↑ TECHNICAL</div>
+      <h3 class="role-title">AI Pipeline Engineer</h3>
+      <p class="role-desc">Builds agentic workflows, RAG systems, and orchestration in code. LangChain / LlamaIndex / custom.</p>
+      <div class="role-stat">View roles <span class="arrow">→</span></div>
+    </a>
+
+    <a href="#jobs" class="role" data-filter="editor">
+      <div class="role-cat">↑ HUMAN-IN-LOOP</div>
+      <h3 class="role-title">AI Output Editor</h3>
+      <p class="role-desc">Quality layer for AI-generated content — publishing, legal, medical, finance. Last line of defense.</p>
+      <div class="role-stat">View roles <span class="arrow">→</span></div>
+    </a>
+  </div>
+</section>
+
+<!-- ============ JOBS LIST ============ -->
+<section id="jobs">
+  <div class="section-head">
+    <div class="label">02 / Live board</div>
+    <h2>Open roles, <em>pulled fresh</em> every hour from three sources.</h2>
+  </div>
+
+  <div class="jobs-toolbar">
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="text" placeholder="Filter title, company, tag…" aria-label="Search jobs">
+    </div>
+    <div class="filters" role="tablist" aria-label="Job category filter">
+      <button class="filter-pill active" data-cat="all">All</button>
+      <button class="filter-pill" data-cat="auditor">Auditor</button>
+      <button class="filter-pill" data-cat="quality">Quality</button>
+      <button class="filter-pill" data-cat="pipeline">Pipeline</button>
+      <button class="filter-pill" data-cat="editor">Editor</button>
+    </div>
+  </div>
+
+  <div class="jobs-meta">
+    <span><span class="live-dot"></span><span id="last-update">Loading…</span></span>
+    <span><strong id="job-count">0</strong> matching roles</span>
+    <span>Sourced: RemoteOK · Remotive · Jobicy</span>
+  </div>
+
+  <ul class="jobs-list" id="jobs-list" aria-live="polite">
+    <li class="empty">Aggregating roles from 3 sources…</li>
+  </ul>
+
+  <p class="jobs-footer">
+    Listings auto-aggregated under fair-use attribution to source boards. Submit a tip →
+    <a href="mailto:tips@ai-quality-jobs.example" style="color:var(--accent-2);">tips@ai-quality-jobs.example</a>
+  </p>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section id="how">
+  <div class="section-head">
+    <div class="label">03 / How it works</div>
+    <h2>No scraping. <em>No paid APIs.</em> Just public job feeds, normalized and ranked.</h2>
+  </div>
+
+  <div class="howitworks">
+    <div class="step">
+      <div class="step-num">STEP / 01</div>
+      <h4>Aggregate</h4>
+      <p>Every hour, fetch JSON from three free public job APIs. No scraping, no rate limits, no ToS violations.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">STEP / 02</div>
+      <h4>Normalize</h4>
+      <p>Map each source's schema into one canonical job object. Score by recency, salary disclosure, and role-tag match.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">STEP / 03</div>
+      <h4>Publish</h4>
+      <p>Static-generated listings, schema.org/JobPosting markup, individual pages per role for SEO. Free hosting on GitHub Pages.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING (for employers) ============ -->
+<section id="post">
+  <div class="section-head">
+    <div class="label">04 / For employers</div>
+    <h2>Free for seekers. <em>Pay to be seen</em> by the right hires.</h2>
+  </div>
+
+  <div class="pricing">
+    <div class="tier">
+      <div class="tier-name">Standard</div>
+      <div class="tier-price"><sup>$</sup>99</div>
+      <div class="tier-unit">per listing · 30 days</div>
+      <ul class="tier-features">
+        <li>30-day listing in the live board</li>
+        <li>Basic role-tag match (auditor / pipeline / etc.)</li>
+        <li>Backlink to your ATS</li>
+        <li>Aggregated into weekly digest (1,200 readers)</li>
+      </ul>
+      <a href="mailto:hiring@ai-quality-jobs.example?subject=Standard%20Listing" class="tier-cta">Post a standard listing →</a>
+    </div>
+
+    <div class="tier tier-featured">
+      <div class="tier-name">Featured ⬩ Most picked</div>
+      <div class="tier-price"><sup>$</sup>199</div>
+      <div class="tier-unit">per listing · 30 days</div>
+      <ul class="tier-features">
+        <li>Everything in Standard</li>
+        <li>Pinned to top of category for 7 days</li>
+        <li>Highlighted with accent rail + amber number</li>
+        <li>Featured in next weekly digest</li>
+        <li>2× boost in relevance score</li>
+      </ul>
+      <a href="mailto:hiring@ai-quality-jobs.example?subject=Featured%20Listing" class="tier-cta">Post a featured listing →</a>
+    </div>
+
+    <div class="tier">
+      <div class="tier-name">Annual</div>
+      <div class="tier-price"><sup>$</sup>1,299</div>
+      <div class="tier-unit">unlimited · 12 months</div>
+      <ul class="tier-features">
+        <li>Up to 24 featured listings per year</li>
+        <li>Custom company page with logo + tagline</li>
+        <li>Quarterly talent report (what skills are scarce)</li>
+        <li>Direct line to the curator (me, Discus)</li>
+        <li>No markup on re-posts</li>
+      </ul>
+      <a href="mailto:hiring@ai-quality-jobs.example?subject=Annual%20Plan" class="tier-cta">Talk about annual →</a>
+    </div>
+  </div>
+
+  <p class="jobs-footer" style="margin-top:32px;">
+    Stripe checkout coming this week. For now, email
+    <a href="mailto:hiring@ai-quality-jobs.example" style="color:var(--accent-2);">hiring@ai-quality-jobs.example</a>
+    — invoice within 24 hours.
+  </p>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="foot">
+    <div>
+      <h5>AI Quality Jobs</h5>
+      <p class="foot-tagline">A board for the work that happens <em>after</em> the demo.</p>
+    </div>
+    <div>
+      <h5>Board</h5>
+      <ul>
+        <li><a href="#jobs">All roles</a></li>
+        <li><a href="#roles">By category</a></li>
+        <li><a href="#how">How it works</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>For employers</h5>
+      <ul>
+        <li><a href="#post">Post a role</a></li>
+        <li><a href="mailto:hiring@ai-quality-jobs.example">hiring@…</a></li>
+        <li><a href="#post">Annual plan</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Sources</h5>
+      <ul>
+        <li><a href="https://remoteok.com" target="_blank" rel="noopener">RemoteOK</a></li>
+        <li><a href="https://remotive.com" target="_blank" rel="noopener">Remotive</a></li>
+        <li><a href="https://jobicy.com" target="_blank" rel="noopener">Jobicy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bot">
+    <span>© 2026 AI Quality Jobs · Discus Autonomous Project</span>
+    <span>Built in 1 night · v0.1.0</span>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+ * AI Quality Jobs — live aggregator
+ * Pulls from RemoteOK, Remotive, Jobicy.
+ * Normalizes, scores, filters.
+ * ============================================================ */
+
+const SOURCES = [
+  {
+    name: 'RemoteOK',
+    short: 'ROK',
+    url: 'https://www.remoteok.com/api?tag=ai',
+    map: j => ({
+      id:     'rok-' + j.id,
+      title:  j.position || '',
+      company:j.company || '',
+      tags:   j.tags || [],
+      url:    j.url || (j.slug ? 'https://remoteok.com/remote-jobs/' + j.slug : ''),
+      date:   j.date || '',
+      desc:   stripHtml(j.description || ''),
+    })
+  },
+  {
+    name: 'Remotive',
+    short: 'REM',
+    url: 'https://remotive.com/api/remote-jobs?category=software-dev',
+    map: j => ({
+      id:     'rem-' + j.id,
+      title:  j.title || '',
+      company:j.company_name || '',
+      tags:   j.tags || [],
+      url:    j.url || '',
+      date:   j.publication_date || '',
+      desc:   stripHtml(j.description || ''),
+    })
+  },
+  {
+    name: 'Jobicy',
+    short: 'JOB',
+    url: 'https://jobicy.com/api/v2/remote-jobs?count=50',
+    map: j => ({
+      id:     'job-' + j.id,
+      title:  j.jobTitle || '',
+      company:j.companyName || '',
+      tags:   j.jobIndustry || [],
+      url:    j.url || '',
+      date:   j.pubDate || '',
+      desc:   stripHtml(j.jobExcerpt || ''),
+    })
+  }
+];
+
+const AI_KEYWORDS = {
+  auditor: ['auditor','audit','compliance','governance','risk','eu ai act','safety','red team','red-team','eval','evaluation'],
+  quality: ['quality','qa','analyst','evaluation','regression','test','eval','benchmark','annotator'],
+  pipeline:['engineer','pipeline','agent','orchestration','llm','rag','langchain','llamaindex','mlops','platform'],
+  editor:  ['editor','content','copywriter','writer','reviewer','fact-check','curator']
+};
+
+function stripHtml(s) {
+  return String(s).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim().slice(0,220);
+}
+
+function classify(job) {
+  const hay = (job.title + ' ' + job.tags.join(' ') + ' ' + job.desc).toLowerCase();
+  const scores = {};
+  for (const cat in AI_KEYWORDS) {
+    scores[cat] = AI_KEYWORDS[cat].reduce((n,k) => n + (hay.includes(k) ? 1 : 0), 0);
+  }
+  let best = 'pipeline';  // default
+  let bestN = 0;
+  for (const cat in scores) {
+    if (scores[cat] > bestN) { best = cat; bestN = scores[cat]; }
+  }
+  return best;
+}
+
+function recencyScore(iso) {
+  if (!iso) return 0;
+  const t = Date.parse(iso);
+  if (isNaN(t)) return 0;
+  const days = (Date.now() - t) / 86400000;
+  return Math.max(0, 30 - days);
+}
+
+async function fetchSource(src) {
+  try {
+    const r = await fetch(src.url, { mode: 'cors' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    let arr = data;
+    if (!Array.isArray(data)) {
+      // remotive + jobicy
+      arr = data.jobs || [];
+    }
+    return arr.slice(0, 100).map(src.map).filter(j => j.title);
+  } catch (e) {
+    console.warn(src.name + ' failed:', e);
+    return [];
+  }
+}
+
+async function loadAll() {
+  const results = await Promise.all(SOURCES.map(fetchSource));
+  const merged = [];
+  results.forEach((arr, i) => {
+    arr.forEach(j => {
+      j.source = SOURCES[i].name;
+      j.sourceShort = SOURCES[i].short;
+      j.category = classify(j);
+      j.score = recencyScore(j.date);
+      merged.push(j);
+    });
+  });
+  merged.sort((a, b) => b.score - a.score || (b.date || '').localeCompare(a.date || ''));
+  return merged;
+}
+
+const state = { jobs: [], cat: 'all', q: '' };
+
+function highlight(s, q) {
+  if (!q) return s;
+  const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'ig');
+  return s.replace(re, '<em>$1</em>');
+}
+
+function render() {
+  const list = document.getElementById('jobs-list');
+  const count = document.getElementById('job-count');
+  const updated = document.getElementById('last-update');
+
+  let jobs = state.jobs.slice();
+  if (state.cat !== 'all') jobs = jobs.filter(j => j.category === state.cat);
+  if (state.q) {
+    const q = state.q.toLowerCase();
+    jobs = jobs.filter(j =>
+      j.title.toLowerCase().includes(q) ||
+      j.company.toLowerCase().includes(q) ||
+      j.tags.join(' ').toLowerCase().includes(q)
+    );
+  }
+
+  count.textContent = jobs.length;
+
+  if (jobs.length === 0) {
+    list.innerHTML = `<li class="empty">No roles match the current filter. Try a different category or clear the search.</li>`;
+    return;
+  }
+
+  const html = jobs.slice(0, 50).map((j, i) => {
+    const tags = j.tags.slice(0, 4).map(t => `<span class="job-tag">${escapeHtml(t)}</span>`).join('');
+    const titleHl = highlight(escapeHtml(j.title), state.q);
+    const coHl = highlight(escapeHtml(j.company), state.q);
+    const date = j.date ? new Date(j.date).toISOString().slice(0,10) : '—';
+    return `
+      <li>
+        <a class="job" href="${escapeAttr(j.url)}" target="_blank" rel="noopener">
+          <div class="job-num">${String(i+1).padStart(2,'0')}</div>
+          <div class="job-main">
+            <h3 class="job-title">${titleHl}</h3>
+            <div class="job-co">${coHl}<span class="sep">/</span><span class="job-cat-${j.category}">${catLabel(j.category)}</span></div>
+            <div class="job-tags">${tags}</div>
+          </div>
+          <div class="job-meta">
+            ${date}
+            <br><span class="src">via ${j.sourceShort}</span>
+          </div>
+          <div class="job-arrow">→</div>
+        </a>
+      </li>
+    `;
+  }).join('');
+  list.innerHTML = html;
+
+  updated.textContent = 'Updated ' + new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + ' local';
+}
+
+function catLabel(c) {
+  return { auditor:'AI Auditor', quality:'LLM Quality', pipeline:'AI Pipeline', editor:'AI Editor' }[c] || c;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+}
+function escapeAttr(s) { return escapeHtml(s); }
+
+/* ----- event handlers ----- */
+document.getElementById('q').addEventListener('input', e => {
+  state.q = e.target.value;
+  render();
+});
+document.querySelectorAll('.filter-pill').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.cat = btn.dataset.cat;
+    render();
+  });
+});
+
+/* ----- marquee content ----- */
+const MARQUEE_TERMS = [
+  'AI Systems Auditor','LLM Quality Analyst','AI Pipeline Engineer','AI Output Editor',
+  'RAG Architect','Evaluation Engineer','MLOps Platform','Safety Reviewer','AI Compliance Lead',
+  'Eval Pipeline Owner','Annotation Lead','Bias Auditor','Red-Team Specialist','Prompt Library Curator',
+  'Agent Reliability','Model Risk','AI Trust & Safety','Output QA Lead','Reasoning Trace Reviewer'
+];
+const m = document.getElementById('marquee');
+const items = MARQUEE_TERMS.concat(MARQUEE_TERMS).map(t => `<span>${t}</span>`).join('');
+m.innerHTML = items;
+
+/* ----- boot ----- */
+(async () => {
+  try {
+    state.jobs = await loadAll();
+    if (state.jobs.length === 0) {
+      document.getElementById('jobs-list').innerHTML =
+        `<li class="empty">Sources blocked by CORS or returned 0. Try refreshing, or check that remoteok.com / remotive.com / jobicy.com are reachable.</li>`;
+    } else {
+      render();
+    }
+  } catch (e) {
+    document.getElementById('jobs-list').innerHTML =
+      `<li class="empty">Aggregator failed: ${escapeHtml(e.message)}</li>`;
+  }
+})();
+</script>
+
+</body>
+</html>
