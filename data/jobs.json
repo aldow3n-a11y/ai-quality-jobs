@@ -1,856 +1,856 @@
 {
-  "generated_at": "2026-08-19T20:44:15.393081+00:00",
+  "generated_at": "2026-08-20T19:36:31.534295+00:00",
   "count": 137,
   "jobs": [
     {
-      "title": "Senior UICC/eUICC/eSIM Engineer",
-      "company": "emnify",
+      "title": "SaaS Associate Customer Support Specialist (Remote - UK)",
+      "company": "Fleetio",
       "tags": [
-        "Software Engineering"
+        "Technical Support"
       ],
-      "url": "https://jobicy.com/jobs/151131-senior-uicc-euicc-esim-engineer",
-      "date": "2026-08-19T14:49:05+00:00",
-      "desc": "Your Role We are looking for a hands-on UICC/eUICC/eSIM specialist to take ownership of the engineering, interoperability, and certification readiness of our Consumer eSIM (SGP.22) and IoT eUICC (SGP.32) products. You will operate across the full lifecycle, from profile design an",
-      "raw_desc": "Your Role We are looking for a hands-on UICC/eUICC/eSIM specialist to take ownership of the engineering, interoperability, and certification readiness of our Consumer eSIM (SGP.22) and IoT eUICC (SGP.32) products. You will operate across the full lifecycle, from profile design and technical specification to validation and production readiness, working at the intersection of SIM technology,&hellip;",
+      "url": "https://jobicy.com/jobs/150656-saas-associate-customer-support-specialist-remote-uk",
+      "date": "2026-08-20T15:20:03+00:00",
+      "desc": "A little about us\u2026Fleetio is a modern software platform that helps thousands of organizations worldwide manage their fleet operations. Transportation technology is a hot market, and we\u2019re leading the charge with raving fans and new customers signing up every day. We raised $450M ",
+      "raw_desc": "A little about us\u2026Fleetio is a modern software platform that helps thousands of organizations worldwide manage their fleet operations. Transportation technology is a hot market, and we\u2019re leading the charge with raving fans and new customers signing up every day. We raised $450M in our Series D funding round in March of 2025 and are&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 0,
       "category": "pipeline",
-      "slug": "senior-uicc-euicc-esim-engineer-emnify",
-      "id": "job-000-senior-uicc-euicc-esim-engineer-emnify"
+      "slug": "saas-associate-customer-support-specialist-remote-uk-fleetio",
+      "id": "job-000-saas-associate-customer-support-specialist-remote-uk-fleetio"
     },
     {
-      "title": "Workplace Experience Coordinator",
-      "company": "Emplifi",
+      "title": "Senior Loan Officer",
+      "company": "RenoFi",
       "tags": [
-        "Admin &amp; Virtual Assistance"
+        "Sales"
       ],
-      "url": "https://jobicy.com/jobs/151130-workplace-experience-coordinator",
-      "date": "2026-08-19T14:49:02+00:00",
-      "desc": "About Emplifi Emplifi is the only Autonomous CX platform unifying social marketing, commerce, and customer care for more than 20,000 brands worldwide. Powered by Fuel AI, built on more than 5T of data, and recognized as a leader by leading industry analysts, Emplifi helps enterpr",
-      "raw_desc": "About Emplifi Emplifi is the only Autonomous CX platform unifying social marketing, commerce, and customer care for more than 20,000 brands worldwide. Powered by Fuel AI, built on more than 5T of data, and recognized as a leader by leading industry analysts, Emplifi helps enterprise teams orchestrate connected customer journeys and deliver personalized experiences at&hellip;",
+      "url": "https://jobicy.com/jobs/151225-senior-loan-officer",
+      "date": "2026-08-20T14:33:58+00:00",
+      "desc": "The future of mortgage lending isn\u2019t refinance or purchase It\u2019s diversification It\u2019s renovation RenoFi is transforming the way homeowners finance their renovations while continuing to serve the traditional mortgage demand. We are building the nation\u2019s leading renovation lending p",
+      "raw_desc": "The future of mortgage lending isn\u2019t refinance or purchase It\u2019s diversification It\u2019s renovation RenoFi is transforming the way homeowners finance their renovations while continuing to serve the traditional mortgage demand. We are building the nation\u2019s leading renovation lending platform, empowering homeowners to tap into their future home value, not just their current equity. Our Senior&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 1,
-      "category": "quality",
-      "slug": "workplace-experience-coordinator-emplifi",
-      "id": "job-001-workplace-experience-coordinator-emplifi"
+      "category": "pipeline",
+      "slug": "senior-loan-officer-renofi",
+      "id": "job-001-senior-loan-officer-renofi"
     },
     {
-      "title": "Senior Applied AI Engineer",
-      "company": "Pleo",
+      "title": "Software Engineer, Security Observability",
+      "company": "OpenAI",
       "tags": [
-        "Software Engineering"
+        "Cybersecurity"
       ],
-      "url": "https://jobicy.com/jobs/151129-senior-applied-ai-engineer",
-      "date": "2026-08-19T14:49:00+00:00",
-      "desc": "About Pleo Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance t",
-      "raw_desc": "About Pleo Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance teams and employees alike - with a vision to help all businesses \u2018go beyond\u2019.&hellip;",
+      "url": "https://jobicy.com/jobs/151224-software-engineer-security-observability",
+      "date": "2026-08-20T14:33:39+00:00",
+      "desc": "About the Team Security is at the foundation of OpenAI\u2019s mission to ensure that artificial general intelligence benefits all of humanity. The Security team protects OpenAI\u2019s technology, people, and products. We are technical in what we build but are operational in how we do our w",
+      "raw_desc": "About the Team Security is at the foundation of OpenAI\u2019s mission to ensure that artificial general intelligence benefits all of humanity. The Security team protects OpenAI\u2019s technology, people, and products. We are technical in what we build but are operational in how we do our work, and are committed to supporting all products and research&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 2,
       "category": "pipeline",
-      "slug": "senior-applied-ai-engineer-pleo",
-      "id": "job-002-senior-applied-ai-engineer-pleo"
+      "slug": "software-engineer-security-observability-openai",
+      "id": "job-002-software-engineer-security-observability-openai"
     },
     {
-      "title": "Sr. Software Engineer",
-      "company": "Socket",
+      "title": "Mortgage Sales Recruiter",
+      "company": "RenoFi",
       "tags": [
-        "Software Engineering"
+        "HR &amp; Recruiting"
       ],
-      "url": "https://jobicy.com/jobs/151128-sr-software-engineer",
-      "date": "2026-08-19T14:48:58+00:00",
-      "desc": "About Us Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers - from Anthropic to xAI, and Figma to Vercel - love Socket (just check out their tweets to se",
-      "raw_desc": "About Us Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers - from Anthropic to xAI, and Figma to Vercel - love Socket (just check out their tweets to see for yourself!) Founded by Feross&hellip;",
+      "url": "https://jobicy.com/jobs/151222-mortgage-sales-recruiter",
+      "date": "2026-08-20T14:32:58+00:00",
+      "desc": "RenoFi is hiring a recruiter to join our fast-growing, early-stage startup. As a sales-focused recruiter, you will be responsible for recruiting Senior Loan Officers with a proven track record of self-sourcing leads. Senior Loan Officers are able to offer the full range of RenoFi",
+      "raw_desc": "RenoFi is hiring a recruiter to join our fast-growing, early-stage startup. As a sales-focused recruiter, you will be responsible for recruiting Senior Loan Officers with a proven track record of self-sourcing leads. Senior Loan Officers are able to offer the full range of RenoFi\u2019s loan product suite, including RenoFi\u2019s exclusive home equity renovation loans. WHAT&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 3,
-      "category": "auditor",
-      "slug": "sr-software-engineer-socket",
-      "id": "job-003-sr-software-engineer-socket"
+      "category": "pipeline",
+      "slug": "mortgage-sales-recruiter-renofi",
+      "id": "job-003-mortgage-sales-recruiter-renofi"
     },
     {
-      "title": "Medical Director, Child and Adolescent Psychiatrist",
-      "company": "Brightline",
+      "title": "Senior Technical Program Manager - Security",
+      "company": "OpenAI",
       "tags": [
-        "Healthcare &amp; Medical"
+        "Cybersecurity"
       ],
-      "url": "https://jobicy.com/jobs/151127-medical-director-child-and-adolescent-psychiatrist",
-      "date": "2026-08-19T14:48:56+00:00",
-      "desc": "Medical Director (Child and Adolescent Psychiatrist - Remote) We are searching for a board-certified Child and Adolescent Psychiatrist to serve as Medical Director of our psychiatry service line. Reporting directly to the Chief Medical Officer (CMO), you will own the clinical arc",
-      "raw_desc": "Medical Director (Child and Adolescent Psychiatrist - Remote) We are searching for a board-certified Child and Adolescent Psychiatrist to serve as Medical Director of our psychiatry service line. Reporting directly to the Chief Medical Officer (CMO), you will own the clinical architecture of psychiatry at Brightline \u2014 ensuring excellence in care quality, provider development, regulatory&hellip;",
+      "url": "https://jobicy.com/jobs/151221-senior-technical-program-manager-security",
+      "date": "2026-08-20T14:32:41+00:00",
+      "desc": "About the Team OpenAI builds powerful AI systems like ChatGPT, the OpenAI API, and enterprise products that serve millions of users across the globe. As we scale, securing our infrastructure, protecting sensitive data, and meeting global compliance standards are essential to our ",
+      "raw_desc": "About the Team OpenAI builds powerful AI systems like ChatGPT, the OpenAI API, and enterprise products that serve millions of users across the globe. As we scale, securing our infrastructure, protecting sensitive data, and meeting global compliance standards are essential to our success and societal impact. Security at OpenAI is a cross-cutting function that spans&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 4,
-      "category": "pipeline",
-      "slug": "medical-director-child-and-adolescent-psychiatrist-brightline",
-      "id": "job-004-medical-director-child-and-adolescent-psychiatrist-brightline"
+      "category": "auditor",
+      "slug": "senior-technical-program-manager-security-openai",
+      "id": "job-004-senior-technical-program-manager-security-openai"
     },
     {
-      "title": "Senior Loan Fulfillment Specialist",
-      "company": "Happy Money",
+      "title": "Account Executive (Enterprise - Brands/Retail), Corporate",
+      "company": "YipitData",
       "tags": [
-        "Finance &amp; Accounting"
+        "Sales"
       ],
-      "url": "https://jobicy.com/jobs/151126-senior-loan-fulfillment-specialist",
-      "date": "2026-08-19T14:48:54+00:00",
-      "desc": "ABOUT HAPPY MONEY Happy Money is a consumer finance company that empowers people to achieve their goals through simple, transparent loans funded by trusted financial institutions. Through its proprietary lending platform, Hive, Happy Money delivers a fully digital experience that",
-      "raw_desc": "ABOUT HAPPY MONEY Happy Money is a consumer finance company that empowers people to achieve their goals through simple, transparent loans funded by trusted financial institutions. Through its proprietary lending platform, Hive, Happy Money delivers a fully digital experience that simplifies borrowing for consumers and helps credit unions, banks and asset managers diversify balance sheets&hellip;",
+      "url": "https://jobicy.com/jobs/151220-account-executive-enterprise-brands-retail-corporate",
+      "date": "2026-08-20T14:32:23+00:00",
+      "desc": "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and recently raised up to $475M from The Carlyle Group at a valuation over $1B. We analyze billions of alternative data points every day to provide accurate, detailed insights on ride",
+      "raw_desc": "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and recently raised up to $475M from The Carlyle Group at a valuation over $1B. We analyze billions of alternative data points every day to provide accurate, detailed insights on ridesharing, e-commerce marketplaces, payments, and more. Our on-demand insights team&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 5,
       "category": "pipeline",
-      "slug": "senior-loan-fulfillment-specialist-happy-money",
-      "id": "job-005-senior-loan-fulfillment-specialist-happy-money"
+      "slug": "account-executive-enterprise-brands-retail-corporate-yipitdata",
+      "id": "job-005-account-executive-enterprise-brands-retail-corporate-yipitdata"
     },
     {
-      "title": "Head of Supply, Operations",
-      "company": "GOAT Group",
+      "title": "Mortgage Processor",
+      "company": "RenoFi",
       "tags": [
-        "Product &amp; Operations"
+        "Finance &amp; Accounting"
       ],
-      "url": "https://jobicy.com/jobs/151125-head-of-supply-operations",
-      "date": "2026-08-19T14:48:52+00:00",
-      "desc": "About the Team At GOAT Group, the Business Development team is central to the strategic growth of our company. Composed of individual teams that handle Strategy, New Business Initiatives, Partnerships and Account Management, the department leads a global supply-focused initiative",
-      "raw_desc": "About the Team At GOAT Group, the Business Development team is central to the strategic growth of our company. Composed of individual teams that handle Strategy, New Business Initiatives, Partnerships and Account Management, the department leads a global supply-focused initiative that works with brand partners, retailers and power sellers to secure new inventory and widen&hellip;",
+      "url": "https://jobicy.com/jobs/151218-mortgage-processor",
+      "date": "2026-08-20T14:31:45+00:00",
+      "desc": "Mortgage Processor \u2014 RenoFi RenoFi is transforming the way homeowners finance their renovations while continuing to serve traditional mortgage demand. We are building the nation\u2019s leading renovation lending platform, empowering homeowners to tap into their future home value, not ",
+      "raw_desc": "Mortgage Processor \u2014 RenoFi RenoFi is transforming the way homeowners finance their renovations while continuing to serve traditional mortgage demand. We are building the nation\u2019s leading renovation lending platform, empowering homeowners to tap into their future home value, not just the equity they already have.The future of mortgage operations isn\u2019t just about moving files, it\u2019s&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 6,
       "category": "pipeline",
-      "slug": "head-of-supply-operations-goat-group",
-      "id": "job-006-head-of-supply-operations-goat-group"
+      "slug": "mortgage-processor-renofi",
+      "id": "job-006-mortgage-processor-renofi"
     },
     {
-      "title": "Senior Software Engineer (SmartCard Development)",
-      "company": "emnify",
+      "title": "Director, Government Partnership Development",
+      "company": "Ginkgo Bioworks, Inc.",
       "tags": [
-        "Software Engineering"
+        "Business Development"
       ],
-      "url": "https://jobicy.com/jobs/151124-senior-software-engineer-smartcard-development",
-      "date": "2026-08-19T14:48:50+00:00",
-      "desc": "1",
-      "raw_desc": "1",
+      "url": "https://jobicy.com/jobs/151217-director-government-partnership-development",
+      "date": "2026-08-20T14:31:26+00:00",
+      "desc": "Our mission is to make biology easier to engineer. Ginkgo is constructing, editing, and redesigning the living world in order to answer the globe\u2019s growing challenges in health, energy, food, materials, and more. Our bioengineers make use of an in-house automated foundry for desi",
+      "raw_desc": "Our mission is to make biology easier to engineer. Ginkgo is constructing, editing, and redesigning the living world in order to answer the globe\u2019s growing challenges in health, energy, food, materials, and more. Our bioengineers make use of an in-house automated foundry for designing and building new organisms. Ginkgo Bioworks is a publicly-traded biotech company&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 7,
       "category": "pipeline",
-      "slug": "senior-software-engineer-smartcard-development-emnify",
-      "id": "job-007-senior-software-engineer-smartcard-development-emnify"
+      "slug": "director-government-partnership-development-ginkgo-bioworks-inc",
+      "id": "job-007-director-government-partnership-development-ginkgo-bioworks-inc"
     },
     {
-      "title": "General Manager - North America",
-      "company": "Emplifi",
-      "tags": [
-        "Sales"
-      ],
-      "url": "https://jobicy.com/jobs/151123-general-manager-north-america",
-      "date": "2026-08-19T14:48:49+00:00",
-      "desc": "About Emplifi Emplifi is the only Autonomous CX platform unifying social marketing, commerce, and customer care for more than 20,000 brands worldwide. Powered by Fuel AI, built on more than 5T of data, and recognized as a leader by leading industry analysts, Emplifi helps enterpr",
-      "raw_desc": "About Emplifi Emplifi is the only Autonomous CX platform unifying social marketing, commerce, and customer care for more than 20,000 brands worldwide. Powered by Fuel AI, built on more than 5T of data, and recognized as a leader by leading industry analysts, Emplifi helps enterprise teams orchestrate connected customer journeys and deliver personalized experiences at&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 8,
-      "category": "quality",
-      "slug": "general-manager-north-america-emplifi",
-      "id": "job-008-general-manager-north-america-emplifi"
-    },
-    {
-      "title": "Merchandising Operations Manager",
-      "company": "Grove Collaborative",
+      "title": "Clean Energy and New Technology Lead",
+      "company": "OpenAI",
       "tags": [
         "Product &amp; Operations"
       ],
-      "url": "https://jobicy.com/jobs/151122-merchandising-operations-manager",
-      "date": "2026-08-19T14:48:47+00:00",
-      "desc": "Grove Collaborative is a sustainability-focused consumer products company creating household and personal care essentials that are effective, beautifully designed, and healthier for people and the planet. We are a certified B Corp, plastic-neutral, and on a mission to transform t",
-      "raw_desc": "Grove Collaborative is a sustainability-focused consumer products company creating household and personal care essentials that are effective, beautifully designed, and healthier for people and the planet. We are a certified B Corp, plastic-neutral, and on a mission to transform the CPG industry for good. Merchandising Operations Manager Grove's merchandising operation is full of good instincts&hellip;",
+      "url": "https://jobicy.com/jobs/151216-clean-energy-and-new-technology-lead",
+      "date": "2026-08-20T14:31:02+00:00",
+      "desc": "About the Team OpenAI, in close collaboration with our capital partners, is embarking on a journey to build the world\u2019s most advanced AI infrastructure ecosystem. The Industrial Compute team is central to this mission, setting the core infra strategy and implementing this vision.",
+      "raw_desc": "About the Team OpenAI, in close collaboration with our capital partners, is embarking on a journey to build the world\u2019s most advanced AI infrastructure ecosystem. The Industrial Compute team is central to this mission, setting the core infra strategy and implementing this vision. From site selection to the buildout process, this team sits at the&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 8,
+      "category": "pipeline",
+      "slug": "clean-energy-and-new-technology-lead-openai",
+      "id": "job-008-clean-energy-and-new-technology-lead-openai"
+    },
+    {
+      "title": "Marketing Project Manager - 13 Month Contract",
+      "company": "Thinkific",
+      "tags": [
+        "Project &amp; Program Management"
+      ],
+      "url": "https://jobicy.com/jobs/151215-marketing-project-manager-13-month-contract",
+      "date": "2026-08-20T14:27:08+00:00",
+      "desc": "Who we are \u2b07\ufe0f Thinkific is an award-winning learning commerce platform built for scale. By bringing together community, courses, and content with commerce, we power transformative learning experiences and give businesses everything they need to grow their revenue\u2014 all from one AI",
+      "raw_desc": "Who we are \u2b07\ufe0f Thinkific is an award-winning learning commerce platform built for scale. By bringing together community, courses, and content with commerce, we power transformative learning experiences and give businesses everything they need to grow their revenue\u2014 all from one AI-powered platform. We\u2019re a team of 300+ Thinkers building products that matter. Every role&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 9,
       "category": "pipeline",
-      "slug": "merchandising-operations-manager-grove-collaborative",
-      "id": "job-009-merchandising-operations-manager-grove-collaborative"
+      "slug": "marketing-project-manager-13-month-contract-thinkific",
+      "id": "job-009-marketing-project-manager-13-month-contract-thinkific"
     },
     {
-      "title": "Engineering Manager - Employee Spend",
-      "company": "Pleo",
+      "title": "AI Video Creative",
+      "company": "Superside",
       "tags": [
-        "Software Engineering"
+        "Creative &amp; Design"
       ],
-      "url": "https://jobicy.com/jobs/151121-engineering-manager-employee-spend",
-      "date": "2026-08-19T14:48:45+00:00",
-      "desc": "About Pleo Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance t",
-      "raw_desc": "About Pleo Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance teams and employees alike - with a vision to help all businesses \u2018go beyond\u2019.&hellip;",
+      "url": "https://jobicy.com/jobs/151214-ai-video-creative",
+      "date": "2026-08-20T14:26:48+00:00",
+      "desc": "What You'll Do Create high-quality video content using a combination of AI tools and traditional video workflows. Generate and refine video concepts using AI tools (e.g., video generation, image-to-video, compositing, editing). Apply principles of cinematography, storytelling, pa",
+      "raw_desc": "What You'll Do Create high-quality video content using a combination of AI tools and traditional video workflows. Generate and refine video concepts using AI tools (e.g., video generation, image-to-video, compositing, editing). Apply principles of cinematography, storytelling, pacing, and editing to elevate AI-generated content. Experiment with new AI workflows to enhance quality, consistency, and creative expression.&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 10,
-      "category": "pipeline",
-      "slug": "engineering-manager-employee-spend-pleo",
-      "id": "job-010-engineering-manager-employee-spend-pleo"
+      "category": "quality",
+      "slug": "ai-video-creative-superside",
+      "id": "job-010-ai-video-creative-superside"
     },
     {
-      "title": "Enterprise Account Executive",
-      "company": "Socket",
+      "title": "Lead Data Analyst, Product Analytics",
+      "company": "Updater",
       "tags": [
-        "Sales"
+        "Data Science &amp; Analytics"
       ],
-      "url": "https://jobicy.com/jobs/151120-enterprise-account-executive-9",
-      "date": "2026-08-19T14:48:42+00:00",
-      "desc": "About Us Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers - from Anthropic to xAI, and Figma to Vercel - love Socket (just check out their tweets to se",
-      "raw_desc": "About Us Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers - from Anthropic to xAI, and Figma to Vercel - love Socket (just check out their tweets to see for yourself!) Founded by Feross&hellip;",
+      "url": "https://jobicy.com/jobs/151213-lead-data-analyst-product-analytics",
+      "date": "2026-08-20T14:26:29+00:00",
+      "desc": "View All Jobs Do you love turning messy behavioral data into the \"aha\" that changes a product roadmap? Do you want your dashboards to be the first thing product leaders open in the morning \u2014 and your analyses to inform what gets built next? If so, we want to talk to you! About th",
+      "raw_desc": "View All Jobs Do you love turning messy behavioral data into the \"aha\" that changes a product roadmap? Do you want your dashboards to be the first thing product leaders open in the morning \u2014 and your analyses to inform what gets built next? If so, we want to talk to you! About the Role&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 11,
-      "category": "auditor",
-      "slug": "enterprise-account-executive-socket",
-      "id": "job-011-enterprise-account-executive-socket"
+      "category": "quality",
+      "slug": "lead-data-analyst-product-analytics-updater",
+      "id": "job-011-lead-data-analyst-product-analytics-updater"
     },
     {
-      "title": "Full Stack Ruby on Rails Software Engineer (Principal - Remote)",
-      "company": "Brightline",
+      "title": "Product Support Specialist",
+      "company": "Thinkific",
       "tags": [
-        "Software Engineering"
+        "Technical Support"
       ],
-      "url": "https://jobicy.com/jobs/151119-full-stack-ruby-on-rails-software-engineer-principal-remote",
-      "date": "2026-08-19T14:48:40+00:00",
-      "desc": "Welcome to Brightline! We are seeking a Full Stack Ruby on Rails Principal Software Engineer to drive technical direction across our platform, deepen our domain expertise in healthcare workflows, and raise the bar for the entire engineering team. We are primarily a Ruby on Rails ",
-      "raw_desc": "Welcome to Brightline! We are seeking a Full Stack Ruby on Rails Principal Software Engineer to drive technical direction across our platform, deepen our domain expertise in healthcare workflows, and raise the bar for the entire engineering team. We are primarily a Ruby on Rails shop and we are bought into keeping our tech stack&hellip;",
+      "url": "https://jobicy.com/jobs/151212-product-support-specialist",
+      "date": "2026-08-20T14:26:05+00:00",
+      "desc": "Who we are \u2b07\ufe0f Thinkific is an award-winning learning commerce platform built for scale. By bringing together community, courses, and content with commerce, we power transformative learning experiences and give businesses everything they need to grow their revenue\u2014 all from one AI",
+      "raw_desc": "Who we are \u2b07\ufe0f Thinkific is an award-winning learning commerce platform built for scale. By bringing together community, courses, and content with commerce, we power transformative learning experiences and give businesses everything they need to grow their revenue\u2014 all from one AI-powered platform. We\u2019re a team of 300+ Thinkers building products that matter. Every role&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 12,
       "category": "pipeline",
-      "slug": "full-stack-ruby-on-rails-software-engineer-principal-remote-brightline",
-      "id": "job-012-full-stack-ruby-on-rails-software-engineer-principal-remote-brightline"
+      "slug": "product-support-specialist-thinkific",
+      "id": "job-012-product-support-specialist-thinkific"
     },
     {
-      "title": "Head of Acquisition Marketing",
-      "company": "Happy Money",
+      "title": "AI Lead Creative",
+      "company": "Superside",
       "tags": [
-        "Marketing &amp; Sales"
+        "Creative &amp; Design"
       ],
-      "url": "https://jobicy.com/jobs/151118-head-of-acquisition-marketing",
-      "date": "2026-08-19T14:48:38+00:00",
-      "desc": "ABOUT HAPPY MONEY Happy Money is a consumer finance company that empowers people to achieve their goals through simple, transparent loans funded by trusted financial institutions. Through its proprietary lending platform, Hive, Happy Money delivers a fully digital experience that",
-      "raw_desc": "ABOUT HAPPY MONEY Happy Money is a consumer finance company that empowers people to achieve their goals through simple, transparent loans funded by trusted financial institutions. Through its proprietary lending platform, Hive, Happy Money delivers a fully digital experience that simplifies borrowing for consumers and helps credit unions, banks and asset managers diversify balance sheets&hellip;",
+      "url": "https://jobicy.com/jobs/151211-ai-lead-creative",
+      "date": "2026-08-20T14:25:43+00:00",
+      "desc": "Superside is looking for a Lead Creative with a passion for Generative AI to shape creative excellence across branding, landing pages, ads, social, print, and presentations. You\u2019ll guide a global team of top-tier creatives, combining strategic leadership with hands-on craft to de",
+      "raw_desc": "Superside is looking for a Lead Creative with a passion for Generative AI to shape creative excellence across branding, landing pages, ads, social, print, and presentations. You\u2019ll guide a global team of top-tier creatives, combining strategic leadership with hands-on craft to deliver human-centered, high-impact work for leading brands worldwide. This role sits at the intersection&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 13,
       "category": "pipeline",
-      "slug": "head-of-acquisition-marketing-happy-money",
-      "id": "job-013-head-of-acquisition-marketing-happy-money"
+      "slug": "ai-lead-creative-superside",
+      "id": "job-013-ai-lead-creative-superside"
     },
     {
-      "title": "Digital Authentication Associate",
-      "company": "GOAT Group",
+      "title": "Director, Corporate Development",
+      "company": "Updater",
       "tags": [
-        "QA &amp; Testing"
+        "Finance &amp; Accounting"
       ],
-      "url": "https://jobicy.com/jobs/151117-digital-authentication-associate",
-      "date": "2026-08-19T14:48:36+00:00",
-      "desc": "About the Team At GOAT Group, our Authentication Operations team is essential in educating, training and supporting the Authenticators in physical and digital operations. With the partnership of the operations and retail leaders they focus on ensuring we are creating the best-in-",
-      "raw_desc": "About the Team At GOAT Group, our Authentication Operations team is essential in educating, training and supporting the Authenticators in physical and digital operations. With the partnership of the operations and retail leaders they focus on ensuring we are creating the best-in-class authenticators by providing them the tools and training they need to verify every&hellip;",
+      "url": "https://jobicy.com/jobs/151210-director-corporate-development",
+      "date": "2026-08-20T14:25:26+00:00",
+      "desc": "View All Jobs About the Role Updater is seeking an ambitious, strategic, and results-driven leader to spearhead our corporate development and growth agenda. In this role, you will source and evaluate opportunities that fuel Updater\u2019s next stage of growth - including acquisitions,",
+      "raw_desc": "View All Jobs About the Role Updater is seeking an ambitious, strategic, and results-driven leader to spearhead our corporate development and growth agenda. In this role, you will source and evaluate opportunities that fuel Updater\u2019s next stage of growth - including acquisitions, strategic partnerships, and initiatives that expand or enhance existing business lines. You will&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 14,
-      "category": "quality",
-      "slug": "digital-authentication-associate-goat-group",
-      "id": "job-014-digital-authentication-associate-goat-group"
+      "category": "auditor",
+      "slug": "director-corporate-development-updater",
+      "id": "job-014-director-corporate-development-updater"
     },
     {
-      "title": "Senior Account Executive (US, West Coast)",
-      "company": "emnify",
+      "title": "Chief Marketing Officer",
+      "company": "Testlio",
       "tags": [
-        "Sales"
+        "Marketing &amp; Sales"
       ],
-      "url": "https://jobicy.com/jobs/151116-senior-account-executive-us-west-coast",
-      "date": "2026-08-19T14:48:34+00:00",
-      "desc": "Senior Account Executive \u2014 West Coast (Remote, US) About emnify emnify is a leading cloud-native IoT connectivity provider helping businesses connect and manage devices globally through a single, modern platform. Our technology powers connected products across industries includin",
-      "raw_desc": "Senior Account Executive \u2014 West Coast (Remote, US) About emnify emnify is a leading cloud-native IoT connectivity provider helping businesses connect and manage devices globally through a single, modern platform. Our technology powers connected products across industries including mobility, logistics, energy, healthcare, and security \u2014 enabling enterprises to scale IoT faster, more securely, and with&hellip;",
+      "url": "https://jobicy.com/jobs/151209-chief-marketing-officer",
+      "date": "2026-08-20T14:25:09+00:00",
+      "desc": "Chief Marketing Officer (CMO) Location: REMOTE in the United States or Canada About the job Testlio\u2019s fully managed crowdsourced testing platform, powered by our proprietary intelligence technology - LeoAI Engine\u2122, integrates expert, on-demand testers directly into your release p",
+      "raw_desc": "Chief Marketing Officer (CMO) Location: REMOTE in the United States or Canada About the job Testlio\u2019s fully managed crowdsourced testing platform, powered by our proprietary intelligence technology - LeoAI Engine\u2122, integrates expert, on-demand testers directly into your release process. Ship faster and more confidently with global coverage across 600,000+ devices, 800+ payment methods, 150+ countries,&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 15,
-      "category": "pipeline",
-      "slug": "senior-account-executive-us-west-coast-emnify",
-      "id": "job-015-senior-account-executive-us-west-coast-emnify"
+      "category": "quality",
+      "slug": "chief-marketing-officer-testlio",
+      "id": "job-015-chief-marketing-officer-testlio"
     },
     {
-      "title": "Legal Operations Coordinator",
-      "company": "Grove Collaborative",
-      "tags": [
-        "Legal &amp; Compliance"
-      ],
-      "url": "https://jobicy.com/jobs/151115-legal-operations-coordinator",
-      "date": "2026-08-19T14:48:32+00:00",
-      "desc": "Grove Collaborative is a sustainability-focused consumer products company creating household and personal care essentials that are effective, beautifully designed, and healthier for people and the planet. We are a certified B Corp, plastic-neutral, and on a mission to transform t",
-      "raw_desc": "Grove Collaborative is a sustainability-focused consumer products company creating household and personal care essentials that are effective, beautifully designed, and healthier for people and the planet. We are a certified B Corp, plastic-neutral, and on a mission to transform the CPG industry for good. Temporary Contract for Parental Leave Coverage | September 2026 \u2013 January&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 16,
-      "category": "auditor",
-      "slug": "legal-operations-coordinator-grove-collaborative",
-      "id": "job-016-legal-operations-coordinator-grove-collaborative"
-    },
-    {
-      "title": "Scientific Engagement",
-      "company": "Ataraxis AI",
+      "title": "Sales Development Representative",
+      "company": "Thinkific",
       "tags": [
         "Sales"
       ],
-      "url": "https://jobicy.com/jobs/151114-scientific-engagement",
-      "date": "2026-08-19T14:48:30+00:00",
-      "desc": "About Ataraxis AI Ataraxis is a clinical AI research lab working at the intersection of multi-modal AI and precision medicine. Our goal is to make disease predictable. To accomplish this, we develop new AI methods that predict patient outcomes and treatment response, and build cl",
-      "raw_desc": "About Ataraxis AI Ataraxis is a clinical AI research lab working at the intersection of multi-modal AI and precision medicine. Our goal is to make disease predictable. To accomplish this, we develop new AI methods that predict patient outcomes and treatment response, and build clinical tools to assist physicians in selecting the most optimal treatments&hellip;",
+      "url": "https://jobicy.com/jobs/151208-sales-development-representative-3",
+      "date": "2026-08-20T14:24:52+00:00",
+      "desc": "Who we are \u2b07\ufe0f Thinkific is an award-winning learning commerce platform built for scale. By bringing together community, courses, and content with commerce, we power transformative learning experiences and give businesses everything they need to grow their revenue\u2014 all from one AI",
+      "raw_desc": "Who we are \u2b07\ufe0f Thinkific is an award-winning learning commerce platform built for scale. By bringing together community, courses, and content with commerce, we power transformative learning experiences and give businesses everything they need to grow their revenue\u2014 all from one AI-powered platform. We\u2019re a team of 300+ Thinkers building products that matter. Every role&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 16,
+      "category": "pipeline",
+      "slug": "sales-development-representative-thinkific",
+      "id": "job-016-sales-development-representative-thinkific"
+    },
+    {
+      "title": "AI Creative Director / AI Associate Creative Director",
+      "company": "Superside",
+      "tags": [
+        "Creative &amp; Design"
+      ],
+      "url": "https://jobicy.com/jobs/151207-ai-creative-director-ai-associate-creative-director",
+      "date": "2026-08-20T14:24:30+00:00",
+      "desc": "Superside is seeking visionary AI Creative Directors/Associate Creative Directors to guide a globally distributed team across branding, ad and social creative, presentations, print, and landing pages. In this high-impact role, you\u2019ll shape the future of AI-enhanced creativity by ",
+      "raw_desc": "Superside is seeking visionary AI Creative Directors/Associate Creative Directors to guide a globally distributed team across branding, ad and social creative, presentations, print, and landing pages. In this high-impact role, you\u2019ll shape the future of AI-enhanced creativity by integrating generative tools into our design workflows, elevating both quality and efficiency. You\u2019ll lead by example as&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 17,
       "category": "pipeline",
-      "slug": "scientific-engagement-ataraxis-ai",
-      "id": "job-017-scientific-engagement-ataraxis-ai"
+      "slug": "ai-creative-director-ai-associate-creative-director-superside",
+      "id": "job-017-ai-creative-director-ai-associate-creative-director-superside"
     },
     {
-      "title": "Senior Sales Engineer - Enterprise (Fluent Spanish Speaking)",
-      "company": "Amplitude",
+      "title": "Fraud Ops Specialist",
+      "company": "Imprint",
       "tags": [
-        "Sales"
+        "Finance &amp; Accounting"
       ],
-      "url": "https://jobicy.com/jobs/151113-senior-sales-engineer-enterprise-fluent-spanish-speaking",
-      "date": "2026-08-19T14:48:28+00:00",
-      "desc": "About the Role FLUENT ENGLISH &amp; SPANISH SPEAKING IS A REQUIREMENT / MUST As a Senior Sales Engineer, Enterprise at Amplitude, you'll be the technical quarterback for our most strategic opportunities in the southwest region. You'll partner with Account Executives to win comple",
-      "raw_desc": "About the Role FLUENT ENGLISH &amp; SPANISH SPEAKING IS A REQUIREMENT / MUST As a Senior Sales Engineer, Enterprise at Amplitude, you'll be the technical quarterback for our most strategic opportunities in the southwest region. You'll partner with Account Executives to win complex, multi-stakeholder deals by translating product capabilities into business outcomes that matter to&hellip;",
+      "url": "https://jobicy.com/jobs/151202-fraud-ops-specialist",
+      "date": "2026-08-20T12:04:32+00:00",
+      "desc": "Who We Are Imprint helps the world's best brands grow the lifetime value of their customers. We started with co-branded credit cards and rebuilt them to be smarter, more rewarding, and brand-first. We partner with companies like Crate &amp; Barrel, Rakuten, Booking.com, H-E-B, Fe",
+      "raw_desc": "Who We Are Imprint helps the world's best brands grow the lifetime value of their customers. We started with co-branded credit cards and rebuilt them to be smarter, more rewarding, and brand-first. We partner with companies like Crate &amp; Barrel, Rakuten, Booking.com, H-E-B, Fetch, and Shell to launch modern credit programs that deepen loyalty, unlock&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 18,
       "category": "pipeline",
-      "slug": "senior-sales-engineer-enterprise-fluent-spanish-speaking-amplitude",
-      "id": "job-018-senior-sales-engineer-enterprise-fluent-spanish-speaking-amplitude"
+      "slug": "fraud-ops-specialist-imprint",
+      "id": "job-018-fraud-ops-specialist-imprint"
     },
     {
-      "title": "Staff Analytics Engineer",
-      "company": "Pleo",
+      "title": "Commercial Insurance Specialist",
+      "company": "Fresh Prints",
       "tags": [
-        "Data Science &amp; Analytics"
+        "Product &amp; Operations"
       ],
-      "url": "https://jobicy.com/jobs/151112-staff-analytics-engineer",
-      "date": "2026-08-19T14:48:26+00:00",
-      "desc": "About Pleo Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance t",
-      "raw_desc": "About Pleo Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance teams and employees alike - with a vision to help all businesses \u2018go beyond\u2019.&hellip;",
+      "url": "https://jobicy.com/jobs/151201-commercial-insurance-specialist",
+      "date": "2026-08-20T12:04:15+00:00",
+      "desc": "About Frontier Frontier is a subsidiary of Fresh Prints. Fresh Prints is a New York-based, fast-growing, fully remote, 150-person company with most of our team based in India and the Philippines. A few years ago, Fresh Prints began helping other fast-growing companies build their",
+      "raw_desc": "About Frontier Frontier is a subsidiary of Fresh Prints. Fresh Prints is a New York-based, fast-growing, fully remote, 150-person company with most of our team based in India and the Philippines. A few years ago, Fresh Prints began helping other fast-growing companies build their teams. We got so good at it that we spun out&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 19,
       "category": "pipeline",
-      "slug": "staff-analytics-engineer-pleo",
-      "id": "job-019-staff-analytics-engineer-pleo"
+      "slug": "commercial-insurance-specialist-fresh-prints",
+      "id": "job-019-commercial-insurance-specialist-fresh-prints"
     },
     {
-      "title": "Customer & Field Marketing Manager - US Remote",
-      "company": "PerfectServe",
+      "title": "Business Development Representative",
+      "company": "League",
       "tags": [
-        "Marketing &amp; Sales"
+        "Business Development"
       ],
-      "url": "https://jobicy.com/jobs/151087-customer-field-marketing-manager-us-remote",
-      "date": "2026-08-19T07:01:03+00:00",
-      "desc": "What is PerfectServe? PerfectServe is a leading provider of clinical communication and physician scheduling solutions in the health IT space. The company was founded in 1997 and has grown steadily since then, with a notable jump after several major acquisitions were announced in ",
-      "raw_desc": "What is PerfectServe?\u00a0 PerfectServe is a leading provider of clinical communication and physician scheduling solutions in the health IT space. The company was founded in 1997 and has grown steadily since then, with a notable jump after several major acquisitions were announced in 2019. PerfectServe now has 400+ employees, 30,000+ customers \u2014 spanning medical practices,&hellip;",
+      "url": "https://jobicy.com/jobs/151200-business-development-representative-7",
+      "date": "2026-08-20T12:03:58+00:00",
+      "desc": "About League League is one of the fastest-growing technology companies in Canada and the leading healthcare experience platform. Getting healthcare is often the easy part \u2014 finishing it is where things fall apart: people book the appointment and skip the follow-up, fill the presc",
+      "raw_desc": "About League League is one of the fastest-growing technology companies in Canada and the leading healthcare experience platform. Getting healthcare is often the easy part \u2014 finishing it is where things fall apart: people book the appointment and skip the follow-up, fill the prescription and stop taking it, get the referral and never make the&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 20,
-      "category": "pipeline",
-      "slug": "customer-field-marketing-manager-us-remote-perfectserve",
-      "id": "job-020-customer-field-marketing-manager-us-remote-perfectserve"
+      "category": "quality",
+      "slug": "business-development-representative-league",
+      "id": "job-020-business-development-representative-league"
     },
     {
-      "title": "Digital Customer Success Campaign Manager",
-      "company": "1Password",
+      "title": "Business Development Manager - Toulouse",
+      "company": "Deliveroo",
       "tags": [
-        "Customer Support &amp; Success"
+        "Business Development"
       ],
-      "url": "https://jobicy.com/jobs/151086-digital-customer-success-campaign-manager",
-      "date": "2026-08-19T07:01:01+00:00",
-      "desc": "1Password is growing. We\u2019ve surpassed $400M in ARR and we\u2019re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing.About 1PasswordAt 1Password, we\u2019re building the foundation for a s",
-      "raw_desc": "1Password is growing. We\u2019ve surpassed $400M in ARR and we\u2019re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing.About 1PasswordAt 1Password, we\u2019re building the foundation for a safe, productive digital future. Our mission is to unleash&hellip;",
+      "url": "https://jobicy.com/jobs/151199-business-development-manager-toulouse",
+      "date": "2026-08-20T12:03:40+00:00",
+      "desc": "Pourquoi Deliveroo ? Nous transformons la fa\u00e7on dont le monde mange et fait ses courses en rendant leur acc\u00e8s plus pratique et agr\u00e9able. Nous connectons les consommateurs, les restaurants, les magasins et les cyclistes. Nous donnons \u00e0 chaque personne la possibilit\u00e9 d'acheter ce q",
+      "raw_desc": "Pourquoi Deliveroo ? Nous transformons la fa\u00e7on dont le monde mange et fait ses courses en rendant leur acc\u00e8s plus pratique et agr\u00e9able. Nous connectons les consommateurs, les restaurants, les magasins et les cyclistes. Nous donnons \u00e0 chaque personne la possibilit\u00e9 d'acheter ce qu'elles veulent, comme elles le veulent, quand elles le veulent et o\u00f9&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 21,
       "category": "pipeline",
-      "slug": "digital-customer-success-campaign-manager-1password",
-      "id": "job-021-digital-customer-success-campaign-manager-1password"
+      "slug": "business-development-manager-toulouse-deliveroo",
+      "id": "job-021-business-development-manager-toulouse-deliveroo"
     },
     {
-      "title": "Customer Support Specialist",
-      "company": "Boulevard",
+      "title": "Account Executive, DACH",
+      "company": "LastPass",
       "tags": [
-        "Customer Support &amp; Success"
+        "Sales"
       ],
-      "url": "https://jobicy.com/jobs/151085-customer-support-specialist-4",
-      "date": "2026-08-19T07:00:59+00:00",
-      "desc": "Who is Boulevard? Boulevard provides the first and only client experience platform for appointment-based, self-care businesses. We empower our customers to give their clients more of the magical moments that matter most. Before launching in 2016, our founders spent months intervi",
-      "raw_desc": "Who is Boulevard? Boulevard provides the first and only client experience platform for appointment-based, self-care businesses. We empower our customers to give their clients more of the magical moments that matter most. Before launching in 2016, our founders spent months interviewing salon managers and working behind front desks to understand their pain points so we&hellip;",
+      "url": "https://jobicy.com/jobs/151198-account-executive-dach-2",
+      "date": "2026-08-20T12:03:22+00:00",
+      "desc": "About LastPassLastPass delivers Secure Access Essentials, helping individuals and organizations manage and protect access to AI, applications, and credentials straight from the browser. Trusted by more than 100,000 businesses and millions of users worldwide, LastPass blends stron",
+      "raw_desc": "About LastPassLastPass delivers Secure Access Essentials, helping individuals and organizations manage and protect access to AI, applications, and credentials straight from the browser. Trusted by more than 100,000 businesses and millions of users worldwide, LastPass blends strong security with everyday simplicity. From discovering unapproved AI and applications to reducing login friction and securing credentials across&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 22,
       "category": "pipeline",
-      "slug": "customer-support-specialist-boulevard",
-      "id": "job-022-customer-support-specialist-boulevard"
+      "slug": "account-executive-dach-lastpass",
+      "id": "job-022-account-executive-dach-lastpass"
     },
     {
-      "title": "Customer Experience Associate",
-      "company": "Ramp",
+      "title": "C++/Rust Graphics and Windowing System Software Engineer - Mir",
+      "company": "Canonical Ltd.",
       "tags": [
-        "Customer Support &amp; Success"
+        "Software Engineering"
       ],
-      "url": "https://jobicy.com/jobs/151084-customer-experience-associate-3",
-      "date": "2026-08-19T07:00:58+00:00",
-      "desc": "About RampRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend",
-      "raw_desc": "About RampRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.The problems are high-stakes, data-dense, and unforgiving.We hire people with high&hellip;",
+      "url": "https://jobicy.com/jobs/151197-c-rust-graphics-and-windowing-system-software-engineer-mir",
+      "date": "2026-08-20T12:01:29+00:00",
+      "desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT.",
+      "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 23,
-      "category": "auditor",
-      "slug": "customer-experience-associate-ramp",
-      "id": "job-023-customer-experience-associate-ramp"
+      "category": "pipeline",
+      "slug": "c-rust-graphics-and-windowing-system-software-engineer-mir-canonical-ltd",
+      "id": "job-023-c-rust-graphics-and-windowing-system-software-engineer-mir-canonical-ltd"
     },
     {
-      "title": "Business Operations Manager, Customer Success",
-      "company": "Zscaler",
+      "title": "Embedded Devices Software Solution Sales Manager (APAC)",
+      "company": "Canonical Ltd.",
       "tags": [
-        "Customer Support &amp; Success"
+        "Sales"
       ],
-      "url": "https://jobicy.com/jobs/151083-business-operations-manager-customer-success",
-      "date": "2026-08-19T07:00:56+00:00",
-      "desc": "About Zscaler Zscaler accelerates digital transformation to ensure our customers can be more agile, efficient, resilient, and secure. As an AI-forward enterprise, we are constantly pushing the envelope, leveraging the world\u2019s largest security data lake to power our cloud-native Z",
-      "raw_desc": "About Zscaler Zscaler accelerates digital transformation to ensure our customers can be more agile, efficient, resilient, and secure. As an AI-forward enterprise, we are constantly pushing the envelope, leveraging the world\u2019s largest security data lake to power our cloud-native Zero Trust Exchange platform. This innovation protects our customers from cyberattacks and data loss by securely&hellip;",
+      "url": "https://jobicy.com/jobs/151196-embedded-devices-software-solution-sales-manager-apac",
+      "date": "2026-08-20T12:01:27+00:00",
+      "desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT.",
+      "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 24,
       "category": "pipeline",
-      "slug": "business-operations-manager-customer-success-zscaler",
-      "id": "job-024-business-operations-manager-customer-success-zscaler"
+      "slug": "embedded-devices-software-solution-sales-manager-apac-canonical-ltd",
+      "id": "job-024-embedded-devices-software-solution-sales-manager-apac-canonical-ltd"
     },
     {
-      "title": "Sr Customer Success Manager - Justice",
-      "company": "Axon",
+      "title": "Customer Support Engineer (Tier 1)",
+      "company": "Tailscale",
       "tags": [
-        "Customer Support &amp; Success"
+        "Technical Support"
       ],
-      "url": "https://jobicy.com/jobs/151081-sr-customer-success-manager-justice",
-      "date": "2026-08-19T07:00:53+00:00",
-      "desc": "Join Axon and be a Force for Good. At Axon, we\u2019re on a mission to Protect Life. We\u2019re explorers, pursuing society\u2019s most critical safety and justice issues with our ecosystem of devices and cloud software. Like our products, we work better together. We connect with candor and car",
-      "raw_desc": "Join Axon and be a Force for Good. At Axon, we\u2019re on a mission to Protect Life. We\u2019re explorers, pursuing society\u2019s most critical safety and justice issues with our ecosystem of devices and cloud software. Like our products, we work better together. We connect with candor and care, seeking out diverse perspectives from our customers,&hellip;",
+      "url": "https://jobicy.com/jobs/151195-customer-support-engineer-tier-1",
+      "date": "2026-08-20T11:57:29+00:00",
+      "desc": "About Tailscale Tailscale is making safe connection effortless by delivering software that makes it easy to securely interconnect people and their devices, no matter where they are. From hobbyists to multinational corporations, teams of every size use Tailscale each day to protec",
+      "raw_desc": "About Tailscale\u00a0 Tailscale is making safe connection effortless by delivering software that makes it easy to securely interconnect people and their devices, no matter where they are. From hobbyists to multinational corporations, teams of every size use Tailscale each day to protect their networks, share access to internal tools, and more. We're building a future&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 25,
-      "category": "auditor",
-      "slug": "sr-customer-success-manager-justice-axon",
-      "id": "job-025-sr-customer-success-manager-justice-axon"
+      "category": "pipeline",
+      "slug": "customer-support-engineer-tier-1-tailscale",
+      "id": "job-025-customer-support-engineer-tier-1-tailscale"
     },
     {
-      "title": "Customer Success Manager, APAC",
-      "company": "Instructure",
+      "title": "Sr. Customer Success Manager, MM/ENT - AMER",
+      "company": "Remote",
       "tags": [
         "Customer Support &amp; Success"
       ],
-      "url": "https://jobicy.com/jobs/151080-customer-success-manager-apac",
-      "date": "2026-08-19T07:00:52+00:00",
-      "desc": "At Instructure, we believe in the power of people to grow and succeed throughout their lives. Our goal is to amplify that power by creating intuitive products that simplify learning and personal development, facilitate meaningful relationships, and inspire people to go further in",
-      "raw_desc": "At Instructure, we believe in the power of people to grow and succeed throughout their lives. Our goal is to amplify that power by creating intuitive products that simplify learning and personal development, facilitate meaningful relationships, and inspire people to go further in their education and careers.We do this by giving smart, creative, passionate people&hellip;",
+      "url": "https://jobicy.com/jobs/151194-sr-customer-success-manager-mm-ent-amer",
+      "date": "2026-08-20T11:57:27+00:00",
+      "desc": "About Remote Remote is solving modern organizations\u2019 biggest challenge \u2013 navigating global employment compliantly with ease. We make it possible for businesses of all sizes to recruit, pay, and manage international teams. With our core values at heart and future focused work cult",
+      "raw_desc": "About Remote Remote is solving modern organizations\u2019 biggest challenge \u2013 navigating global employment compliantly with ease. We make it possible for businesses of all sizes to recruit, pay, and manage international teams. With our core values at heart and future focused work culture, our team works tirelessly on ambitious problems, asynchronously, around the world. You&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 26,
       "category": "pipeline",
-      "slug": "customer-success-manager-apac-instructure",
-      "id": "job-026-customer-success-manager-apac-instructure"
+      "slug": "sr-customer-success-manager-mm-ent-amer-remote",
+      "id": "job-026-sr-customer-success-manager-mm-ent-amer-remote"
     },
     {
-      "title": "Compliance Manager (Australia)",
-      "company": "Affirm",
-      "tags": [
-        "Legal &amp; Compliance"
-      ],
-      "url": "https://jobicy.com/jobs/151079-compliance-manager-australia",
-      "date": "2026-08-19T06:56:55+00:00",
-      "desc": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm\u2019s International Compliance team designs and implements compliance programs that proactively address ",
-      "raw_desc": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm\u2019s International Compliance team designs and implements compliance programs that proactively address regulatory requirements while identifying and mitigating compliance risks. As a second line of defence function,&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 27,
-      "category": "auditor",
-      "slug": "compliance-manager-australia-affirm",
-      "id": "job-027-compliance-manager-australia-affirm"
-    },
-    {
-      "title": "Functional Consultant, EMEA",
-      "company": "Zone &#038; Co",
-      "tags": [
-        "Project &amp; Program Management"
-      ],
-      "url": "https://jobicy.com/jobs/151077-functional-consultant-emea",
-      "date": "2026-08-19T06:56:51+00:00",
-      "desc": "Zone &amp; Company Software Consulting LLC (\u201cZone\u201d) is the ERP-native AI platform for financial operations, purpose-built for organizations running on Oracle NetSuite. We are redefining how finance teams operate by delivering an AI-powered system that automates, connects, and sca",
-      "raw_desc": "Zone &amp; Company Software Consulting LLC (\u201cZone\u201d) is the ERP-native AI platform for financial operations, purpose-built for organizations running on Oracle NetSuite. We are redefining how finance teams operate by delivering an AI-powered system that automates, connects, and scales financial workflows directly within the ERP. As the AI operating system for finance teams in NetSuite,&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 28,
-      "category": "pipeline",
-      "slug": "functional-consultant-emea-zone-038-co",
-      "id": "job-028-functional-consultant-emea-zone-038-co"
-    },
-    {
-      "title": "Production Lead",
-      "company": "Envato",
-      "tags": [
-        "Project &amp; Program Management"
-      ],
-      "url": "https://jobicy.com/jobs/151076-production-lead",
-      "date": "2026-08-19T06:56:49+00:00",
-      "desc": "About Envato At Envato, we empower creative pros to thrive. We're here to help creatives bring their ideas to life, supercharge their workflows, and equip them with an unparalleled toolkit they can use anywhere. With unlimited access to world-class assets, innovative AI tools, an",
-      "raw_desc": "About Envato At Envato, we empower creative pros to thrive. We're here to help creatives bring their ideas to life, supercharge their workflows, and equip them with an unparalleled toolkit they can use anywhere. With unlimited access to world-class assets, innovative AI tools, and hands-on tutorials, we deliver what creatives need today - and are&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 29,
-      "category": "pipeline",
-      "slug": "production-lead-envato",
-      "id": "job-029-production-lead-envato"
-    },
-    {
-      "title": "Account Executive - Japan",
-      "company": "Elevenlabs",
-      "tags": [
-        "Sales"
-      ],
-      "url": "https://jobicy.com/jobs/151075-account-executive-japan",
-      "date": "2026-08-19T06:56:47+00:00",
-      "desc": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to larg",
-      "raw_desc": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 30,
-      "category": "pipeline",
-      "slug": "account-executive-japan-elevenlabs",
-      "id": "job-030-account-executive-japan-elevenlabs"
-    },
-    {
-      "title": "Product Designer II",
-      "company": "Built Technologies",
-      "tags": [
-        "Web, UI &amp; UX Design"
-      ],
-      "url": "https://jobicy.com/jobs/151073-product-designer-ii",
-      "date": "2026-08-19T06:51:54+00:00",
-      "desc": "Built's Mission: Connect and simplify doing business in real estate. Built is the AI-powered platform transforming the way real estate is financed, developed, and managed. Purpose-built for real estate and construction, Built began by fixing construction draw management for lende",
-      "raw_desc": "Built's Mission: Connect and simplify doing business in real estate. Built is the AI-powered platform transforming the way real estate is financed, developed, and managed. Purpose-built for real estate and construction, Built began by fixing construction draw management for lenders and has grown into a comprehensive operating system addressing some of the industry\u2019s most complex&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 31,
-      "category": "pipeline",
-      "slug": "product-designer-ii-built-technologies",
-      "id": "job-031-product-designer-ii-built-technologies"
-    },
-    {
-      "title": "Advertising Paid Search Manager - Ecommerce",
-      "company": "Rithum",
-      "tags": [
-        "Marketing &amp; Sales"
-      ],
-      "url": "https://jobicy.com/jobs/151072-advertising-paid-search-manager-ecommerce",
-      "date": "2026-08-19T06:51:52+00:00",
-      "desc": "Rithum\u2122 is the world\u2019s most trusted commerce network, accelerating how brands, suppliers, and retailers work together to deliver seamless e-commerce experiences. We provide an unmatched platform for brands and retailers, enabling them to accelerate growth, optimize operations acr",
-      "raw_desc": "Rithum\u2122 is the world\u2019s most trusted commerce network, accelerating how brands, suppliers, and retailers work together to deliver seamless e-commerce experiences. We provide an unmatched platform for brands and retailers, enabling them to accelerate growth, optimize operations across channels, scale product offerings and enhance margins. Today, more than 40,000 companies trust Rithum to grow their&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 32,
-      "category": "pipeline",
-      "slug": "advertising-paid-search-manager-ecommerce-rithum",
-      "id": "job-032-advertising-paid-search-manager-ecommerce-rithum"
-    },
-    {
-      "title": "Sales Manager NA, Net New",
-      "company": "CoderPad",
-      "tags": [
-        "Sales"
-      ],
-      "url": "https://jobicy.com/jobs/151071-sales-manager-na-net-new",
-      "date": "2026-08-19T06:51:50+00:00",
-      "desc": "CoderPad's mission is to create a more inclusive and strong tech community. How? By improving the technical interviewing experience with tools that allow for standardization and consistency, while reducing bias and increasing equality of opportunity. What does a Sales Manager at ",
-      "raw_desc": "CoderPad's mission is to create a more inclusive and strong tech community. How? By improving the technical interviewing experience with tools that allow for standardization and consistency, while reducing bias and increasing equality of opportunity. What does a Sales Manager at CoderPad do? We are looking for a Sales Manager NA, Net New to join&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 33,
-      "category": "auditor",
-      "slug": "sales-manager-na-net-new-coderpad",
-      "id": "job-033-sales-manager-na-net-new-coderpad"
-    },
-    {
-      "title": "Enterprise Relationship Manager",
-      "company": "Ceros",
-      "tags": [
-        "Sales"
-      ],
-      "url": "https://jobicy.com/jobs/151070-enterprise-relationship-manager",
-      "date": "2026-08-19T06:51:48+00:00",
-      "desc": "Location: Remote within the US \u2b06 Reporting Into: Head of Sales Compensation: $100,000\u2013$120,000 base salary, plus target variable compensation, for a total expected compensation of $170,000\u2013$190,000+, depending on qualifications and experience. About Ceros At Ceros, you\u2019ll help am",
-      "raw_desc": "Location: Remote within the US \u2b06 Reporting Into: Head of Sales Compensation: $100,000\u2013$120,000 base salary, plus target variable compensation, for a total expected compensation of $170,000\u2013$190,000+, depending on qualifications and experience. About Ceros At Ceros, you\u2019ll help ambitious brands create digital experiences that people actually want to explore. Our platform gives marketers and designers&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 34,
-      "category": "pipeline",
-      "slug": "enterprise-relationship-manager-ceros",
-      "id": "job-034-enterprise-relationship-manager-ceros"
-    },
-    {
-      "title": "Junior Brand Designer",
-      "company": "Peerspace",
-      "tags": [
-        "Creative &amp; Design"
-      ],
-      "url": "https://jobicy.com/jobs/151069-junior-brand-designer",
-      "date": "2026-08-19T06:51:46+00:00",
-      "desc": "Junior Brand Designer About Peerspace Peerspace is the leading and category-defining online marketplace for venue rentals for meetings, productions, and events. We open doors to the most inspiring spaces around the world, from lofts and mansions to storefronts and studios. Over $",
-      "raw_desc": "Junior Brand Designer About Peerspace Peerspace is the leading and category-defining online marketplace for venue rentals for meetings, productions, and events. We open doors to the most inspiring spaces around the world, from lofts and mansions to storefronts and studios. Over $500M has been transacted through the platform, and our investors include GV (Google Ventures)&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 35,
-      "category": "pipeline",
-      "slug": "junior-brand-designer-peerspace",
-      "id": "job-035-junior-brand-designer-peerspace"
-    },
-    {
-      "title": "Account Executive - OGC (Dallas Based, Remote)",
-      "company": "Built Technologies",
-      "tags": [
-        "Sales"
-      ],
-      "url": "https://jobicy.com/jobs/151068-account-executive-ogc-dallas-based-remote",
-      "date": "2026-08-19T06:51:44+00:00",
-      "desc": "Built's Mission: Connect and simplify doing business in real estate. Built is the AI-powered platform transforming the way real estate is financed, developed, and managed. Purpose-built for real estate and construction, Built began by fixing construction draw management for lende",
-      "raw_desc": "Built's Mission: Connect and simplify doing business in real estate. Built is the AI-powered platform transforming the way real estate is financed, developed, and managed. Purpose-built for real estate and construction, Built began by fixing construction draw management for lenders and has grown into a comprehensive operating system addressing some of the industry\u2019s most complex&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 36,
-      "category": "pipeline",
-      "slug": "account-executive-ogc-dallas-based-remote-built-technologies",
-      "id": "job-036-account-executive-ogc-dallas-based-remote-built-technologies"
-    },
-    {
-      "title": "Account Executive, Mid-Market - Hunter - Eastern or Central US",
-      "company": "Rithum",
-      "tags": [
-        "Sales"
-      ],
-      "url": "https://jobicy.com/jobs/151067-account-executive-mid-market-hunter-eastern-or-central-us",
-      "date": "2026-08-19T06:51:42+00:00",
-      "desc": "Rithum\u2122 is the world\u2019s most trusted commerce network, accelerating how brands, suppliers, and retailers work together to deliver seamless e-commerce experiences. We provide an unmatched platform for brands and retailers, enabling them to accelerate growth, optimize operations acr",
-      "raw_desc": "Rithum\u2122 is the world\u2019s most trusted commerce network, accelerating how brands, suppliers, and retailers work together to deliver seamless e-commerce experiences. We provide an unmatched platform for brands and retailers, enabling them to accelerate growth, optimize operations across channels, scale product offerings and enhance margins. Today, more than 40,000 companies trust Rithum to grow their&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 37,
-      "category": "pipeline",
-      "slug": "account-executive-mid-market-hunter-eastern-or-central-us-rithum",
-      "id": "job-037-account-executive-mid-market-hunter-eastern-or-central-us-rithum"
-    },
-    {
-      "title": "Commercial Account Executive - SMB - (French/English)",
-      "company": "CoderPad",
-      "tags": [
-        "Sales"
-      ],
-      "url": "https://jobicy.com/jobs/151066-commercial-account-executive-smb-french-english",
-      "date": "2026-08-19T06:51:40+00:00",
-      "desc": "We are looking for a Commercial Account Executive - SMB to join our EMEA Sales team in Ireland (remote). What does a Commercial Account Executive at CoderPad do? Own a high-volume book of SMB accounts (ARR \u20ac5k\u201310k) \u2014 mostly self-serve and free-trial users already active in the pr",
-      "raw_desc": "We are looking for a Commercial Account Executive - SMB to join our EMEA Sales team in Ireland (remote). What does a Commercial Account Executive at CoderPad do? Own a high-volume book of SMB accounts (ARR \u20ac5k\u201310k) \u2014 mostly self-serve and free-trial users already active in the product \u2014 and drive net-new revenue on short&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 38,
-      "category": "pipeline",
-      "slug": "commercial-account-executive-smb-french-english-coderpad",
-      "id": "job-038-commercial-account-executive-smb-french-english-coderpad"
-    },
-    {
-      "title": "Enterprise Account Executive, New Business",
-      "company": "Ceros",
-      "tags": [
-        "Sales"
-      ],
-      "url": "https://jobicy.com/jobs/151065-enterprise-account-executive-new-business",
-      "date": "2026-08-19T06:51:38+00:00",
-      "desc": "Location: Remote within the US \u2b06 Reporting Into: Head of Sales Compensation: $100,000 - $120,000 base salary, plus uncapped commission, with a total expected compensation range of $200,000\u2013$220,000+, depending on qualifications and experience. About Ceros At Ceros, you\u2019ll help am",
-      "raw_desc": "Location: Remote within the US \u2b06 Reporting Into: Head of Sales Compensation: $100,000 - $120,000 base salary, plus uncapped commission, with a total expected compensation range of $200,000\u2013$220,000+, depending on qualifications and experience. About Ceros At Ceros, you\u2019ll help ambitious brands create digital experiences that people actually want to explore. Our platform gives marketers&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 39,
-      "category": "pipeline",
-      "slug": "enterprise-account-executive-new-business-ceros",
-      "id": "job-039-enterprise-account-executive-new-business-ceros"
-    },
-    {
-      "title": "Associate Investigator, Trust and Safety",
-      "company": "Peerspace",
+      "title": "Working Student, Customer Success",
+      "company": "Planet Labs Inc.",
       "tags": [
         "Customer Support &amp; Success"
       ],
-      "url": "https://jobicy.com/jobs/151064-associate-investigator-trust-and-safety",
-      "date": "2026-08-19T06:51:35+00:00",
-      "desc": "Peerspace is the leading and category defining online marketplace for venue rentals for meetings, productions, and events. We open doors to the most inspiring spaces around the world, from lofts and mansions to storefronts and studios. Over $500M has been transacted through the p",
-      "raw_desc": "Peerspace is the leading and category defining online marketplace for venue rentals for meetings, productions, and events. We open doors to the most inspiring spaces around the world, from lofts and mansions to storefronts and studios. Over $500M has been transacted through the platform, and our investors include GV (Google Ventures) and Foundation Capital. Our&hellip;",
+      "url": "https://jobicy.com/jobs/151193-working-student-customer-success",
+      "date": "2026-08-20T11:57:26+00:00",
+      "desc": "Welcome to Planet. We believe in using space to help life on Earth. Planet designs, builds, and operates the largest constellation of imaging satellites in history. This constellation delivers an unprecedented dataset of empirical information via a revolutionary cloud-based platf",
+      "raw_desc": "Welcome to Planet. We believe in using space to help life on Earth. Planet designs, builds, and operates the largest constellation of imaging satellites in history. This constellation delivers an unprecedented dataset of empirical information via a revolutionary cloud-based platform to authoritative figures in commercial, environmental, and humanitarian sectors. We are both a space company&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 40,
-      "category": "auditor",
-      "slug": "associate-investigator-trust-and-safety-peerspace",
-      "id": "job-040-associate-investigator-trust-and-safety-peerspace"
-    },
-    {
-      "title": "Creative Producer",
-      "company": "CapsLock",
-      "tags": [
-        "Creative &amp; Design"
-      ],
-      "url": "https://jobicy.com/jobs/146740-creative-producer",
-      "date": "2026-08-19T02:30:06+00:00",
-      "desc": "DescriptionCapsLock is a dynamic marketing company providing IT-enabled solutions for large North American partners. We specialize in scalable customer acquisition through data-driven marketing, creative production, and technology innovation.Our teams collaborate across marketing",
-      "raw_desc": "DescriptionCapsLock is a dynamic marketing company providing IT-enabled solutions for large North American partners. We specialize in scalable customer acquisition through data-driven marketing, creative production, and technology innovation.Our teams collaborate across marketing, IT, analytics, and media buying to build, test, and optimize high-performing funnels that help clients achieve predictable growth across industries such as Home&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 41,
+      "source_index": 27,
       "category": "pipeline",
-      "slug": "creative-producer-capslock",
-      "id": "job-041-creative-producer-capslock"
+      "slug": "working-student-customer-success-planet-labs-inc",
+      "id": "job-027-working-student-customer-success-planet-labs-inc"
     },
     {
-      "title": "Sales Manager - Weather & Climate (EMEA & APAC)",
-      "company": "Spire",
-      "tags": [
-        "Sales"
-      ],
-      "url": "https://jobicy.com/jobs/146743-sales-manager-weather-climate-emea-apac",
-      "date": "2026-08-19T02:30:04+00:00",
-      "desc": "We are seeking an ambitious, self-directed Sales Manager to accelerate revenue growth across EMEA and APAC and advance the digitization of the global weather and climate ecosystem. Operating with the autonomy of a regional owner, you will expand Spire\u2019s market presence across key",
-      "raw_desc": "We are seeking an ambitious, self-directed Sales Manager to accelerate revenue growth across EMEA and APAC and advance the digitization of the global weather and climate ecosystem. Operating with the autonomy of a regional owner, you will expand Spire\u2019s market presence across key industry segments, leverage our partner ecosystem to drive adoption of our forecast&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 42,
-      "category": "pipeline",
-      "slug": "sales-manager-weather-climate-emea-apac-spire",
-      "id": "job-042-sales-manager-weather-climate-emea-apac-spire"
-    },
-    {
-      "title": "Machine Learning Engineering Manager - Ads Engagement Modeling",
-      "company": "Reddit",
-      "tags": [
-        "Data Science &amp; Analytics"
-      ],
-      "url": "https://jobicy.com/jobs/146556-machine-learning-engineering-manager-ads-engagement-modeling",
-      "date": "2026-08-19T02:30:03+00:00",
-      "desc": "Reddit is a community of communities. It\u2019s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communiti",
-      "raw_desc": "Reddit is a community of communities. It\u2019s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 126 million daily active unique visitors, Reddit&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 43,
-      "category": "pipeline",
-      "slug": "machine-learning-engineering-manager-ads-engagement-modeling-reddit",
-      "id": "job-043-machine-learning-engineering-manager-ads-engagement-modeling-reddit"
-    },
-    {
-      "title": "ISDA Negotiator",
-      "company": "Axiom",
-      "tags": [
-        "Legal &amp; Compliance"
-      ],
-      "url": "https://jobicy.com/jobs/146016-isda-negotiator",
-      "date": "2026-08-19T02:25:06+00:00",
-      "desc": "We are currently seeking an ISDA Negotiator to join our bench and support global clients in the banking and financial services sector: Requirements: Minimum of 2 years\u2019 experience working with derivatives documentation, negotiation, in particular with the ability to draft, review",
-      "raw_desc": "We are currently seeking an ISDA Negotiator to join our bench and support global clients in the banking and financial services sector: Requirements: Minimum of 2 years\u2019 experience working with derivatives documentation, negotiation, in particular with the ability to draft, review and negotiate ISDA agreements Exposure gained in house within financial services would be an&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 44,
-      "category": "auditor",
-      "slug": "isda-negotiator-axiom",
-      "id": "job-044-isda-negotiator-axiom"
-    },
-    {
-      "title": "Legal Consultant - Data Privacy",
-      "company": "Axiom",
-      "tags": [
-        "Legal &amp; Compliance"
-      ],
-      "url": "https://jobicy.com/jobs/146015-legal-consultant-data-privacy",
-      "date": "2026-08-19T02:25:04+00:00",
-      "desc": "We are currently seeking a Legal Consultant - Data Privacy to join our ranks and support our F500 clientsResponsibilities Data privacy professionals OR Qualified lawyer with minimum 2 PQE with substantive data protection and data privacy experience Experience standardizing polici",
-      "raw_desc": "We are currently seeking a Legal Consultant - Data Privacy to join our ranks and support our F500 clientsResponsibilities Data privacy professionals OR Qualified lawyer with minimum 2 PQE with substantive data protection and data privacy experience Experience standardizing policies, protocols, and training programs, including the associated documents such as vendor and client contracts. This&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 45,
-      "category": "auditor",
-      "slug": "legal-consultant-data-privacy-axiom",
-      "id": "job-045-legal-consultant-data-privacy-axiom"
-    },
-    {
-      "title": "Account Executive, Enterprise - West",
+      "title": "Strategic Accounts Customer Success Manager (CSM IC)",
       "company": "Motive",
       "tags": [
-        "Sales"
+        "Customer Support &amp; Success"
       ],
-      "url": "https://jobicy.com/jobs/145923-account-executive-enterprise-west",
-      "date": "2026-08-19T02:25:02+00:00",
+      "url": "https://jobicy.com/jobs/151192-strategic-accounts-customer-success-manager-csm-ic",
+      "date": "2026-08-20T11:57:24+00:00",
       "desc": "Who we are: Motive empowers the people who run physical operations with tools to make their work safer, more productive, and more profitable. For the first time ever, safety, operations and finance teams can manage their drivers, vehicles, equipment, and fleet related spend in a ",
       "raw_desc": "Who we are: Motive empowers the people who run physical operations with tools to make their work safer, more productive, and more profitable. For the first time ever, safety, operations and finance teams can manage their drivers, vehicles, equipment, and fleet related spend in a single system. Combined with industry leading AI, the Motive platform&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 46,
+      "source_index": 28,
       "category": "auditor",
-      "slug": "account-executive-enterprise-west-motive",
-      "id": "job-046-account-executive-enterprise-west-motive"
+      "slug": "strategic-accounts-customer-success-manager-csm-ic-motive",
+      "id": "job-028-strategic-accounts-customer-success-manager-csm-ic-motive"
     },
     {
-      "title": "Norwegian Tech Linguistic Tester",
-      "company": "Welo Global",
+      "title": "Enterprise Customer Success Manager - Central",
+      "company": "Sigma Computing",
       "tags": [
-        "QA &amp; Testing"
+        "Customer Support &amp; Success"
       ],
-      "url": "https://jobicy.com/jobs/146760-norwegian-tech-linguistic-tester",
-      "date": "2026-08-19T02:20:05+00:00",
-      "desc": "As a trusted global transformation partner, Welocalize accelerates the global business journey by enabling brands and companies to reach, engage, and grow international audiences. Welocalize delivers multilingual content transformation services in translation, localization, and a",
-      "raw_desc": "As a trusted global transformation partner, Welocalize accelerates the global business journey by enabling brands and companies to reach, engage, and grow international audiences. Welocalize delivers multilingual content transformation services in translation, localization, and adaptation for over 250 languages with a growing network of over 400,000 in-country linguistic resources. Driving innovation in language services, Welocalize&hellip;",
+      "url": "https://jobicy.com/jobs/151191-enterprise-customer-success-manager-central",
+      "date": "2026-08-20T11:57:22+00:00",
+      "desc": "About Sigma ComputingSigma Computing is at the forefront of cloud-based analytics and business intelligence, transforming the way businesses leverage their data to make informed decisions. Our platform bridges the gap between complex data queries and business insights, providing ",
+      "raw_desc": "About Sigma ComputingSigma Computing is at the forefront of cloud-based analytics and business intelligence, transforming the way businesses leverage their data to make informed decisions. Our platform bridges the gap between complex data queries and business insights, providing an intuitive interface for users of all technical backgrounds.We're looking for a Customer Success Manager with a&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 47,
-      "category": "quality",
-      "slug": "norwegian-tech-linguistic-tester-welo-global",
-      "id": "job-047-norwegian-tech-linguistic-tester-welo-global"
+      "source_index": 29,
+      "category": "pipeline",
+      "slug": "enterprise-customer-success-manager-central-sigma-computing",
+      "id": "job-029-enterprise-customer-success-manager-central-sigma-computing"
     },
     {
-      "title": "Technical Product Marketer, k0rdent AI - remote in the US",
-      "company": "Mirantis",
+      "title": "Customer Success Specialist",
+      "company": "NoGigiddy",
+      "tags": [
+        "Customer Support &amp; Success"
+      ],
+      "url": "https://jobicy.com/jobs/151190-customer-success-specialist-4",
+      "date": "2026-08-20T11:57:21+00:00",
+      "desc": "ABOUT NOGIGIDDYNoGigiddy is a digital platform built for gig workers, side hustlers, and anyone building an income outside the traditional 9-to-5. We connect our community with real earning opportunities \u2014 remote jobs, surveys, gig platforms, and financial tools \u2014 all in one plac",
+      "raw_desc": "ABOUT NOGIGIDDYNoGigiddy is a digital platform built for gig workers, side hustlers, and anyone building an income outside the traditional 9-to-5. We connect our community with real earning opportunities \u2014 remote jobs, surveys, gig platforms, and financial tools \u2014 all in one place, free to access, no gatekeeping. We built what we wish had existed,&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 30,
+      "category": "pipeline",
+      "slug": "customer-success-specialist-nogigiddy",
+      "id": "job-030-customer-success-specialist-nogigiddy"
+    },
+    {
+      "title": "Senior Product Designer - Benefits Servicing",
+      "company": "Humana",
+      "tags": [
+        "Web, UI &amp; UX Design"
+      ],
+      "url": "https://jobicy.com/jobs/150046-senior-product-designer-benefits-servicing",
+      "date": "2026-08-20T03:50:03+00:00",
+      "desc": "Become a part of our caring community As a Senior Product Designer \u2013 Benefits Servicing, you will help shape the end-to-end medical benefits experience across Humana\u2019s digital ecosystem, enabling members to understand, access, and maximize their healthcare coverage with confidenc",
+      "raw_desc": "Become a part of our caring community\u00a0As a Senior Product Designer \u2013 Benefits Servicing, you will help shape the end-to-end medical benefits experience across Humana\u2019s digital ecosystem, enabling members to understand, access, and maximize their healthcare coverage with confidence. Through exceptional design execution, user-centered thinking, and cross-functional collaboration, you will create intuitive experiences that simplify&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 31,
+      "category": "pipeline",
+      "slug": "senior-product-designer-benefits-servicing-humana",
+      "id": "job-031-senior-product-designer-benefits-servicing-humana"
+    },
+    {
+      "title": "Manager, Customer Success Operations",
+      "company": "AlphaSense",
+      "tags": [
+        "Product &amp; Operations"
+      ],
+      "url": "https://jobicy.com/jobs/150341-manager-customer-success-operations",
+      "date": "2026-08-20T03:45:06+00:00",
+      "desc": "About AlphaSense: The world\u2019s most sophisticated companies rely on AlphaSense to remove uncertainty from decision-making. With market intelligence and search built on proven AI, AlphaSense delivers insights that matter from content you can trust. Our universe of public and privat",
+      "raw_desc": "About AlphaSense:\u00a0 The world\u2019s most sophisticated companies rely on AlphaSense to remove uncertainty from decision-making. With market intelligence and search built on proven AI, AlphaSense delivers insights that matter from content you can trust. Our universe of public and private content includes equity research, company filings, event transcripts, expert calls, news, trade journals, and clients\u2019&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 32,
+      "category": "editor",
+      "slug": "manager-customer-success-operations-alphasense",
+      "id": "job-032-manager-customer-success-operations-alphasense"
+    },
+    {
+      "title": "Senior Manager, Customer Success Operations",
+      "company": "AlphaSense",
+      "tags": [
+        "Product &amp; Operations"
+      ],
+      "url": "https://jobicy.com/jobs/150340-senior-manager-customer-success-operations",
+      "date": "2026-08-20T03:45:04+00:00",
+      "desc": "About AlphaSense: The world\u2019s most sophisticated companies rely on AlphaSense to remove uncertainty from decision-making. With market intelligence and search built on proven AI, AlphaSense delivers insights that matter from content you can trust. Our universe of public and privat",
+      "raw_desc": "About AlphaSense:\u00a0 The world\u2019s most sophisticated companies rely on AlphaSense to remove uncertainty from decision-making. With market intelligence and search built on proven AI, AlphaSense delivers insights that matter from content you can trust. Our universe of public and private content includes equity research, company filings, event transcripts, expert calls, news, trade journals, and clients\u2019&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 33,
+      "category": "editor",
+      "slug": "senior-manager-customer-success-operations-alphasense",
+      "id": "job-033-senior-manager-customer-success-operations-alphasense"
+    },
+    {
+      "title": "Senior Analyst, Customer Success Operations",
+      "company": "AlphaSense",
+      "tags": [
+        "Product &amp; Operations"
+      ],
+      "url": "https://jobicy.com/jobs/150339-senior-analyst-customer-success-operations",
+      "date": "2026-08-20T03:45:03+00:00",
+      "desc": "About AlphaSense: The world\u2019s most sophisticated companies rely on AlphaSense to remove uncertainty from decision-making. With market intelligence and search built on proven AI, AlphaSense delivers insights that matter from content you can trust. Our universe of public and privat",
+      "raw_desc": "About AlphaSense:\u00a0 The world\u2019s most sophisticated companies rely on AlphaSense to remove uncertainty from decision-making. With market intelligence and search built on proven AI, AlphaSense delivers insights that matter from content you can trust. Our universe of public and private content includes equity research, company filings, event transcripts, expert calls, news, trade journals, and clients\u2019&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 34,
+      "category": "quality",
+      "slug": "senior-analyst-customer-success-operations-alphasense",
+      "id": "job-034-senior-analyst-customer-success-operations-alphasense"
+    },
+    {
+      "title": "Database Engineer",
+      "company": "Ruby Labs",
+      "tags": [
+        "Software Engineering"
+      ],
+      "url": "https://jobicy.com/jobs/146614-database-engineer",
+      "date": "2026-08-20T03:35:03+00:00",
+      "desc": "About usRuby Labs is a leading tech company that creates and operates innovative consumer products. We offer a diverse range of opportunities across the health, education, and entertainment industries. Our innovative teams are driving the future of consumer-led products, and we'r",
+      "raw_desc": "About usRuby Labs is a leading tech company that creates and operates innovative consumer products. We offer a diverse range of opportunities across the health, education, and entertainment industries. Our innovative teams are driving the future of consumer-led products, and we're always looking for passionate individuals to join us. Learn more about our story at:&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 35,
+      "category": "pipeline",
+      "slug": "database-engineer-ruby-labs",
+      "id": "job-035-database-engineer-ruby-labs"
+    },
+    {
+      "title": "Area Schedule Lead - Data Center Design, Engineering and Construction",
+      "company": "Meta",
+      "tags": [
+        "Product &amp; Operations"
+      ],
+      "url": "https://jobicy.com/jobs/143808-area-schedule-lead-data-center-design-engineering-and-construction-3",
+      "date": "2026-08-20T03:05:05+00:00",
+      "desc": "We are seeking a candidate for a key leadership role in scheduling for a portfolio of Data Center projects of strategic importance to Meta. The Schedule lead will act as a technical Schedule subject matter expert overseeing all schedule management and reporting for their portfoli",
+      "raw_desc": "We are seeking a candidate for a key leadership role in scheduling for a portfolio of Data Center projects of strategic importance to Meta. The Schedule lead will act as a technical Schedule subject matter expert overseeing all schedule management and reporting for their portfolio of projects. The successful candidate will have focus on speed&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 36,
+      "category": "pipeline",
+      "slug": "area-schedule-lead-data-center-design-engineering-and-construction-meta",
+      "id": "job-036-area-schedule-lead-data-center-design-engineering-and-construction-meta"
+    },
+    {
+      "title": "Senior Data Analyst",
+      "company": "Ruby Labs",
+      "tags": [
+        "Data Science &amp; Analytics"
+      ],
+      "url": "https://jobicy.com/jobs/143979-senior-data-analyst-4",
+      "date": "2026-08-20T03:00:16+00:00",
+      "desc": "About usRuby Labs is a leading tech company that creates and operates innovative consumer products. We offer a diverse range of opportunities across the health, education, and entertainment industries. Our innovative teams are driving the future of consumer-led products, and we'r",
+      "raw_desc": "About usRuby Labs is a leading tech company that creates and operates innovative consumer products. We offer a diverse range of opportunities across the health, education, and entertainment industries. Our innovative teams are driving the future of consumer-led products, and we're always looking for passionate individuals to join us. Learn more about our story at:&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 37,
+      "category": "quality",
+      "slug": "senior-data-analyst-ruby-labs",
+      "id": "job-037-senior-data-analyst-ruby-labs"
+    },
+    {
+      "title": "VP Analyst - Analyst Relations Strategy",
+      "company": "Gartner",
       "tags": [
         "Marketing &amp; Sales"
       ],
-      "url": "https://jobicy.com/jobs/146688-technical-product-marketer-k0rdent-ai-remote-in-the-us",
-      "date": "2026-08-19T02:20:03+00:00",
-      "desc": "Company DescriptionMirantis is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovation with de",
-      "raw_desc": "Company DescriptionMirantis is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovation with deep expertise in Kubernetes orchestration, Mirantis empowers platform engineering teams to deliver composable, production-ready developer platforms across any environment\u2014on-premises, in the cloud,&hellip;",
+      "url": "https://jobicy.com/jobs/143967-vp-analyst-analyst-relations-remote-western-europe",
+      "date": "2026-08-20T03:00:15+00:00",
+      "desc": "About the role:Gartner Analysts are industry thought leaders who create must-have insights, market predictions and best practices for a broad range of world-leading organizations. A Vice President serves as a leader within Gartner\u2019s Business and Technology Insights (BTI) group, e",
+      "raw_desc": "About the role:Gartner Analysts are industry thought leaders who create must-have insights, market predictions and best practices for a broad range of world-leading organizations. A Vice President serves as a leader within Gartner\u2019s Business and Technology Insights (BTI) group, establishing oneself as a credible voice within their designated market at local, regional and global levels.&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 38,
+      "category": "quality",
+      "slug": "vp-analyst-analyst-relations-strategy-gartner",
+      "id": "job-038-vp-analyst-analyst-relations-strategy-gartner"
+    },
+    {
+      "title": "Staff Software Engineer, App Platform",
+      "company": "Fieldguide",
+      "tags": [
+        "Software Engineering"
+      ],
+      "url": "https://jobicy.com/jobs/144040-staff-software-engineer-app-platform",
+      "date": "2026-08-20T03:00:13+00:00",
+      "desc": "About UsFieldguide is establishing a new state of trust for global commerce and capital markets by automating and streamlining the work of assurance and audit practitioners\u2014specifically in cybersecurity, privacy, and financial audits. We build software for the people who enable t",
+      "raw_desc": "About UsFieldguide is establishing a new state of trust for global commerce and capital markets by automating and streamlining the work of assurance and audit practitioners\u2014specifically in cybersecurity, privacy, and financial audits. We build software for the people who enable trust between businesses.We're based in San Francisco, CA, and built remote-first. We're backed by Goldman&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 39,
+      "category": "pipeline",
+      "slug": "staff-software-engineer-app-platform-fieldguide",
+      "id": "job-039-staff-software-engineer-app-platform-fieldguide"
+    },
+    {
+      "title": "Account Manager - Japan",
+      "company": "Elevenlabs",
+      "tags": [
+        "Customer Support &amp; Success"
+      ],
+      "url": "https://jobicy.com/jobs/143813-customer-success-japan",
+      "date": "2026-08-20T03:00:11+00:00",
+      "desc": "About ElevenLabsElevenLabs is an AI research and product company transforming how we interact with technology.We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large ",
+      "raw_desc": "About ElevenLabsElevenLabs is an AI research and product company transforming how we interact with technology.We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 40,
+      "category": "pipeline",
+      "slug": "account-manager-japan-elevenlabs",
+      "id": "job-040-account-manager-japan-elevenlabs"
+    },
+    {
+      "title": "Senior Travel Consultant",
+      "company": "BCD Travel",
+      "tags": [
+        "Business Development"
+      ],
+      "url": "https://jobicy.com/jobs/146992-senior-travel-consultant-4",
+      "date": "2026-08-20T03:00:08+00:00",
+      "desc": "Start your journey with BCD: Grow, connect, collaborate and celebrate with our global team Senior Travel Agent (Remote) Full time, United StatesAs a Senior Travel Consultant, you are the face of our company. You\u2019ll communicate and respond to requests for current and new clients, ",
+      "raw_desc": "Start your journey with BCD: Grow, connect, collaborate and celebrate with our global team Senior Travel Agent (Remote)\u00a0Full time, United StatesAs a Senior Travel Consultant, you are the face of our company. You\u2019ll communicate and respond to requests for current and new clients, helping them travel smart and achieve more. Do you communicate effortlessly and&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 41,
+      "category": "pipeline",
+      "slug": "senior-travel-consultant-bcd-travel",
+      "id": "job-041-senior-travel-consultant-bcd-travel"
+    },
+    {
+      "title": "CX Lab Tech - Removables (UK)",
+      "company": "Dandy",
+      "tags": [
+        "Healthcare &amp; Medical"
+      ],
+      "url": "https://jobicy.com/jobs/144109-cx-lab-tech-removables-uk",
+      "date": "2026-08-20T03:00:07+00:00",
+      "desc": "Dandy is transforming the massive and antiquated dental industry\u2014an industry worth over $400B. Backed by some of the world\u2019s leading venture capital firms, we\u2019re on an ambitious mission to simplify and modernize every function of the dental practice through technology. As we expa",
+      "raw_desc": "Dandy is transforming the massive and antiquated dental industry\u2014an industry worth over $400B. Backed by some of the world\u2019s leading venture capital firms, we\u2019re on an ambitious mission to simplify and modernize every function of the dental practice through technology. As we expand our reach globally, Dandy is building the operating system for dental offices&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 42,
+      "category": "pipeline",
+      "slug": "cx-lab-tech-removables-uk-dandy",
+      "id": "job-042-cx-lab-tech-removables-uk-dandy"
+    },
+    {
+      "title": "Customer Solution Engineer",
+      "company": "Zuora",
+      "tags": [
+        "Technical Support"
+      ],
+      "url": "https://jobicy.com/jobs/143991-customer-solution-engineer",
+      "date": "2026-08-20T03:00:06+00:00",
+      "desc": "About ZuoraAt Zuora, we help businesses grow smarter and adapt faster. Our platform powers modern business models \u2014 from subscriptions and usage-based pricing to AI-driven and outcome-based offerings \u2014 helping companies launch new products, automate complex billing, and unlock pr",
+      "raw_desc": "About ZuoraAt Zuora, we help businesses grow smarter and adapt faster. Our platform powers modern business models \u2014 from subscriptions and usage-based pricing to AI-driven and outcome-based offerings \u2014 helping companies launch new products, automate complex billing, and unlock predictable, recurring revenue.We\u2019ve led the Subscription Economy for more than a decade. Now we\u2019re evolving again&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 43,
+      "category": "pipeline",
+      "slug": "customer-solution-engineer-zuora",
+      "id": "job-043-customer-solution-engineer-zuora"
+    },
+    {
+      "title": "AI Chatbot Product Manager",
+      "company": "Binance",
+      "tags": [
+        "Product &amp; Operations"
+      ],
+      "url": "https://jobicy.com/jobs/147145-ai-chatbot-product-manager",
+      "date": "2026-08-20T02:55:15+00:00",
+      "desc": "Binance is a leading global blockchain ecosystem behind the world\u2019s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, dee",
+      "raw_desc": "Binance is a leading global blockchain ecosystem behind the world\u2019s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 44,
+      "category": "pipeline",
+      "slug": "ai-chatbot-product-manager-binance",
+      "id": "job-044-ai-chatbot-product-manager-binance"
+    },
+    {
+      "title": "APAC Data Privacy Lawyer - Australia (Part-time, Remote)",
+      "company": "Axiom",
+      "tags": [
+        "Legal &amp; Compliance"
+      ],
+      "url": "https://jobicy.com/jobs/147119-apac-data-privacy-lawyer-australia-part-time-remote",
+      "date": "2026-08-20T02:55:14+00:00",
+      "desc": "Axiom, the premier global provider of on-demand legal talent, is seeking accomplished privacy lawyers to provide contractual support for mid-sized and large Australian or multinational companies. The ideal candidates will possess APAC data privacy experienceResponsibilities: Prov",
+      "raw_desc": "Axiom, the premier global provider of on-demand legal talent, is seeking accomplished privacy lawyers to provide contractual support for mid-sized and large Australian or multinational companies. The ideal candidates will possess APAC data privacy experienceResponsibilities:\u00a0 Provide legal support on privacy and data protection issues across APAC to ensure robust support Qualifications:\u00a0 Over 5 years of&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 45,
+      "category": "auditor",
+      "slug": "apac-data-privacy-lawyer-australia-part-time-remote-axiom",
+      "id": "job-045-apac-data-privacy-lawyer-australia-part-time-remote-axiom"
+    },
+    {
+      "title": "Customer Success Advisor - ASEAN",
+      "company": "Autodesk",
+      "tags": [
+        "Customer Support &amp; Success"
+      ],
+      "url": "https://jobicy.com/jobs/147122-customer-success-advisor-asean",
+      "date": "2026-08-20T02:55:08+00:00",
+      "desc": "Job Requisition ID #26WD95701Customer Success Advisor In the Customer Success Management organization, we transform customers\u2019 vision into realized value. We believe in consistent, connected customer experiences and forging trusted partnerships that fuel adoption, retention, and ",
+      "raw_desc": "Job Requisition ID #26WD95701Customer Success Advisor\u00a0\u00a0In the Customer Success Management organization, we transform customers\u2019 vision into realized value. We believe in consistent, connected customer experiences and forging trusted partnerships that fuel adoption, retention, and measurable business outcomes. Our work supports improved revenue and sustainable company growth.As we continue our business model transformation, driving adoption of&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 46,
+      "category": "pipeline",
+      "slug": "customer-success-advisor-asean-autodesk",
+      "id": "job-046-customer-success-advisor-asean-autodesk"
+    },
+    {
+      "title": "Senior AI Creative Designer",
+      "company": "OKX",
+      "tags": [
+        "Creative &amp; Design"
+      ],
+      "url": "https://jobicy.com/jobs/147118-senior-ai-creative-designer",
+      "date": "2026-08-20T02:55:07+00:00",
+      "desc": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions of access to crypto trading and decentralized crypto applications ",
+      "raw_desc": "\u00a0 Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions of access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 47,
+      "category": "pipeline",
+      "slug": "senior-ai-creative-designer-okx",
+      "id": "job-047-senior-ai-creative-designer-okx"
+    },
+    {
+      "title": "Customer Engineer",
+      "company": "Nebius",
+      "tags": [
+        "Technical Support"
+      ],
+      "url": "https://jobicy.com/jobs/147134-customer-engineer",
+      "date": "2026-08-20T02:55:05+00:00",
+      "desc": "About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of b",
+      "raw_desc": "About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure. Built by engineers, for engineers. From&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 48,
       "category": "pipeline",
-      "slug": "technical-product-marketer-k0rdent-ai-remote-in-the-us-mirantis",
-      "id": "job-048-technical-product-marketer-k0rdent-ai-remote-in-the-us-mirantis"
+      "slug": "customer-engineer-nebius",
+      "id": "job-048-customer-engineer-nebius"
     },
     {
-      "title": "Enterprise and Dynamic Supplier Finance (DSF) Sales",
-      "company": "C2FO",
+      "title": "Associate Product Operations Manager",
+      "company": "Best Egg",
       "tags": [
-        "Sales"
+        "Product &amp; Operations"
       ],
-      "url": "https://jobicy.com/jobs/146820-enterprise-and-dynamic-supplier-finance-dsf-sales",
-      "date": "2026-08-19T02:11:51+00:00",
-      "desc": "Enterprise and Dynamic Supplier Finance (DSF) SalesMore than a mission, C2FO is a better financial system changing the way every business gains access to the working capital they need to thrive. At C2FO, everyone is an employee-owner which means we\u2019re all invested in our work and",
-      "raw_desc": "Enterprise and Dynamic Supplier Finance (DSF) SalesMore than a mission, C2FO is a better financial system changing the way every business gains access to the working capital they need to thrive. At C2FO, everyone is an employee-owner which means we\u2019re all invested in our work and team members. We\u2019re a company of team players and&hellip;",
+      "url": "https://jobicy.com/jobs/151180-associate-product-operations-manager",
+      "date": "2026-08-19T20:10:48+00:00",
+      "desc": "We are seeking a proactive and detail-oriented Associate Product Operations Manager to support our Product organization in improving operational efficiency, cross-functional alignment, and consistency in how work moves through the Product Development Lifecycle (PDLC). Working clo",
+      "raw_desc": "We are seeking a proactive and detail-oriented Associate Product Operations Manager to support our Product organization in improving operational efficiency, cross-functional alignment, and consistency in how work moves through the Product Development Lifecycle (PDLC). Working closely with, and at the direction of, the Senior Product Operations Manager and Product Leadership team, this role will execute&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
       "source_index": 49,
       "category": "pipeline",
-      "slug": "enterprise-and-dynamic-supplier-finance-dsf-sales-c2fo",
-      "id": "job-049-enterprise-and-dynamic-supplier-finance-dsf-sales-c2fo"
+      "slug": "associate-product-operations-manager-best-egg",
+      "id": "job-049-associate-product-operations-manager-best-egg"
     },
     {
       "title": "Patient Care Specialist",
