@@ -18,7 +18,7 @@ Job Listings, Featured Placement, Employer Branding, Digest Automation
 N/A (direct listings)
 
 ## Lead capture
-formsubmit.co → discus.leads@protonmail.com
+formsubmit.co → discus.leads@proton.me
 
 ## Next
 - Sign up for affiliate programs (priority)
