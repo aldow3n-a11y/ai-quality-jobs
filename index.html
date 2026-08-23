@@ -825,7 +825,7 @@ footer {
 
   <p class="jobs-footer">
     Listings auto-aggregated under fair-use attribution to source boards. Submit a tip →
-    <a href="mailto:discus.leads@protonmail.com" style="color:var(--accent-2);">discus.leads@protonmail.com</a>
+    <a href="mailto:discus.leads@proton.me" style="color:var(--accent-2);">discus.leads@proton.me</a>
   </p>
 </section>
 
@@ -873,7 +873,7 @@ footer {
         <li>Backlink to your ATS</li>
         <li>Aggregated into weekly digest (1,200 readers)</li>
       </ul>
-      <a href="mailto:discus.leads@protonmail.com?subject=Standard%20Listing" class="tier-cta">Post a standard listing →</a>
+      <a href="mailto:discus.leads@proton.me?subject=Standard%20Listing" class="tier-cta">Post a standard listing →</a>
     </div>
 
     <div class="tier tier-featured">
@@ -887,7 +887,7 @@ footer {
         <li>Featured in next weekly digest</li>
         <li>2× boost in relevance score</li>
       </ul>
-      <a href="mailto:discus.leads@protonmail.com?subject=Featured%20Listing" class="tier-cta">Post a featured listing →</a>
+      <a href="mailto:discus.leads@proton.me?subject=Featured%20Listing" class="tier-cta">Post a featured listing →</a>
     </div>
 
     <div class="tier">
@@ -901,7 +901,7 @@ footer {
         <li>Direct line to the curator (me, Discus)</li>
         <li>No markup on re-posts</li>
       </ul>
-      <a href="mailto:discus.leads@protonmail.com?subject=Annual%20Plan" class="tier-cta">Talk about annual →</a>
+      <a href="mailto:discus.leads@proton.me?subject=Annual%20Plan" class="tier-cta">Talk about annual →</a>
     </div>
   </div>
 
@@ -924,7 +924,7 @@ footer {
     <input id="post-email" type="email" placeholder="you@company.com" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
     <a id="post-mailto" class="tier-cta" style="display:block;text-align:center;background:var(--accent-2);color:var(--bg);cursor:pointer">Email to book listing →</a>
     <script>
-      var b=function(){var p=document.getElementById('post-plan').value,c=document.getElementById('post-company').value||'[company]',r=document.getElementById('post-role').value||'[role]',e=document.getElementById('post-email').value||'[email]';document.getElementById('post-mailto').href='mailto:discus.leads@protonmail.com?subject='+encodeURIComponent('AI Quality Jobs — listing inquiry: '+decodeURIComponent(p))+'&body='+encodeURIComponent('Plan: '+decodeURIComponent(p)+'\nCompany: '+c+'\nRole: '+r+'\nEmail: '+e);};
+      var b=function(){var p=document.getElementById('post-plan').value,c=document.getElementById('post-company').value||'[company]',r=document.getElementById('post-role').value||'[role]',e=document.getElementById('post-email').value||'[email]';document.getElementById('post-mailto').href='mailto:discus.leads@proton.me?subject='+encodeURIComponent('AI Quality Jobs — listing inquiry: '+decodeURIComponent(p))+'&body='+encodeURIComponent('Plan: '+decodeURIComponent(p)+'\nCompany: '+c+'\nRole: '+r+'\nEmail: '+e);};
       ['post-plan','post-company','post-role','post-email'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',b);}});b();
     </script>
   </div>
@@ -938,7 +938,7 @@ footer {
   </div>
   <p style="max-width:60ch;color:var(--ink-2);">One email per week. ~15 roles. Sorted by category. No tracking pixels. Unsubscribe in one click. Latest: <a href="digest-2026-08-23.html" style="color:var(--accent-2);text-decoration:underline;">View this week&rsquo;s digest</a>.</p>
   <div style="display:flex;gap:8px;max-width:480px;margin-top:20px;flex-wrap:wrap">
-    <a class="btn-post" href="mailto:discus.leads@protonmail.com?subject=AI%20Quality%20Jobs%20%E2%80%94%20digest%20signup&body=Please%20subscribe%20me%20to%20the%20weekly%20AI%20Quality%20Jobs%20digest.%20My%20email%20is%20%5Byour%40email%5D." style="cursor:pointer;text-decoration:none;display:inline-block;padding:12px 20px">Subscribe by email →</a>
+    <a class="btn-post" href="mailto:discus.leads@proton.me?subject=AI%20Quality%20Jobs%20%E2%80%94%20digest%20signup&body=Please%20subscribe%20me%20to%20the%20weekly%20AI%20Quality%20Jobs%20digest.%20My%20email%20is%20%5Byour%40email%5D." style="cursor:pointer;text-decoration:none;display:inline-block;padding:12px 20px">Subscribe by email →</a>
   </div>
 </section>
 
@@ -961,7 +961,7 @@ footer {
       <h5>For employers</h5>
       <ul>
         <li><a href="#post">Post a role</a></li>
-        <li><a href="mailto:discus.leads@protonmail.com">hiring@…</a></li>
+        <li><a href="mailto:discus.leads@proton.me">hiring@…</a></li>
         <li><a href="#post">Annual plan</a></li>
       </ul>
     </div>
@@ -1214,7 +1214,7 @@ function wireForms() {
         throw new Error('HTTP ' + r.status);
       }
     } catch (e) {
-      status.textContent = 'Could not send. Email discus.leads@protonmail.com directly.';
+      status.textContent = 'Could not send. Email discus.leads@proton.me directly.';
       status.style.color = 'var(--accent-2)';
     } finally {
       btn.disabled = false;
