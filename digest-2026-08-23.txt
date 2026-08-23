@@ -17,7 +17,7 @@ AI Quality & Evaluation (3)
   https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266
 
 
-OTHER AI ROLES (6)
+OTHER AI ROLES (4)
 ----------------------------------------
 • Senior Workday Platform Engineer
   Natera · 2026-08-23
@@ -25,15 +25,13 @@ OTHER AI ROLES (6)
 • Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics
   Canonical Ltd. · 2026-08-22
 
-• Senior Customer Success Engineer
-  Veeam Software · 2026-08-22
-
-• Senior Manager, AMERs Customer Success
-  Veeam Software · 2026-08-22
-
 • Senior Golang Developer
   Lemon.io · 2026-08-20
 
+• Vice President, Technology & Digital Strategy
+  Shatterproof · 2026-08-20
+
 ============================================================
 Browse all: https://aldow3n-a11y.github.io/ai-quality-jobs/
+Advertise: https://aldow3n-a11y.github.io/ai-quality-jobs/advertise.html ($199/30d featured slot)
 Reply 'pause' or 'unsub' to manage.
