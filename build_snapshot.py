@@ -376,7 +376,7 @@ def render_jobs_landing(jobs):
 
 
 def render_sitemap(jobs):
-    urls = [f"{SITE_ORIGIN}{SITE_PATH}/", f"{SITE_ORIGIN}{SITE_PATH}/jobs/"]
+    urls = [f"{SITE_ORIGIN}{SITE_PATH}/", f"{SITE_ORIGIN}{SITE_PATH}/jobs/", f"{SITE_ORIGIN}{SITE_PATH}/advertise.html"]
     urls += [f"{SITE_ORIGIN}{SITE_PATH}/jobs/c/{c}.html" for c in CATEGORIES]
     for j in jobs:
         urls.append(f"{SITE_ORIGIN}{SITE_PATH}/jobs/{j['slug']}.html")
@@ -488,7 +488,7 @@ def main():
     # sitemap + RSS
     with open(os.path.join(OUT_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(render_sitemap(jobs))
-    print(f"Wrote sitemap.xml ({len(jobs)+len(CATEGORIES)+2} URLs)")
+    print(f"Wrote sitemap.xml ({len(jobs)+len(CATEGORIES)+3} URLs)")
 
     with open(os.path.join(OUT_DIR, "rss.xml"), "w", encoding="utf-8") as f:
         f.write(render_rss(jobs))
