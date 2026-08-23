@@ -448,6 +448,14 @@ def main():
     jobs_dir = os.path.join(OUT_DIR, "jobs")
     os.makedirs(jobs_dir, exist_ok=True)
 
+    # prune orphan job pages from prior builds (no cleanup used to exist →
+    # expired jobs lingered as thin 200 pages, dragging crawl authority)
+    keep = {j['slug'] + '.html' for j in jobs} | {'index.html'}
+    for p in os.listdir(jobs_dir):
+        if p.endswith('.html') and p not in keep:
+            os.remove(os.path.join(jobs_dir, p))
+            print(f"  pruned stale {p}")
+
     landing_path = os.path.join(jobs_dir, "index.html")
     landing_body = render_jobs_landing(jobs)
     with open(landing_path, "w", encoding="utf-8") as f:
