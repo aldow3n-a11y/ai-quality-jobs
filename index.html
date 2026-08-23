@@ -906,30 +906,28 @@ footer {
   </div>
 
   <p class="jobs-footer" style="margin-top:32px;">
-    Stripe checkout coming this week. For now, use the form below — invoice within 24 hours.
+    Stripe checkout coming this week. For now, email us directly — we reply with an invoice within 24 hours.
   </p>
 
-  <form class="post-form" id="post-form" action="https://formsubmit.co/ajax/discus.leads@protonmail.com" method="POST" style="margin-top:24px;display:grid;gap:12px;max-width:560px">
-    <input type="hidden" name="_subject" value="AI Quality Jobs — listing inquiry">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="source" value="ai-quality-jobs">
+  <div class="post-form" style="margin-top:24px;display:grid;gap:12px;max-width:560px">
     <label style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;color:var(--muted);text-transform:uppercase">Plan</label>
-    <select name="plan" required style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
-      <option value="">— Pick a plan —</option>
-      <option value="standard">Standard — $99 / 30 days</option>
-      <option value="featured">Featured — $199 / 30 days</option>
-      <option value="annual">Annual — $1,299 / 12 months</option>
+    <select id="post-plan" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
+      <option value="Standard%20%E2%80%94%20%2499%20%2F%2030%20days">Standard — $99 / 30 days</option>
+      <option value="Featured%20%E2%80%94%20%24199%20%2F%2030%20days">Featured — $199 / 30 days</option>
+      <option value="Annual%20%E2%80%94%20%241%2C299%20%2F%2012%20months">Annual — $1,299 / 12 months</option>
     </select>
     <label style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;color:var(--muted);text-transform:uppercase">Company</label>
-    <input name="company" required placeholder="Acme AI" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
+    <input id="post-company" placeholder="Acme AI" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
     <label style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;color:var(--muted);text-transform:uppercase">Role title</label>
-    <input name="role" required placeholder="LLM Quality Analyst" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
+    <input id="post-role" placeholder="LLM Quality Analyst" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
     <label style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;color:var(--muted);text-transform:uppercase">Your email</label>
-    <input type="email" name="email" required placeholder="you@company.com" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
-    <button type="submit" class="tier-cta" style="border:none;background:var(--accent-2);color:var(--bg);cursor:pointer">Submit inquiry →</button>
-    <div id="post-form-status" style="font-family:var(--font-mono);font-size:12px;color:var(--muted);min-height:1.4em"></div>
-  </form>
+    <input id="post-email" type="email" placeholder="you@company.com" style="padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
+    <a id="post-mailto" class="tier-cta" style="display:block;text-align:center;background:var(--accent-2);color:var(--bg);cursor:pointer">Email to book listing →</a>
+    <script>
+      var b=function(){var p=document.getElementById('post-plan').value,c=document.getElementById('post-company').value||'[company]',r=document.getElementById('post-role').value||'[role]',e=document.getElementById('post-email').value||'[email]';document.getElementById('post-mailto').href='mailto:discus.leads@protonmail.com?subject='+encodeURIComponent('AI Quality Jobs — listing inquiry: '+decodeURIComponent(p))+'&body='+encodeURIComponent('Plan: '+decodeURIComponent(p)+'\nCompany: '+c+'\nRole: '+r+'\nEmail: '+e);};
+      ['post-plan','post-company','post-role','post-email'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',b);}});b();
+    </script>
+  </div>
 </section>
 
 <!-- ============ DIGEST SIGNUP ============ -->
@@ -939,16 +937,10 @@ footer {
     <h2>Get the new roles, <em>curated</em> every Monday.</h2>
   </div>
   <p style="max-width:60ch;color:var(--ink-2);">One email per week. ~15 roles. Sorted by category. No tracking pixels. Unsubscribe in one click.</p>
-  <form id="digest-form" action="https://formsubmit.co/ajax/discus.leads@protonmail.com" method="POST" style="display:flex;gap:8px;max-width:480px;margin-top:20px;flex-wrap:wrap">
-    <input type="hidden" name="_subject" value="AI Quality Jobs — digest signup">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="list" value="digest">
-    <input type="hidden" name="source" value="ai-quality-jobs">
-    <input type="email" name="email" required placeholder="you@domain.com" style="flex:1;min-width:240px;padding:12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);font:inherit">
-    <button type="submit" class="btn-post" style="cursor:pointer;border:none">Subscribe</button>
-  </form>
-  <div id="digest-form-status" style="font-family:var(--font-mono);font-size:12px;color:var(--muted);min-height:1.4em;margin-top:8px"></div>
+  <p style="max-width:60ch;color:var(--ink-2);">One email per week. ~15 roles. Sorted by category. No tracking pixels. Unsubscribe in one click.</p>
+  <div style="display:flex;gap:8px;max-width:480px;margin-top:20px;flex-wrap:wrap">
+    <a class="btn-post" href="mailto:discus.leads@protonmail.com?subject=AI%20Quality%20Jobs%20%E2%80%94%20digest%20signup&body=Please%20subscribe%20me%20to%20the%20weekly%20AI%20Quality%20Jobs%20digest.%20My%20email%20is%20%5Byour%40email%5D." style="cursor:pointer;text-decoration:none;display:inline-block;padding:12px 20px">Subscribe by email →</a>
+  </div>
 </section>
 
 <!-- ============ FOOTER ============ -->
