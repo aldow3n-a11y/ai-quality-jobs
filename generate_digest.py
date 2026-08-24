@@ -435,7 +435,7 @@ def render_html(d, today):
             parts.append("</div>")
     parts.append('<hr style="border:none;border-top:1px solid #D9D2BF;margin:24px 0">')
     parts.append('<p><a href="https://aldow3n-a11y.github.io/ai-quality-jobs/" style="color:#C2410C">Browse all open roles →</a></p>')
-    parts.append('<p style="font-size:12px;color:#6B6557">★ <a href="https://aldow3n-a11y.github.io/ai-quality-jobs/advertise.html" style="color:#C2410C">Advertise with AI Quality Jobs</a> — feature your AI role to this subscriber list from $199/30d.</p>')
+    parts.append('<p style="font-size:12px;color:#6B6557">★ <a href="https://aldow3n-a11y.github.io/ai-quality-jobs/advertise.html" style="color:#C2410C">Advertise with AI Quality Jobs</a> — feature your AI role to this subscriber list from $199/30d. · <a href="mailto:discus.leads@proton.me?subject=Subscribe%20-%20AI%20Quality%20Jobs" style="color:#C2410C">Subscribe free by email</a></p>')
     parts.append('<p style="font-size:12px;color:#6B6557">Reply with \'pause\' to skip a week, \'unsub\' to stop.</p>')
     parts.append("</div></body></html>")
     return "".join(parts)
