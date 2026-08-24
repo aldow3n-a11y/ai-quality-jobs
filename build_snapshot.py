@@ -178,8 +178,9 @@ def load_all():
 
 # ------------------- HTML generators -------------------
 
-def page_shell(title, description, body, canonical_path):
+def page_shell(title, description, body, canonical_path, jsonld=""):
     """Wrap content in the same editorial layout as index.html."""
+    jsonld_html = f'\n<script type="application/ld+json">{jsonld}</script>' if jsonld else ""
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -188,6 +189,7 @@ def page_shell(title, description, body, canonical_path):
 <title>{escape(title)}</title>
 <meta name="description" content="{escape(description)}">
 <link rel="canonical" href="{SITE_ORIGIN}{canonical_path}">
+{jsonld_html}
 <meta property="og:title" content="{escape(title)}">
 <meta property="og:description" content="{escape(description)}">
 <meta property="og:type" content="website">
@@ -273,6 +275,27 @@ p.lead{{font-size:18px;color:var(--ink-2);max-width:60ch;margin:0 0 24px 0}}
 </body>
 </html>
 """
+
+
+def job_jsonld(j):
+    """JobPosting JSON-LD so Google renders job rich-results for the long-tail pages."""
+    try:
+        date_str = datetime.fromisoformat(j["date"].replace("Z", "+00:00")).strftime("%Y-%m-%d")
+    except Exception:
+        date_str = (j["date"] or "")[:10]
+    data = {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        "title": j["title"],
+        "hiringOrganization": {"@type": "Organization", "name": j["company"]},
+        "description": (j["desc"] or "")[:4000],
+        "datePosted": date_str,
+        "directApply": True,
+        "employmentType": "FULL_TIME",
+        "url": j.get("url", ""),
+        "sourceOrganization": {"@type": "Organization", "name": j["source"]},
+    }
+    return json.dumps(data, ensure_ascii=False)
 
 
 def render_job_page(j):
@@ -482,7 +505,7 @@ def main():
         body = body.replace("{RELATED}", "\n".join(related) if related else "<p>No related roles in this category yet — check back soon.</p>")
         out = os.path.join(jobs_dir, f"{j['slug']}.html")
         with open(out, "w", encoding="utf-8") as f:
-            f.write(page_shell(f"{j['title']} at {j['company']} — AI Quality Jobs", f"{j['title']} at {j['company']}. {CATEGORIES[j['category']]['label']} role. Apply via {j['source']}.", body, f"{SITE_PATH}/jobs/{j['slug']}.html"))
+            f.write(page_shell(f"{j['title']} at {j['company']} — AI Quality Jobs", f"{j['title']} at {j['company']}. {CATEGORIES[j['category']]['label']} role. Apply via {j['source']}.", body, f"{SITE_PATH}/jobs/{j['slug']}.html", job_jsonld(j)))
     print(f"Wrote {len(jobs)} individual job pages")
 
     # sitemap + RSS

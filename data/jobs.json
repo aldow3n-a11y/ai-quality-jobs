@@ -1,7 +1,92 @@
 {
-  "generated_at": "2026-08-23T21:54:17.195503+00:00",
+  "generated_at": "2026-08-24T03:24:20.128075+00:00",
   "count": 140,
   "jobs": [
+    {
+      "title": "Pre-Sales Solutions Engineer (EST or PST)",
+      "company": "Deepgram",
+      "tags": [
+        "Sales"
+      ],
+      "url": "https://jobicy.com/jobs/151436-pre-sales-solutions-engineer-est-or-pst",
+      "date": "2026-08-23T19:32:56+00:00",
+      "desc": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ orga",
+      "raw_desc": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are \u2018Powered by Deepgram\u2019, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 0,
+      "category": "pipeline",
+      "slug": "pre-sales-solutions-engineer-est-or-pst-deepgram",
+      "id": "job-000-pre-sales-solutions-engineer-est-or-pst-deepgram"
+    },
+    {
+      "title": "Director, Utility Delivery & Coordination",
+      "company": "Cologix, Inc.",
+      "tags": [
+        "Project &amp; Program Management"
+      ],
+      "url": "https://jobicy.com/jobs/151435-director-utility-delivery-coordination",
+      "date": "2026-08-23T19:32:40+00:00",
+      "desc": "About Our Company: Headquartered in Denver, Colorado, Cologix is a leading North America network-neutral interconnection and hyperscale edge data center company. Our platform gives customers access to 45+ digital edge and Scalelogix\u2120 hyperscale edge data centers in 13 markets acr",
+      "raw_desc": "About Our Company: Headquartered in Denver, Colorado, Cologix is a leading North America network-neutral interconnection and hyperscale edge data center company. Our platform gives customers access to 45+ digital edge and Scalelogix\u2120 hyperscale edge data centers in 13 markets across the United States and Canada along with a carrier-dense ecosystem of 710+ networks, 360+ cloud&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 1,
+      "category": "pipeline",
+      "slug": "director-utility-delivery-coordination-cologix-inc",
+      "id": "job-001-director-utility-delivery-coordination-cologix-inc"
+    },
+    {
+      "title": "Account Manager | Mid-Market",
+      "company": "Ramp",
+      "tags": [
+        "Sales"
+      ],
+      "url": "https://jobicy.com/jobs/151434-account-manager-mid-market",
+      "date": "2026-08-23T19:32:24+00:00",
+      "desc": "About Ramp Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spen",
+      "raw_desc": "About Ramp Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 2,
+      "category": "auditor",
+      "slug": "account-manager-mid-market-ramp",
+      "id": "job-002-account-manager-mid-market-ramp"
+    },
+    {
+      "title": "Account Executive III",
+      "company": "Teachable",
+      "tags": [
+        "Sales"
+      ],
+      "url": "https://jobicy.com/jobs/151433-account-executive-iii",
+      "date": "2026-08-23T19:32:09+00:00",
+      "desc": "What is Teachable? Teachable is the platform for experts and businesses who take education seriously. In a world where anyone can ask AI for information, we're the home for those who educate with purpose, modernity, and humanity. We help experts and businesses scale their impact ",
+      "raw_desc": "What is Teachable? Teachable is the platform for experts and businesses who take education seriously. In a world where anyone can ask AI for information, we're the home for those who educate with purpose, modernity, and humanity. We help experts and businesses scale their impact and operations through courses, coaching, and digital downloads that students&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 3,
+      "category": "pipeline",
+      "slug": "account-executive-iii-teachable",
+      "id": "job-003-account-executive-iii-teachable"
+    },
+    {
+      "title": "Enterprise Customer Success Manager",
+      "company": "SOCi",
+      "tags": [
+        "Customer Support &amp; Success"
+      ],
+      "url": "https://jobicy.com/jobs/151432-enterprise-customer-success-manager-5",
+      "date": "2026-08-23T19:31:54+00:00",
+      "desc": "SOCi, the leader in AI-powered marketing solutions for multi-location businesses, is currently looking for an experienced Enterprise Customer Success Manager to serve as the strategic account leader, driving transformative initiatives and building enduring relationships with our ",
+      "raw_desc": "SOCi, the leader in AI-powered marketing solutions for multi-location businesses, is currently looking for an experienced Enterprise Customer Success Manager to serve as the strategic account leader, driving transformative initiatives and building enduring relationships with our top-tier customers. Your role will encompass preemptive churn mitigation, revenue growth initiatives, and fostering strategic partnerships to redefine customer&hellip;",
+      "source": "Jobicy",
+      "source_short": "JOB",
+      "source_index": 4,
+      "category": "pipeline",
+      "slug": "enterprise-customer-success-manager-soci",
+      "id": "job-004-enterprise-customer-success-manager-soci"
+    },
     {
       "title": "Senior Customer Success Manager - Quora",
       "company": "Quora",
@@ -14,10 +99,10 @@
       "raw_desc": "[Quora is a privately held, \"remote-first\" company. This position can be performed remotely from anywhere in the United States. Please visit careers.quora.com/eligible-countries for details regarding employment eligibility by country.]About Quora:Quora\u2019s mission is to grow the world's collective intelligence. To do so, we have two platforms:Quora: a global knowledge sharing platform with over 300M monthly unique&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 0,
+      "source_index": 5,
       "category": "pipeline",
       "slug": "senior-customer-success-manager-quora-quora",
-      "id": "job-000-senior-customer-success-manager-quora-quora"
+      "id": "job-005-senior-customer-success-manager-quora-quora"
     },
     {
       "title": "Associate Billing Specialist - Portugal",
@@ -31,10 +116,10 @@
       "raw_desc": "What Makes Us Unique At Cloudbeds, we're not just building software, we\u2019re transforming hospitality. Our intelligently designed platform powers properties across 150 countries, processing billions in bookings annually. From independent properties to hotel groups, we help hoteliers transform operations and uplevel their commercial strategy through a unified platform that integrates with hundreds of partners. And&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 1,
+      "source_index": 6,
       "category": "pipeline",
       "slug": "associate-billing-specialist-portugal-cloudbeds",
-      "id": "job-001-associate-billing-specialist-portugal-cloudbeds"
+      "id": "job-006-associate-billing-specialist-portugal-cloudbeds"
     },
     {
       "title": "Senior Site Reliability Engineer",
@@ -48,10 +133,10 @@
       "raw_desc": "About Remote Remote is solving modern organizations\u2019 biggest challenge \u2013 navigating global employment compliantly with ease. We make it possible for businesses of all sizes to recruit, pay, and manage international teams. With our core values at heart and future focused work culture, our team works tirelessly on ambitious problems, asynchronously, around the world. You&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 2,
+      "source_index": 7,
       "category": "pipeline",
       "slug": "senior-site-reliability-engineer-remote",
-      "id": "job-002-senior-site-reliability-engineer-remote"
+      "id": "job-007-senior-site-reliability-engineer-remote"
     },
     {
       "title": "AutoCad Drafter",
@@ -65,10 +150,10 @@
       "raw_desc": "General information Requisition # R68835 Locations USA-Remote Work Posting Date 06/24/2026 Security Clearance Required Secret Remote Type Fully Remote Time Type Full time Description &amp; Requirements Shape the future of defense with MANTECH! Join a team dedicated to safeguarding our nation through advanced tech and innovative solutions. Since 1968, we\u2019ve been a trusted partner to&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 3,
+      "source_index": 8,
       "category": "pipeline",
       "slug": "autocad-drafter-mantech",
-      "id": "job-003-autocad-drafter-mantech"
+      "id": "job-008-autocad-drafter-mantech"
     },
     {
       "title": "Group Director, Client Strategy (Group Media Director)",
@@ -82,10 +167,10 @@
       "raw_desc": "The Role\u00a0As a Group Director, Client Strategy, you are a senior business and strategic leader responsible for a portfolio of enterprise and high-growth client relationships. You lead multiple Directors and their books of business, ensuring strategic excellence, operational rigor, and strong financial performance across your pod. Serving as both an executive client advisor and organizational&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 4,
+      "source_index": 9,
       "category": "pipeline",
       "slug": "group-director-client-strategy-group-media-director-wpromote",
-      "id": "job-004-group-director-client-strategy-group-media-director-wpromote"
+      "id": "job-009-group-director-client-strategy-group-media-director-wpromote"
     },
     {
       "title": "Staff Security Architect",
@@ -99,10 +184,10 @@
       "raw_desc": "Building the Future of Crypto\u00a0Our Krakenites are a world-class team with crypto conviction, united by our desire to discover and unlock the potential of crypto and blockchain technology.What makes us different? Kraken is a mission-focused company rooted in crypto values. As a Krakenite, you\u2019ll join us on our mission to accelerate the global adoption of&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 5,
+      "source_index": 10,
       "category": "pipeline",
       "slug": "staff-security-architect-kraken",
-      "id": "job-005-staff-security-architect-kraken"
+      "id": "job-010-staff-security-architect-kraken"
     },
     {
       "title": "Regional Director, Enterprise",
@@ -116,10 +201,10 @@
       "raw_desc": "From Fivetran\u2019s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We\u2019re proud that more organizations continue to leverage our technology every day to become&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 6,
+      "source_index": 11,
       "category": "pipeline",
       "slug": "regional-director-enterprise-fivetran",
-      "id": "job-006-regional-director-enterprise-fivetran"
+      "id": "job-011-regional-director-enterprise-fivetran"
     },
     {
       "title": "Senior Applied Scientist",
@@ -133,10 +218,10 @@
       "raw_desc": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 7,
+      "source_index": 12,
       "category": "pipeline",
       "slug": "senior-applied-scientist-samsara",
-      "id": "job-007-senior-applied-scientist-samsara"
+      "id": "job-012-senior-applied-scientist-samsara"
     },
     {
       "title": "Senior Workday Platform Engineer",
@@ -150,10 +235,10 @@
       "raw_desc": "We are seeking a hands-on Senior Workday Platform Engineer within the G&amp;A IT Applications team to serve as the primary technical owner of the Workday platform across HCM, Payroll, Recruiting, Prism Analytics, Illuminate (AI/ML), integrations, security, and release management.This is a builder-first role. You will configure, develop, integrate, and operate within Workday while partnering closely&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 8,
+      "source_index": 13,
       "category": "pipeline",
       "slug": "senior-workday-platform-engineer-natera",
-      "id": "job-008-senior-workday-platform-engineer-natera"
+      "id": "job-013-senior-workday-platform-engineer-natera"
     },
     {
       "title": "Bioinformatics Manager (Oncology Product Development)",
@@ -167,10 +252,10 @@
       "raw_desc": "Natera is currently seeking a Bioinformatics Manager to join the Bioinformatics team focused on Oncology Product Development. In this role, the individual will manage a team of Bioinformaticians and Data Scientists and provide technical leadership in the design, development and validation of ctDNA-based diagnostic tests. This position requires extensive cross-functional collaboration with biostatistics, molecular biology,&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 9,
+      "source_index": 14,
       "category": "pipeline",
       "slug": "bioinformatics-manager-oncology-product-development-natera",
-      "id": "job-009-bioinformatics-manager-oncology-product-development-natera"
+      "id": "job-014-bioinformatics-manager-oncology-product-development-natera"
     },
     {
       "title": "Manager of IT Security",
@@ -184,10 +269,10 @@
       "raw_desc": "Company DescriptionAt Lakeshore, we create innovative learning materials and world-class guest experiences for teachers, parents and children. Since 1954, we\u2019ve grown into a global community\u2014with a thriving e-commerce business, multiple catalogs, over 50 stores, a peerless national sales force, plus international offices that support our preeminent supply chain division. But today we\u2019re working better, smarter&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 10,
+      "source_index": 15,
       "category": "pipeline",
       "slug": "manager-of-it-security-lakeshore-learning-materials-llc",
-      "id": "job-010-manager-of-it-security-lakeshore-learning-materials-llc"
+      "id": "job-015-manager-of-it-security-lakeshore-learning-materials-llc"
     },
     {
       "title": "Engineering Manager I, Applications",
@@ -201,10 +286,10 @@
       "raw_desc": "StackAdapt is the leading technology company that empowers marketers to reach, engage, and convert audiences with precision. With 465 billion automated optimizations per second, the AI-powered StackAdapt Marketing Platform seamlessly connects brand and performance marketing to drive measurable results across the entire customer journey. The most forward-thinking marketers choose StackAdapt to orchestrate high-impact campaigns across&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 11,
+      "source_index": 16,
       "category": "pipeline",
       "slug": "engineering-manager-i-applications-stackadapt",
-      "id": "job-011-engineering-manager-i-applications-stackadapt"
+      "id": "job-016-engineering-manager-i-applications-stackadapt"
     },
     {
       "title": "Senior Software Engineer, Compute (Temporal Cloud)",
@@ -218,10 +303,10 @@
       "raw_desc": "About Us Temporal is an open source programming model that can simplify code, make applications more reliable, and help developers focus on the important things like delivering features faster. We are on a mission to be the reliable foundation of every developer\u2019s toolbox, and are building the team that will make that happen. \u00a0 Our&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 12,
+      "source_index": 17,
       "category": "pipeline",
       "slug": "senior-software-engineer-compute-temporal-cloud-temporal-technologies",
-      "id": "job-012-senior-software-engineer-compute-temporal-cloud-temporal-technologies"
+      "id": "job-017-senior-software-engineer-compute-temporal-cloud-temporal-technologies"
     },
     {
       "title": "Sr. Manager, New Products Strategy",
@@ -235,10 +320,10 @@
       "raw_desc": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 13,
+      "source_index": 18,
       "category": "pipeline",
       "slug": "sr-manager-new-products-strategy-samsara",
-      "id": "job-013-sr-manager-new-products-strategy-samsara"
+      "id": "job-018-sr-manager-new-products-strategy-samsara"
     },
     {
       "title": "Director, Customer Success (Enterprise)",
@@ -252,10 +337,10 @@
       "raw_desc": "1Password is growing. We\u2019ve surpassed $400M in ARR and we\u2019re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing.About 1PasswordAt 1Password, we\u2019re building the foundation for a safe, productive digital future. Our mission is to unleash&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 14,
+      "source_index": 19,
       "category": "pipeline",
       "slug": "director-customer-success-enterprise-1password",
-      "id": "job-014-director-customer-success-enterprise-1password"
+      "id": "job-019-director-customer-success-enterprise-1password"
     },
     {
       "title": "Sr. Manager, Customer Success",
@@ -269,10 +354,10 @@
       "raw_desc": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 15,
+      "source_index": 20,
       "category": "pipeline",
       "slug": "sr-manager-customer-success-samsara",
-      "id": "job-015-sr-manager-customer-success-samsara"
+      "id": "job-020-sr-manager-customer-success-samsara"
     },
     {
       "title": "Customer Success Manager",
@@ -286,10 +371,10 @@
       "raw_desc": "AssetWatch serves global manufacturers by powering manufacturing uptime through the delivery of an unparalleled condition monitoring experience, with a passion to care about the assets our customers care for every day. We are a devoted and capable team that includes world-renowned engineers and distinguished business leaders united by a common goal \u2013 To build the&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 16,
+      "source_index": 21,
       "category": "pipeline",
       "slug": "customer-success-manager-assetwatch",
-      "id": "job-016-customer-success-manager-assetwatch"
+      "id": "job-021-customer-success-manager-assetwatch"
     },
     {
       "title": "COMLEX Tutor",
@@ -303,10 +388,10 @@
       "raw_desc": "About Inspira Education Inspira Education Group is one of the fastest-growing edtech startups in the US. We started with a simple mission to democratize access to high-quality coaching so that every student in the world has an equal opportunity to access the best opportunities. As the world\u2019s leading network of top admissions coaches in medical,&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 17,
+      "source_index": 22,
       "category": "quality",
       "slug": "comlex-tutor-inspira-education",
-      "id": "job-017-comlex-tutor-inspira-education"
+      "id": "job-022-comlex-tutor-inspira-education"
     },
     {
       "title": "Staff Frontend Engineer - Design Systems",
@@ -320,10 +405,10 @@
       "raw_desc": "About Pleo Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance teams and employees alike - with a vision to help all businesses \u2018go beyond\u2019.&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 18,
+      "source_index": 23,
       "category": "pipeline",
       "slug": "staff-frontend-engineer-design-systems-pleo",
-      "id": "job-018-staff-frontend-engineer-design-systems-pleo"
+      "id": "job-023-staff-frontend-engineer-design-systems-pleo"
     },
     {
       "title": "Senior CRM Manager",
@@ -337,10 +422,10 @@
       "raw_desc": "About Envato At Envato, we empower creative pros to thrive. We're here to help creatives bring their ideas to life, supercharge their workflows, and equip them with an unparalleled toolkit they can use anywhere. With unlimited access to world-class assets, innovative AI tools, and hands-on tutorials, we deliver what creatives need today - and are&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 19,
+      "source_index": 24,
       "category": "pipeline",
       "slug": "senior-crm-manager-envato",
-      "id": "job-019-senior-crm-manager-envato"
+      "id": "job-024-senior-crm-manager-envato"
     },
     {
       "title": "BS/MD Admissions Consultant",
@@ -354,10 +439,10 @@
       "raw_desc": "About Inspira Education Inspira Education Group is one of the fastest-growing edtech startups in the US. We started with a simple mission to democratize access to high-quality coaching so that every student in the world has an equal opportunity to access the best opportunities. As the world\u2019s leading network of top admissions coaches in medical,&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 20,
+      "source_index": 25,
       "category": "quality",
       "slug": "bs-md-admissions-consultant-inspira-education",
-      "id": "job-020-bs-md-admissions-consultant-inspira-education"
+      "id": "job-025-bs-md-admissions-consultant-inspira-education"
     },
     {
       "title": "Sr. Enterprise Architect",
@@ -371,10 +456,10 @@
       "raw_desc": "Ironclad is the leading AI contracting platform that transforms agreements into assets. Contracts move faster, insights surface instantly, and agents push work forward, all with you in control. Whether you\u2019re buying or selling, Ironclad unifies the entire process on one intelligent platform, providing leaders with the visibility they need to stay one step ahead. That\u2019s&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 21,
+      "source_index": 26,
       "category": "pipeline",
       "slug": "sr-enterprise-architect-ironclad",
-      "id": "job-021-sr-enterprise-architect-ironclad"
+      "id": "job-026-sr-enterprise-architect-ironclad"
     },
     {
       "title": "Full Stack Engineer",
@@ -388,10 +473,10 @@
       "raw_desc": "Who We Are Our mission is to make the world programmable. Sight is one of the key ways we understand the world, and soon this will be true for the software we use, too. We\u2019re building the tools, community, and resources needed to make the world programmable with artificial intelligence. Roboflow simplifies building and using&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 22,
+      "source_index": 27,
       "category": "pipeline",
       "slug": "full-stack-engineer-roboflow",
-      "id": "job-022-full-stack-engineer-roboflow"
+      "id": "job-027-full-stack-engineer-roboflow"
     },
     {
       "title": "Digital Marketing & AI Specialist",
@@ -405,10 +490,10 @@
       "raw_desc": "Are you ready to elevate our digital presence and leverage cutting-edge AI tools to scale high-quality marketing campaigns? We\u2019re looking for a motivated, fast-paced professional who understands digital marketing fundamentals but also knows how to use AI tools efficiently to create, optimize, repurpose, and drive brand growth across multiple channels. Who We Are Manay CPA&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 23,
+      "source_index": 28,
       "category": "quality",
       "slug": "digital-marketing-ai-specialist-manay-cpa-inc",
-      "id": "job-023-digital-marketing-ai-specialist-manay-cpa-inc"
+      "id": "job-028-digital-marketing-ai-specialist-manay-cpa-inc"
     },
     {
       "title": "Senior Director, Ecosystem & Solution Architectures - Technical Alliances",
@@ -422,10 +507,10 @@
       "raw_desc": "Who is Tenable? Tenable\u00ae is the Exposure Management company. Over 40,000 organizations around the globe rely on Tenable to understand and reduce cyber risk. Our global employees support 65 percent of the Fortune 500, 50 percent of the Global 2000, and large government agencies. Come be part of our journey! What makes Tenable such a&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 24,
+      "source_index": 29,
       "category": "auditor",
       "slug": "senior-director-ecosystem-solution-architectures-technical-alliances-tenable",
-      "id": "job-024-senior-director-ecosystem-solution-architectures-technical-alliances-tenable"
+      "id": "job-029-senior-director-ecosystem-solution-architectures-technical-alliances-tenable"
     },
     {
       "title": "Developer Advocate",
@@ -439,10 +524,10 @@
       "raw_desc": "Who We Are Our mission is to make the world programmable. Sight is one of the key ways we understand the world, and soon this will be true for the software we use, too. We\u2019re building the tools, community, and resources needed to make the world programmable with artificial intelligence. Roboflow simplifies building and using&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 25,
+      "source_index": 30,
       "category": "pipeline",
       "slug": "developer-advocate-roboflow",
-      "id": "job-025-developer-advocate-roboflow"
+      "id": "job-030-developer-advocate-roboflow"
     },
     {
       "title": "Audit Associate (Remote, USA-Based)",
@@ -456,10 +541,10 @@
       "raw_desc": "Are you ready to expand your expertise in U.S. accounting and tax practices while working with a diverse client base across multiple industries? We\u2019re looking for motivated professionals who enjoy variety in their work and are eager to build hands-on experience with U.S. GAAP, tax codes, and business operations. Who We Are Manay CPA is&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 26,
+      "source_index": 31,
       "category": "auditor",
       "slug": "audit-associate-remote-usa-based-manay-cpa-inc",
-      "id": "job-026-audit-associate-remote-usa-based-manay-cpa-inc"
+      "id": "job-031-audit-associate-remote-usa-based-manay-cpa-inc"
     },
     {
       "title": "Senior Site Reliability Engineer",
@@ -473,10 +558,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 27,
+      "source_index": 32,
       "category": "pipeline",
       "slug": "senior-site-reliability-engineer-canonical-ltd",
-      "id": "job-027-senior-site-reliability-engineer-canonical-ltd"
+      "id": "job-032-senior-site-reliability-engineer-canonical-ltd"
     },
     {
       "title": "Marketing Specialist",
@@ -490,10 +575,10 @@
       "raw_desc": "Why Thunderbird?Thunderbird is one of the world\u2019s most trusted open-source email applications, empowering more than 20 million people globally. At MZLA, the team behind Thunderbird, we build privacy-respecting communication tools that help people manage their digital lives while staying in control of their data.We are open source by design. Our products are developed transparently and&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 28,
+      "source_index": 33,
       "category": "pipeline",
       "slug": "marketing-specialist-mozilla",
-      "id": "job-028-marketing-specialist-mozilla"
+      "id": "job-033-marketing-specialist-mozilla"
     },
     {
       "title": "Graduate Sales Development Representative",
@@ -507,10 +592,10 @@
       "raw_desc": "Canonical is a global software company that publishes Ubuntu and open-source enterprise solutions for cloud, developer, IoT and AI. Ubuntu is the fastest growing Linux distribution and ranks as the number #1 OS in the cloud.In partnership with Google, Amazon, IBM and Microsoft, Canonical helps companies become more agile, productive and adopt new technologies faster.&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 29,
+      "source_index": 34,
       "category": "quality",
       "slug": "graduate-sales-development-representative-canonical-ltd",
-      "id": "job-029-graduate-sales-development-representative-canonical-ltd"
+      "id": "job-034-graduate-sales-development-representative-canonical-ltd"
     },
     {
       "title": "Engineering Manager - Solutions Engineering",
@@ -524,10 +609,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 30,
+      "source_index": 35,
       "category": "pipeline",
       "slug": "engineering-manager-solutions-engineering-canonical-ltd",
-      "id": "job-030-engineering-manager-solutions-engineering-canonical-ltd"
+      "id": "job-035-engineering-manager-solutions-engineering-canonical-ltd"
     },
     {
       "title": "Support Engineering Manager",
@@ -541,10 +626,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 31,
+      "source_index": 36,
       "category": "pipeline",
       "slug": "support-engineering-manager-canonical-ltd",
-      "id": "job-031-support-engineering-manager-canonical-ltd"
+      "id": "job-036-support-engineering-manager-canonical-ltd"
     },
     {
       "title": "Microservices Engineer",
@@ -558,10 +643,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 32,
+      "source_index": 37,
       "category": "pipeline",
       "slug": "microservices-engineer-canonical-ltd",
-      "id": "job-032-microservices-engineer-canonical-ltd"
+      "id": "job-037-microservices-engineer-canonical-ltd"
     },
     {
       "title": "Embedded Linux Field Engineering Manager (Americas only)",
@@ -575,10 +660,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 33,
+      "source_index": 38,
       "category": "pipeline",
       "slug": "embedded-linux-field-engineering-manager-americas-only-canonical-ltd",
-      "id": "job-033-embedded-linux-field-engineering-manager-americas-only-canonical-ltd"
+      "id": "job-038-embedded-linux-field-engineering-manager-americas-only-canonical-ltd"
     },
     {
       "title": "Lead Linux Kernel Engineer - Ubuntu",
@@ -592,10 +677,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 34,
+      "source_index": 39,
       "category": "pipeline",
       "slug": "lead-linux-kernel-engineer-ubuntu-canonical-ltd",
-      "id": "job-034-lead-linux-kernel-engineer-ubuntu-canonical-ltd"
+      "id": "job-039-lead-linux-kernel-engineer-ubuntu-canonical-ltd"
     },
     {
       "title": "Software Engineer - Solutions Engineering",
@@ -609,10 +694,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 35,
+      "source_index": 40,
       "category": "pipeline",
       "slug": "software-engineer-solutions-engineering-canonical-ltd",
-      "id": "job-035-software-engineer-solutions-engineering-canonical-ltd"
+      "id": "job-040-software-engineer-solutions-engineering-canonical-ltd"
     },
     {
       "title": "Engineering Manager - Data Platform",
@@ -626,10 +711,10 @@
       "raw_desc": "Canonical is building a comprehensive suite of multi-cloud and on-premise data solutions for the enterprise. We want to make it easy to operate any database on any cloud, or on premise. The data platform team covers the full range of data stores and data technologies, spanning from big data, NoSQL, cache-layer capabilities, and analytics; all&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 36,
+      "source_index": 41,
       "category": "pipeline",
       "slug": "engineering-manager-data-platform-canonical-ltd",
-      "id": "job-036-engineering-manager-data-platform-canonical-ltd"
+      "id": "job-041-engineering-manager-data-platform-canonical-ltd"
     },
     {
       "title": "Security Risk Management Specialist",
@@ -643,10 +728,10 @@
       "raw_desc": "In security risk management we\u2019re looking to harness the power of industry best practice combined with driving new innovation on how we do security risk assessments and modelling. Our security risk management team is the primary owner of the strategy and practices of how we identify, track and reduce our security risk across everything we&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 37,
+      "source_index": 42,
       "category": "auditor",
       "slug": "security-risk-management-specialist-canonical-ltd",
-      "id": "job-037-security-risk-management-specialist-canonical-ltd"
+      "id": "job-042-security-risk-management-specialist-canonical-ltd"
     },
     {
       "title": "Rust Engineering Lead - Linux and Open Source",
@@ -660,10 +745,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 38,
+      "source_index": 43,
       "category": "pipeline",
       "slug": "rust-engineering-lead-linux-and-open-source-canonical-ltd",
-      "id": "job-038-rust-engineering-lead-linux-and-open-source-canonical-ltd"
+      "id": "job-043-rust-engineering-lead-linux-and-open-source-canonical-ltd"
     },
     {
       "title": "Ubuntu Security Engineer",
@@ -677,10 +762,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 39,
+      "source_index": 44,
       "category": "pipeline",
       "slug": "ubuntu-security-engineer-canonical-ltd",
-      "id": "job-039-ubuntu-security-engineer-canonical-ltd"
+      "id": "job-044-ubuntu-security-engineer-canonical-ltd"
     },
     {
       "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
@@ -694,10 +779,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 40,
+      "source_index": 45,
       "category": "pipeline",
       "slug": "python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics-canonical",
-      "id": "job-040-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics-canonical"
+      "id": "job-045-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics-canonical"
     },
     {
       "title": "Embedded & Desktop Linux Systems Engineer - Optimisation",
@@ -711,10 +796,10 @@
       "raw_desc": "Work across the full Linux stack from kernel through GUI to optimise Ubuntu, the world\u2019s most widely used Linux desktop and server, for the latest silicon.The role is a fast-paced, problem-solving role that\u2019s challenging yet very exciting. The right candidate must be resourceful, articulate, and able to deliver on a wide variety of solutions across&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 41,
+      "source_index": 46,
       "category": "quality",
       "slug": "embedded-desktop-linux-systems-engineer-optimisation-canonical-ltd",
-      "id": "job-041-embedded-desktop-linux-systems-engineer-optimisation-canonical-ltd"
+      "id": "job-046-embedded-desktop-linux-systems-engineer-optimisation-canonical-ltd"
     },
     {
       "title": "Engineering Manager - Ubuntu Linux Kernel",
@@ -728,10 +813,10 @@
       "raw_desc": "Canonical, the company behind the Ubuntu Linux distribution, is searching for highly skilled senior software engineers, tech leads, or team leads who are ready to take the next step in their careers by transitioning into engineering management.As a Kernel Engineering Manager, you will step into a pivotal leadership role overseeing the engineers who build, maintain,&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 42,
+      "source_index": 47,
       "category": "pipeline",
       "slug": "engineering-manager-ubuntu-linux-kernel-canonical-ltd",
-      "id": "job-042-engineering-manager-ubuntu-linux-kernel-canonical-ltd"
+      "id": "job-047-engineering-manager-ubuntu-linux-kernel-canonical-ltd"
     },
     {
       "title": "Engineering Manager - Ubuntu Security",
@@ -745,10 +830,10 @@
       "raw_desc": "As the most widely used Linux distribution, Ubuntu underpins the security of the entire internet. The role of Security Engineering Manager directly impacts the safety and security of millions of users worldwide. Join a team of security experts dedicated to protecting the open-source ecosystem and driving innovation. Your leadership will be instrumental in addressing emerging&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 43,
+      "source_index": 48,
       "category": "auditor",
       "slug": "engineering-manager-ubuntu-security-canonical-ltd",
-      "id": "job-043-engineering-manager-ubuntu-security-canonical-ltd"
+      "id": "job-048-engineering-manager-ubuntu-security-canonical-ltd"
     },
     {
       "title": "Cloud Engineering Manager",
@@ -762,95 +847,10 @@
       "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
       "source": "Jobicy",
       "source_short": "JOB",
-      "source_index": 44,
-      "category": "pipeline",
-      "slug": "cloud-engineering-manager-canonical-ltd",
-      "id": "job-044-cloud-engineering-manager-canonical-ltd"
-    },
-    {
-      "title": "Software Engineering Director",
-      "company": "Canonical Ltd.",
-      "tags": [
-        "Product &amp; Operations"
-      ],
-      "url": "https://jobicy.com/jobs/149571-software-engineering-director",
-      "date": "2026-08-22T16:55:03+00:00",
-      "desc": "This is the general track for Engineering Director at Canonical, apply here if you are confident to run a project which spans teams and time zones, hiring and managing engineering managers and staff engineers.Canonical\u2019s largest software products are built by multiple teams worki",
-      "raw_desc": "This is the general track for Engineering Director at Canonical, apply here if you are confident to run a project which spans teams and time zones, hiring and managing engineering managers and staff engineers.Canonical\u2019s largest software products are built by multiple teams working together under a single director of engineering. Once you have passed the&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 45,
-      "category": "pipeline",
-      "slug": "software-engineering-director-canonical-ltd",
-      "id": "job-045-software-engineering-director-canonical-ltd"
-    },
-    {
-      "title": "Cloud Solutions Architect - Alliances",
-      "company": "Canonical Ltd.",
-      "tags": [
-        "Business Development"
-      ],
-      "url": "https://jobicy.com/jobs/149568-cloud-solutions-architect-alliances",
-      "date": "2026-08-22T16:55:02+00:00",
-      "desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. ",
-      "raw_desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 46,
-      "category": "pipeline",
-      "slug": "cloud-solutions-architect-alliances-canonical-ltd",
-      "id": "job-046-cloud-solutions-architect-alliances-canonical-ltd"
-    },
-    {
-      "title": "Associate Customer Success Manager - Higher Education",
-      "company": "Instructure",
-      "tags": [
-        "Customer Support &amp; Success"
-      ],
-      "url": "https://jobicy.com/jobs/151409-associate-customer-success-manager-higher-education",
-      "date": "2026-08-22T16:51:38+00:00",
-      "desc": "At Instructure, we believe in the power of people to grow and succeed throughout their lives. Our goal is to amplify that power by creating intuitive products that simplify learning and personal development, facilitate meaningful relationships, and inspire people to go further in",
-      "raw_desc": "At Instructure, we believe in the power of people to grow and succeed throughout their lives. Our goal is to amplify that power by creating intuitive products that simplify learning and personal development, facilitate meaningful relationships, and inspire people to go further in their education and careers.We do this by giving smart, creative, passionate people&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 47,
-      "category": "pipeline",
-      "slug": "associate-customer-success-manager-higher-education-instructure",
-      "id": "job-047-associate-customer-success-manager-higher-education-instructure"
-    },
-    {
-      "title": "Senior Customer Success Engineer",
-      "company": "Veeam Software",
-      "tags": [
-        "Technical Support"
-      ],
-      "url": "https://jobicy.com/jobs/151408-senior-customer-success-engineer",
-      "date": "2026-08-22T16:51:36+00:00",
-      "desc": "Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, V",
-      "raw_desc": "Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, Veeam is built for the convergence of identity, data, security,&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
-      "source_index": 48,
-      "category": "pipeline",
-      "slug": "senior-customer-success-engineer-veeam-software",
-      "id": "job-048-senior-customer-success-engineer-veeam-software"
-    },
-    {
-      "title": "Customer Success Advisor - US Remote",
-      "company": "PerfectServe",
-      "tags": [
-        "Customer Support &amp; Success"
-      ],
-      "url": "https://jobicy.com/jobs/151407-customer-success-advisor-us-remote",
-      "date": "2026-08-22T16:51:35+00:00",
-      "desc": "What is PerfectServe? PerfectServe is a leading provider of clinical communication and physician scheduling solutions in the health IT space. The company was founded in 1997 and has grown steadily since then, with a notable jump after several major acquisitions were announced in ",
-      "raw_desc": "What is PerfectServe?\u00a0 PerfectServe is a leading provider of clinical communication and physician scheduling solutions in the health IT space. The company was founded in 1997 and has grown steadily since then, with a notable jump after several major acquisitions were announced in 2019. PerfectServe now has 400+ employees, 30,000+ customers \u2014 spanning medical practices,&hellip;",
-      "source": "Jobicy",
-      "source_short": "JOB",
       "source_index": 49,
       "category": "pipeline",
-      "slug": "customer-success-advisor-us-remote-perfectserve",
-      "id": "job-049-customer-success-advisor-us-remote-perfectserve"
+      "slug": "cloud-engineering-manager-canonical-ltd",
+      "id": "job-049-cloud-engineering-manager-canonical-ltd"
     },
     {
       "title": "Content Reviewer - English US",
