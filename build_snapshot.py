@@ -401,6 +401,10 @@ def render_jobs_landing(jobs):
 def render_sitemap(jobs):
     urls = [f"{SITE_ORIGIN}{SITE_PATH}/", f"{SITE_ORIGIN}{SITE_PATH}/jobs/", f"{SITE_ORIGIN}{SITE_PATH}/advertise.html"]
     urls += [f"{SITE_ORIGIN}{SITE_PATH}/jobs/c/{c}.html" for c in CATEGORIES]
+    # weekly digest pages (freshest SEO content) — keep them indexable
+    for f in sorted(os.listdir(OUT_DIR)):
+        if f.startswith("digest-") and f.endswith(".html"):
+            urls.append(f"{SITE_ORIGIN}{SITE_PATH}/{f}")
     for j in jobs:
         urls.append(f"{SITE_ORIGIN}{SITE_PATH}/jobs/{j['slug']}.html")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
